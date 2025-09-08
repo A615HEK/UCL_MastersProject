@@ -1,5 +1,0 @@
-AI_Product_name,AI_Company_name,Sub_specialty,Imaging_Modality,Intended_Purpose,Summary_passage_of_Clinical_use,Summary_passage_of_Product_output,CE_Classification,FDA_Classification,Manufacturer,Run
-True,True,False,True,True,False,True,False,True,True,Initial Run
-True,False,False,1
-True,False,2
-False,3
