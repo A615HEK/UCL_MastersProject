@@ -1,1 +1,3 @@
 *.csv
+.\test_pdfs
+*.txt
