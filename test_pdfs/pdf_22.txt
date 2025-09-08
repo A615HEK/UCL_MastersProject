@@ -1,0 +1,325 @@
+DEPARTMENT OF HEALTH AND HUMAN SERVICES. Form Approved: OMB No. 0910-0120
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Food and Drug Administration Expiration Date: 07/31/2026
+Indications for Use See PRA Statement below.
+Submission Number (if known)
+K241684
+Device Name
+Overjet Charting Assist
+
+ 
+
+Indications for Use (Describe)
+
+ 
+
+ 
+
+Overjet Charting Assist is a Medical Image Management and Processing System (MIMPS) intended
+to detect natural dental structures including detection of tooth anatomy (enamel, pulp), and tooth
+numbering, as well as dental structures added through past restorative treatments: implants, crowns,
+endodontic treatment (previous root canal treatment), fillings.
+
+The device is intended to assist dental professionals in producing dental charts based on image
+analysis. The Overjet Charting Assist detects these findings on bitewing (BW) and periapical (PA)
+images for patients with primary and/or permanent teeth (Ages 5 and above), and panoramic (Pano)
+radiographs for patients with only permanent teeth.
+
+The device is not intended as a replacement for a complete clinician's review or clinical judgment
+that considers other relevant information from the image or patient history.
+
+This device includes a Predetermined Change Control Plan (PCCP).
+
+ 
+
+ 
+
+ 
+
+Type of Use (Select one or both, as applicable)
+Xl Prescription Use (Part 21 CFR 801 Subpart D) Over-The-Counter Use (21 CFR 801 Subpart C)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+
+Department of Health and Human Services
+
+Food and Drug Administration
+
+Office of Chief Information Officer
+
+Paperwork Reduction Act (PRA) Staff
+
+PRAStaff@fda.hhs.gov
+
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+WOVERJET
+
+K241684 - 510 (k) Summary
+
+Applicant Name: Overjet, Inc
+
+Applicant Address: 50 Milk Street 16th Floor Boston MA 02109 United States
+Applicant Contact Telephone: 630-201-1612
+
+Applicant Contact: Dr. Deepthi Paknikar
+
+Applicant Contact Email: deepthi.paknikar@overjet.ai
+
+Correspondent Name: Overjet, Inc
+
+Correspondent Address: 50 Milk Street 16th Floor Boston MA 02109 United States
+Correspondent Contact Telephone: 630-201-1612
+
+Correspondent Contact: Dr. Deepthi Paknikar
+
+Correspondent Contact Email: deepthi.paknikar@overjet.ai
+
+Date Prepared: August 8th, 2024
+
+Device Trade Name: Overjet Charting Assist
+
+Common Name: Automated Radiological Image Processing System
+Classification Name: Medical image management and processing system
+Regulation Number: 892.2050
+
+Product Code: QIH
+
+Legally Marketed Predicate Device: Overjet Charting Assist
+
+Common Name: Automated Radiological Image Processing System
+Classification Name: Medical image management and processing system
+Regulation Number: 892.2050
+
+Predicate Product Code: QIH
+
+Predicate K number: K233590
+
+Device Description Summary
+
+Overjet Charting Assist is a Medical Image Management and Processing System (MIMPS) device
+aimed to assist dental professionals in detecting dental structures and producing dental charting data
+based on interpretation of 2D dental radiographs. The device is intended to detect natural dental
+structures including detection of tooth anatomy (enamel, pulp), and tooth numbering, as well as dental
+structures added through past restorative treatments: implants, crowns, endodontic treatment (previous
+root canal treatment), fillings. The device is intended to assist dental professionals in producing dental
+charts based on image analysis.
+
+The Overjet Charting Assist detects these findings on bitewing (BW) and periapical (PA) images for
+patients with primary and/or permanent teeth (Ages 5 and above), and panoramic (Pano) radiographs for
+patients with only permanent teeth. The device is not intended as a replacement for a complete
+clinician's review or clinical judgment that considers other relevant information from the image or
+patient history.
+
+Overjet, Inc Page 1
+W OVERJET
+
+This device includes a Predetermined Change Control Plan (PCCP).
+
+Intended Use/Indications for Use
+
+Overjet Charting Assist is a Medical Image Management and Processing System (MIMPS) intended to
+detect natural dental structures including detection of tooth anatomy (enamel, pulp), and tooth
+numbering, as well as dental structures added through past restorative treatments: implants, crowns,
+endodontic treatment (previous root canal treatment), fillings. The device is intended to assist dental
+professionals in producing dental charts based on image analysis.
+
+The Overjet Charting Assist detects these findings on bitewing (BW) and periapical (PA) images for
+patients with primary and/or permanent teeth (Ages 5 and above), and panoramic (Pano) radiographs for
+patients with only permanent teeth. The device is not intended as a replacement for a complete
+clinician's review or clinical judgment that considers other relevant information from the image or
+patient history.
+
+This device includes a Predetermined Change Control Plan (PCCP).
+Indications for Use Comparison
+
+The Overjet Charting Assist predicate device (K233590) and the subject Overjet Charting Assist
+Device are identical except that the subject device includes a Predetermined Change Control Plan
+(PCCP). There are no other differences between both devices, and the device features, incorporated
+models, indications for use, indicated patient population, and all other device aspects remained
+unchanged. The only difference between the predicate device and the subject device is the inclusion of
+a PCCP for the subject device.
+
+Technological Comparison
+
+The only difference in technological characteristics between the subject and predicate devices is the
+inclusion of a Predetermined Change Control Plan (PCCP) for the subject device.
+
+This PCCP outlines the process for evaluating and implementing modifications, specifically aimed at
+reducing false positives and false negatives based on real-world data. Modifications will be applied
+manually (non-automatically) across all devices. This approach ensures that any changes enhance the
+device's clinical utility and reliability while maintaining compliance with the original intended use and
+performance standards.
+
+The PCCP includes a modification protocol that details the requirements for verification and validation
+activities supporting the proposed changes. The modification protocol incorporates impact assessment
+considerations and specifies detailed requirements for data management, including data sources,
+collection, documentation, and re-use practices. Specific requirements are in place for meeting
+performance criteria, and importantly, if a specific modification fails performance evaluation, the
+failure(s) will be documented as part of the Software Development Life Cycle (SDLC) process in the
+
+Overjet, Inc Page 2
+WOVERJET
+
+form of a controlled document (report), and the modification will not be implemented. A summary of the
+PCCP and modification protocol description is provided in the table below:
+
+ 
+
+PCCP Details
+
+Description
+
+ 
+
+Modification Overview
+
+Improve performance by reducing false positive
+and false negative outputs based on post-market
+and real-world data. Specifically, improvements
+resulting from re-training the ML model with new
+data.
+
+ 
+
+Rationale
+
+Aims to enhance clinical utility by improving the
+device’s accuracy, ensuring reliable data for
+precise charting, and supporting high-quality
+patient care and documentation.
+
+ 
+
+Performance Evaluation Activity
+
+Identical to the acceptance criteria and standalone
+study protocol for the pre-modified version of the
+device cleared in K233590. Primary endpoints
+will be the main acceptance criteria, other
+endpoints and additional analyses will be
+conducted and reviewed for any major drop in
+performance.
+
+Ifa specific modification fails performance
+evaluation, failure(s) will be documented, and the
+modification will not be implemented.
+
+ 
+
+Implementation
+
+The modification will be implemented manually
+(non-automatic) across all devices on the market
+in a uniform manner (global adaptation).
+
+ 
+
+Impact on Indications/Intended Use
+
+The modification will not affect the indications or
+intended use of the Overjet Charting Assist
+device, as cleared under K233590.
+
+ 
+
+Release
+
+The PCCP does not include any provisions for
+implementation of adaptive algorithms that will
+continuously learn in the field. In accordance with
+the PCCP, all algorithm modifications will be
+trained, tuned, and locked prior to release of the
+software to the field.
+
+ 
+
+Instructions for Use
+
+ 
+
+ 
+
+A procedure for updating Instructions for Use
+updates has been established in order to inform
+users about algorithm changes implemented under
+this FDA-authorized PCCP, including a summary
+
+ 
+
+Overjet, Inc
+
+Page 3
+
+ 
+WOVERJET
+
+ 
+
+of the changes and a characterization of algorithm
+performance. Overjet will publish and
+communicate the updated Instructions for Use
+with customers.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Non-Clinical and/or Clinical Tests Summary & Conclusions
+
+Since the device remains unchanged from the Overjet Charting Assist Device cleared under K233590,
+no additional performance testing was conducted, and the existing data from the previous testing
+remains applicable.
+
+Both the predicate device and the Overjet Charting Assist device share the same intended purpose.The
+subject and predicate devices are identical, with the only difference being a PCCP being included for
+the subject device. Despite minor technological differences,which is only the inclusion of a PCCP in
+this submission, these differences in technological features do not raise concerns regarding safety or
+effectiveness. The verification and validation testing and predefined Acceptance Criteria set for the
+standalone study are aligned with current dental practices and are deemed suitable for demonstrating
+that the Overjet Charting Assist functions according to specifications, meeting user needs and intended
+uses.
+
+Conclusion
+Both the predicate device and the Overjet Charting Assist device share the same intended purpose.
+Despite minor technological differences, these differences in technological features do not raise
+
+concerns regarding safety or effectiveness. Following the information reviewed as part of this 510k, it
+can be concluded that the Overjet Charting Assist is substantially equivalent to the predicate device.
+
+Overjet, Inc Page 4
+

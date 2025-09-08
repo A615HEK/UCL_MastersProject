@@ -1,0 +1,801 @@
+ 
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES. Form Approved: OMB No. 0910-0120
+
+ 
+
+ 
+
+ 
+
+Food and Drug Administration Expiration Date: 07/31/2026
+Indications for Use See PRA Statement below.
+510(k) Number (if known)
+K242594
+Device Name
+DEEPECHO
+
+ 
+
+Indications for Use (Describe)
+
+DEEPECHO is intended to analyze fetal ultrasound images and clips using machine learning techniques to detect standard
+biometry views. Upon views detection, DEEPECHO assists in measurements computation of fetal biometric parameters
+(i.e., head circumference, abdominal circumference, femur length, and bi-parietal diameter).
+
+The device is intended for use by qualified and appropriately trained healthcare professionals as a concurrent reading and
+measuring aid during the acquisition and interpretation of fetal ultrasound images of patients aged 18 years or older done
+between the 14th and the 41st weeks of pregnancy.
+
+ 
+
+Type of Use (Select one or both, as applicable)
+
+ 
+
+ 
+
+Xl Prescription Use (Part 21 CFR 801 Subpart D) (J Over-The-Counter Use (21 CFR 801 Subpart C)
+
+ 
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+
+Department of Health and Human Services
+
+Food and Drug Administration
+
+Office of Chief Information Officer
+
+Paperwork Reduction Act (PRA) Staff
+
+PRAStaff@fda.hhs.gov
+
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+
+FORM FDA 3881 (8/23) Page 1 of 1 PSC Publishing Services (301) 443-6740 EF
+510(k) Summary — K242594
+
+1. SUBMITTER INFORMATION
+Applicant: DeepEcho
+Address 555 East Loockerman Street;
+Dover, DE USA 19901
+Contact: Youssef Bouyakhf
+Phone: +447767643525
+Email: youssef.bouyakhf@deepecho.io
+2. CORRESPONDENT INFORMATION
+Contact: Youssef Bouyakhf
+Title: Chief Executive Officer
+Firm: DeepEcho
+3. DATE PREPARED: May 21, 2025
+4, DEVICE INFORMATION
+Device Name: DEEPECHO
+
+Common Name:
+
+Fetal ultrasound analysis software
+
+Regulation Number: 892.1550
+
+Regulation Name: Ultrasonic pulsed doppler imaging system
+Primary Product Code: IYN
+
+Regulatory Class: IL
+
+Secondary Product Codes: — IYO, QIH
+
+5. PREDICATE AND REFERENCE DEVICES INFORMATION
+Primary Predicate Device Name: — SonioDetect
+510(k) Number: K230365
+Manufacturer: IYN
+Reference Device Name: G8 (specifically the Biometry Assist feature)
+510(k) Number: K223387
+Manufacturer: Samsung Medison Co., Ltd.
+
+Page 1 of 10
+510(k) Summary — K242594
+
+6. DEVICE DESCRIPTION
+
+DEEPECHO is a cloud-based standalone software as a medical device (SaMD) that helps
+qualified healthcare professionals in the assessment of obstetrical images.
+
+The device is intended for use by qualified and appropriately trained healthcare professionals,
+including but not limited to: radiologists, obstetricians, sonographers, maternal and fetal
+medicine specialists, obstetricians and gynecologists, as well as fetal surgeons. The device's
+application is intended for pregnant patients aged 18 years and older between the 14" and the
+41“ weeks of pregnancy.
+
+DEEPECHO takes as an input either Digital Imaging and Communications in Medicine
+(DICOM) images or a live fetal ultrasound image streaming from ultrasound scanners. When
+DEEPECHO is in use, it allows healthcare professionals to browse fetal ultrasound images,
+identify views (cephalic, abdominal, and femoral) and suggest a placement for calipers on fetal
+ultrasound images of the identified views and compute biometrical measurements of the latter
+(HC (Head Circumference), BPD (Bi-parietal Diameter), FL (Femur Length), AC (Abdominal
+Circumference), GA (Gestational Age), EFW (Estimated Fetal Weight)).
+
+When DEEPECHO is used during real time (i.e., during the examination) the device receives
+real-time image streaming from an ultrasound machine and can be used to identify views
+(cephalic, abdominal, and femoral), and suggests a placement for calipers. These Ultrasound
+images are acquired using an HDMI cable that is plugged into the local device (e.g., computer,
+tablet) running DEEPECHO, through an HDMI to USB Video Capture. Note that the device
+cannot compute measurements in real time as the real time data received from the ultrasound
+machine is a live stream video and not in a DICOM format. DICOM data is necessary to
+automatically compute biometrical measurements.
+
+Additionally, DEEPECHO handles patient and exam management by allowing healthcare
+professionals to create, update, and archive records. When DICOM files are uploaded post-
+examination, the software either links the exam to an existing patient record or automatically
+generates a new one from the DICOM files’ metadata. It enables healthcare professionals to
+track a patient's history, including exams, reports, and all information directly inputted to the
+platform.
+
+7. INDICATIONS FOR USE
+
+DEEPECHO is intended to analyze fetal ultrasound images and clips using machine learning
+techniques to detect standard biometry views. Upon views detection, DEEPECHO assists in
+measurements computation of fetal biometric parameters (i.e., head circumference, abdominal
+circumference, femur length, and bi-parietal diameter).
+
+The device is intended for use by qualified and appropriately trained healthcare professionals as
+a concurrent reading and measuring aid during the acquisition and interpretation of fetal
+ultrasound images of patients aged 18 years or older done between the 14" and the 41° weeks of
+pregnancy.
+
+Page 2 of 10
+510(k) Summary — K242594
+
+8. COMPARISON OF INTENDED USE AND TECHNOLOGICAL
+CHARACTERISTICS WITH THE PREDICATE DEVICE
+
+The table below compares the intended use and the technological characteristics of the subject
+device and predicate device.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Table 1: Comparator Table for Subject and Predicate Devices
+Category Proposed Device Primary Predicate Reference Device
+(DEEPECHO) Device (Sonio Detect) (Biometry Assist feature
+in the V8 ultrasound
+system)
+510(k) K242594 K230365 K223387
+Number
+Applicant DeepEcho Sonio Samsung Medison Co.
+Device Name | DEEPECHO Sonio Detect Biometry Assist feature in
+the V8 ultrasound system
+Classification | 892.1550 - Accessory to | 892.1550 - Accessory to 892.1550 - Ultrasonic
+Regulation Ultrasonic Pulsed Ultrasonic Pulsed Doppler | Pulsed Doppler Imaging
+Doppler Imaging Imaging System System
+System 892.1560 - Accessory to 892.1560 - Ultrasonic
+892.1560 - Accessory to | Ultrasonic Pulsed Echo Pulsed Echo Imaging
+Ultrasonic Pulsed Echo | Imaging System System
+Imaging System 892.2050 - Medical Image | 892.1570 - Diagnostic
+892.2050 - Medical Management and Ultrasound Transducer
+Image Management and | Processing System
+Processing System
+Product TYN (Primary), IYO, TYN (Primary), TYO, QIH__| IYN, rYO, ITX
+Code QIH (Secondary) (Secondary)
+Intended Qualified and trained Qualified and trained Appropriately trained
+Users healthcare professionals | healthcare professionals in | healthcare professionals
+including radiologists, a professional prenatal qualified for direct use of
+obstetricians, ultrasound imaging medical devices
+sonographers, environment, including
+OB/GYNs, maternal sonographers, MFMs,
+and fetal medicine OB/GYNs, and fetal
+specialists (MFM surgeons
+specialists), and fetal
+surgeons
+Patient Pregnant patients aged | Pregnant patients across Females of reproductive
+Population 18 years and older, Trimester 1, Trimester 2, age
+from 14 to 41 weeks of | and Trimester 3, from 11
+gestation weeks to 37 weeks of
+gestation
+Imaging Ultrasound Ultrasound Ultrasound
+Modality
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Page 3 of 10
+
+ 
+510(k) Summary — K242594
+
+ 
+
+ 
+
+ 
+
+ 
+
+Category Proposed Device Primary Predicate Reference Device
+(DEEPECHO) Device (Sonio Detect) (Biometry Assist feature
+in the V8 ultrasound
+system)
+Views Cephalic view, Transthalamic view, 8 views recommended by
+Detected Abdominal view, Transventricular view, the ISUOG and AIUM for
+Femoral view Transcerebellar view, Four | piometric measurements
+chambers, Profile or and heart assessment.
+Nuchal translucency,
+Crown rump length,
+Sagittal spine, Abdominal
+circumference, Long bone,
+Upper lip, nose, and
+nostrils, Left ventricular
+outflow tract, Right
+ventricular outflow tract
+Measurement | Femur Length (FL), None Length measurement (FL,
+Computation | Abdominal BPD)
+circumference (AC), Ellipse measurement (AC,
+Amniotic Fluid HC)
+Pocket’s Depth, Head Nuchal Translucency
+circumference (HC),
+Biparietal Diameter
+(BPD) Estimated Fetal
+Weight (EFW),
+Estimated Gestational
+Age (EGA)
+Findings Images labeled with Images labeled with Images labeled with correct
+
+correct views, caliper
+placement suggestion
+and measurement for
+circumference and
+distance for metrics
+such as HC, BPD, FL,
+AC, and examination
+reports
+
+correct views, quality
+criteria identified as
+"Verified" when detected
+and "Not verified" when
+not detected
+
+view
+
+Caliper placement
+suggestion and
+measurement for
+circumference, distance and
+Nuchal Translucency
+Editable examination report
+accessible on the console
+
+ 
+
+Fetal/Obstetrics
+
+Fetal/Obstetrics
+
+Fetal/Obstetrics
+
+ 
+
+ 
+
+ 
+
+Real-Time
+Assistance
+
+ 
+
+Provides real-time
+identification of views
+and suggestions for
+caliper placement.
+
+ 
+
+Primarily focused on
+verifying the quality
+criteria of detected views,
+ensuring that all required
+views are captured
+according to standardized
+protocols
+
+ 
+
+Available on the Samsung
+V8 for automated view
+recognition and
+measurement.
+
+ 
+
+ 
+
+Page 4 of 10
+510(k) Summary — K242594
+
+ 
+
+ 
+
+measurement
+computations
+
+Category Proposed Device Primary Predicate Reference Device
+(DEEPECHO) Device (Sonio Detect) (Biometry Assist feature
+in the V8 ultrasound
+system)
+Algorithm Artificial Intelligence Artificial Intelligence for | Deep learning-based
+Methodology | for biometric lecture of biometrics and recognition algorithm
+
+colorimetry for 3D and
+Doppler
+
+ 
+
+Platform and
+
+Cloud-based standalone
+
+A Saa& solution with edge
+
+Embedded in the ultrasound
+
+software accessible
+from various devices,
+offering flexibility and
+ease of integration into
+different clinical
+environments
+
+Accessibility software requiring
+installation on a server
+connected to the
+
+ultrasound machine
+
+equipment.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+DEEPECHO and predicate and reference devices are intended to be used by trained healthcare
+providers in the analysis of fetal ultrasound images. The devices all use artificial intelligence
+(AD) and machine learning algorithms to assist healthcare professionals in the interpretation and
+analysis of these images.
+
+Both DEEPECHO and Sonio Detect are capable of automatically detecting various standard
+views during fetal ultrasound examinations. The views identified by DEEPECHO are a subset of
+the views identified by Sonio Detect. Both systems also automatically identify standard fetal
+ultrasound views.
+
+DEEPECHO and Sonio Detect both generate detailed reports based on the analysis of fetal
+ultrasound images.
+
+Sonio Detect operates as a Software as a Service (SaaS) solution that requires installation of edge
+software on a server connected to the same network as the ultrasound machine. In contrast,
+DEEPECHO is a cloud-based standalone software that can be accessed from various devices,
+such as laptops, tablets, or desktops, without the need for local server installation. This difference
+does not raise different types of safety or effectiveness questions, as both deployment methods
+are commonly used in medical device software.
+
+DEEPECHO differs from Sonio Detect in that it also computes a full set of biometric
+measurements—FL, AC, BPD, HC, EFW and EGA—which are included directly in its generated
+report; Sonio Detect does not compute any biometric measurements. In addition, DEEPECHO
+does not incorporate substructure detection or quality-criteria verification, both of which are
+provided by Sonio Detect. The Samsung Biometry Assist feature (the secondary reference
+device) likewise computes biometric measurements but does not automatically derive GA or
+EFW—users must select one of several well-established formulas to calculate those metrics.
+
+Page 5 of 10
+510(k) Summary — K242594
+
+9. SUMMARY OF NON-CLINICAL PERFORMANCE TESTING
+Software
+
+Software was evaluated for a basic documentation level as recommended in the 2023 FDA
+guidance document Content of Premarket Submissions for Device Software Functions and
+software verification and validation data was performed.
+
+Performance Testing
+
+DeepEcho performed a stand-alone assessment comparing the performance of the DEEPECHO
+software to a ground truth of annotations by qualified experts.
+
+Sample Size and Data Source
+
+The bench testing dataset consisted of 417 ultrasound studies collected from 15 clinical sites
+across the United States, Mexico, and Morocco. Following the application of predefined
+exclusion criteria, including corrupted files and incomplete views, the final analysis population
+included 397 subjects, contributing a total of 23,544 de-identified 2D grayscale ultrasound
+images. Clinical sites included both tertiary maternal-fetal medicine practices and community-
+based health settings.
+
+Relationship Between Patients and Images
+
+Each subject contributed multiple images, including standard fetal biometry planes (biparietal
+diameter, head circumference, abdominal circumference, femur length) and non-standard views.
+Each image was independently reviewed by three ARDMS-certified sonographers with a
+minimum of five years of clinical ultrasound experience.
+
+Demographics
+
+The population included subjects with a mean maternal age of 29.4 years (range: 15—56) and a
+mean BMI of 26.8 (range: 17.5—52.5). The racial and ethnic distribution was as follows: 44%
+White non-Hispanic, 24% Hispanic/Latino, 13.3% Black non-Hispanic, 12.3% Asian, 4.5%
+Pacific Islander, and 1.9% American Indian or Alaskan Native.
+
+Ultrasound Equipment and Protocols
+
+DEEPECHO was only validated with the following ultrasound systems: Butterfly iQ3, GE
+Voluson (S8, $10, E6), Clarius HD3, and Philips [U22 and HD7. Image acquisition occurred
+during second and third trimester exams. All data were stored in DICOM, MP4 and PNG
+formats. Images from first trimester exams, Doppler imaging, and 3D acquisitions were
+excluded. No standardized acquisition protocol was enforced across sites.
+
+Truthing Process (Reference Standard Derivation)
+
+All images were annotated using the CVAT platform by three independent ARDMS-certified
+sonographers with at least five years of experience. For continuous measurement endpoints, the
+ground truth was calculated as the arithmetic mean of three independent caliper placements. For
+classification endpoints, ground truth was based on unanimous agreement across reviewers.
+Inter-reader agreement for continuous outcomes exceeded ICC > 0.99.
+
+Dataset Independence
+
+Page 6 of 10
+510(k) Summary — K242594
+
+No training data, patients, or clinical sites overlapped with the test dataset. Training data were
+obtained from two Roshan MFM clinics in New York City and selected sites in Morocco. Test
+data were acquired from separate sites in the United States, Mexico, and Morocco, including
+Seattle (WA), Garden City (NY), Union (NJ), Honesdale (PA), Chiapas (Mexico), and
+Casablanca (Morocco).
+
+Summary Test Results
+There were 6 primary endpoints in the DEEPECHO trial comparing DEEPECHO to ground truth
+measurements:
+1. Comparison of femur length
+Comparison of head circumference
+Comparison of abdominal circumference
+
+Comparison of biparietal diameter
+
+wk YN
+
+Sensitivity of each view identification
+6. Specificity of each view identification
+
+The first four endpoints are concerned with accuracy of continuous measurements, Deming
+regression was performed to compare the DEEPECHO versus reader measurements.
+
+Results are shown below.
+
+Table 2: Primary Endpoints #1 - #4 Results
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Variable N Intercept Slope
+Point Estimate | 95% CI _| Point Estimate 95% CI
+Femur Length 431 0.003 (-0.020, 0.025) 0.969 (0.966, 0.973)
+Head Circumference 858 -.360 (-0.462, -.0258) 1.026 (1.022, 1.031)
+Abdominal Circumference | 499 -.017 (-0.101, 0.065) 1.017 (1.013, 1.021)
+Biparietal Diameter 858 -.165 (-0.203, -0.125) 1.020 (1.015, 1.025)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Primary endpoints #5 and #6 evaluate the sensitivity and specificity of DEEPECHO in detecting
+anatomical views. To account for intra-subject correlation due to multiple observations per
+subject, a blockwise bootstrap method was used, with the subject as the resampling unit. The
+resulting point estimates reflect sample proportions, and the corresponding two-sided 95%
+confidence intervals were derived using this non-parametric approach.
+
+Page 7 of 10
+510(k) Summary — K242594
+
+Table 3: Primary Endpoints #5 and #6 Results
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Endpoint of Interest Statistics
+n/N Point Estimate
+(95% Cl)*
+
+Abdominal View | Sensitivity 442/508 86.9% (83.8% - 89.7%)
+Specificity 7107/7340 96.8% (96.4% - 97.2%)
+
+Cephalic View | Sensitivity 992/1010 98.2% (97.4% - 99%)
+Specificity 6482/6838 94.8% (94.2% - 95.3%)
+
+Femoral View | Sensitivity 415/452 91.8% (89% - 94.2%)
+Specificity 7204/7396 97.4% (97% - 97.8%)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+*Confidence intervals were calculated using blocked bootstrapping
+
+Worst-case analysis
+
+A worst-case analysis was performed by imputing missing data as failures, based on the average
+number of observations per subject. After applying this conservative approach, the sensitivity
+and specificity for each anatomical view were recalculated. For the abdominal view, sensitivity
+was 82.7% (95% CI: 79.0%-85.8%) and specificity was 92.1% (95% CI: 91.4%—92.5%). For the
+cephalic view, sensitivity was 93.4% (95% CI: 91.5%-94.8%) and specificity was 90.2% (95%
+CI: 89.4%-90.6%). For the femoral view, sensitivity was 87.6% (95% CI: 83.5%-—90.2%) and
+specificity was 92.7% (95% CI: 91.9%—-93.2%).
+
+Subgroup Analysis
+
+Subgroup analyses were conducted to assess performance of view identification across maternal
+age, gestational age, BMI, racial/ethnic groups, acquisition sites, ultrasound system
+manufacturers, image types, image resolution, and operator image quality. For the cephalic
+view, both sensitivity and specificity remained high across all subgroups, with sensitivity
+typically above 95% and specificity above 93%. For the femoral view, sensitivity was also
+robust, typically exceeding 90%, and specificity remained above 95% across subgroups. In cases
+where point estimates were lower, this was primarily attributable to small denominators.
+Importantly, analyses stratified by ultrasound system type, image quality, and operator-assessed
+image quality showed no evidence of performance degradation.
+
+Table 4: View Identification Primary Endpoint by Gestational Age Subgroups and Per Anatomical
+View
+
+ 
+
+Anatomica | Measureme
+1 View nt <= 28 weeks > 28 weeks
+
+ 
+
+ 
+
+Abdominal | Sensitivity 180/220 (81.8%) [0.761 - 0.867] | 221/233 (94.8%) [0.912 - 0.973]
+
+ 
+
+ 
+
+ 
+
+ 
+
+Page 8 of 10
+
+ 
+510(k) Summary — K242594
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Anatomica | Measureme
+1 View nt <= 28 weeks > 28 weeks
+Specificity 4576/4698 (97.4%) [0.969 - 2123/2227 (95.3%) [0.944 -
+0.978] 0.962]
+Cephalic Sensitivity 564/580 (97.2%) [0.956 - 0.984] | 367/369 (99.5%) [0.981 - 0.999]
+Specificity | 4093/4338 (94.4%) [0.936 - 0.95] 1995/2091 (95.4%) [0.944 -
+0.963]
+Femoral Sensitivity 174/197 (88.3%) [0.83 - 0.925] | 199/206 (96.6%) [0.931 - 0.986]
+Specificity | 4580/4721 (97%) [0.965 - 0.975] 2211/2254 (98.1%) [0.974 -
+0.986]
+
+ 
+
+ 
+
+ 
+
+ 
+
+Table 5: View Identification Primary Endpoint by BMI Subgroups and Per Anatomical View
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Anatomical |Measurem
+View ent 18.5 - 25 25-30 30-35 35 - 40 >40
+Abdominal Sensitivity | 39/48 (81.3%) 44/46 (95.7%) | 17/17 (100%) | 6/7 (85.7%) | 3/4 (75%)
+[0.674 - [0.852 - [0.805 - 1] [0.421 - [0.194 -
+0.911] 0.995] 0.996] 0.994]
+Specificity 903/926 514/532 166/171 80/83 (96.4%) 43/45 (95.6%)
+(97.5%) (96.6%) (97.1%) [0.898 - [0.849 -
+[0.963 - [0.947 - 0.98] | [0.933 - 0.99] 0.992] 0.995]
+0.984]
+Cephalic Sensitivity 132/133 86/87 (98.9%) | 23/23 (100%) | 13/14 (92.9%) 7/7 (100%)
+(99.2%) [0.938 - 1] (0.852 - 1] [0.661 - [0.59 - 1]
+[0.959 - 1] 0.998]
+Specificity 807/841 475/491 156/165 73/76 (96.1%) 40/42 (95.2%)
+(96%) [0.944 | (96.7%) (94.5%) [0.889 - [0.838 -
+- 0.972] [0.948 - [0.899 - 0.992] 0.994]
+0.981] 0.975]
+Femoral Sensitivity | 32/34 (94.1%) | 34/34 (100%) | 12/12 (100%) | 5/5 (100%) | 4/4 (100%)
+[0.803 - [0.897 - 1] (0.735-1] | [0478-1] | [0398-1]
+0.993]
+Specificity 914/940 535/544 174/176 83/85 (97.6%) | 45/45 (100%)
+(97.2%) [0.96 (98.3%) | (98.9%) [0.96 [0.918 - [0.921 - 1]
+- 0.982] [0.969 - - 0.999] 0.997]
+0.992]
+
+ 
+
+ 
+
+ 
+
+ 
+
+Page 9 of 10
+
+ 
+510(k) Summary — K242594
+
+Table 6: View Identification Primary Endpoint by Manufacturer Subgroups and Per Anatomical
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+View
+General Philips Medical
+Anatomical View Measurement Butterfly Clarius Electric Systems
+Abdominal Sensitivity 28/42 (66.7%) 8/9 (88.9%) 252/295 154/162
+[0.505 - 0.804] | [0.518 - 0.997] | (85.4%) [0.809 - | (95.1%) [0.905 -
+0.892] 0.978]
+Specificity T1ITT (100%) 155/167 5484/5628 1386/1463
+[0.953 -1] | (92.8%) [0.878 -| (97.4%) [0.97 - | (94.7%) [0.935 -
+0.962] 0.978] 0.958]
+Cephalic Sensitivity 37/37 (100%) 13/13 (100%) 630/635 312/325 (96%)
+[0.905 - 1] (0.753 - 1] | (99.2%) [0.982 -| [0.933 - 0.979]
+0.997]
+Specificity 82/82 (100%) 141/163 5088/5288 1166/1300
+[0.956 - 1] | (86.5%) [0.803 - | (96.2%) [0.957 - | (89.7%) [0.879 -
+0.913] 0.967] 0.913]
+Femoral Sensitivity 33/40 (82.5%) 8/11 (72.7%) 207/216 167/185
+[0.672 - 0.927] | [0.39- 0.94] | (95.8%) [0.922 - | (90.3%) [0.851 -
+0.981] 0.941]
+Specificity 79/79 (100%) 152/165 5590/5707 1378/1440
+[0.954-1] | (92.1%) [0.869 - | (97.9%) [0.975 - | (95.7%) [0.945 -
+0.957] 0.983] 0.967]
+10. CONCLUSION
+
+The results of the performance testing described above demonstrate that the DEEPECHO
+software is as safe and effective as the predicate device and supports a determination of
+
+substantial equivalence.
+
+Page 10 of 10
+
+ 
+

@@ -1,0 +1,452 @@
+ 
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES Form Approved: OMB No. 0910-0120
+
+ 
+
+ 
+
+ 
+
+Food and Drug Administration Expiration Date: 06/30/2023
+Indications for Use See PRA Statement below.
+510(k) Number (if known)
+K231094
+Device Name
+
+Annalise Enterprise CTB Triage - OH
+
+ 
+
+Indications for Use (Describe)
+
+Intended context:
+
+Annalise Enterprise is a device designed to be used in the medical care environment to aid in triage and prioritization of
+studies with features suggestive of the following finding:
+
+* obstructive hydrocephalus
+
+The device analyzes studies using an artificial intelligence algorithm to identify the finding. It makes study-level output
+available to an order and imaging management system for worklist prioritization or triage.
+
+The device is not intended to direct attention to specific portions of an image and only provides notification for the
+suspected finding.
+
+Its results are not intended:
+* to be used on a standalone basis for clinical decision making
+* to rule out a specific finding, or otherwise preclude clinical assessment of CTB studies
+
+Intended modality:
+Annalise Enterprise identifies the suspected finding in non-contrast brain CT studies.
+
+Intended user:
+The device is intended to be used by trained clinicians who, as part of their scope of practice, are qualified to interpret
+brain CT studies.
+
+Intended patient population:
+The intended population is patients who are 22 years or older.
+
+ 
+
+Type of Use (Select one or both, as applicable)
+[X| Prescription Use (Part 21 CFR 801 Subpart D) Over-The-Counter Use (21 CFR 801 Subpart C)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+
+FORM FDA 3881 (6/20) Page 1 of 2 ‘PSCPublishing Services G01) 445-6740 EF
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+
+Department of Health and Human Services
+
+Food and Drug Administration
+
+Office of Chief Information Officer
+
+Paperwork Reduction Act (PRA) Staff
+
+PRAStaff@fda.hhs.gov
+
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+
+FORM FDA 3881 (6/20) Page 2 of 2
+510(k) Summary
+
+Aannalise.ai
+
+I. SUBMITTER
+
+K231094
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Company Name Annalise-AI Pty Ltd
+
+Address Level P, 24 Campbell Street
+Sydney, NSW 2000
+Australia
+
+Phone Number +61 1800-958487
+
+Contact Person Haylee Bosshard
+
+Date Prepared July 7, 2023
+
+ 
+
+Il. SUBJECT DEVICE
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Manufacturer Name_| Annalise-AI Pty Ltd
+
+Device Name Annalise Enterprise CTB Triage -OH
+
+Classification Name | Radiological computer aided triage and notification software
+(21CFR892.2080)
+
+Regulatory Class I
+
+Product Code QAS
+
+ 
+
+Ill. PREDICATE DEVICE
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Manufacturer Name _| Aidoc Medical, Ltd.
+
+Device Name BriefCase
+
+510(k) reference K221314
+
+Classification Name | Radiological computer aided triage and notification software
+(21CFR892.2080)
+
+Regulatory Class I
+
+Product Code QAS
+
+ 
+
+ 
+
+This predicate has not been subject to a design-related recall. No reference devices were used in this
+
+submission.
+
+Page 1
+
+Confidential Proprietary Information, not to be reproduced or made available to third parties without prior consent
+
+from annalise.ai and not to be used in any unauthorized way
+Aannalise.ai
+
+IV. DEVICE DESCRIPTION
+
+Annalise Enterprise CTB Triage — OH is a software workflow tool which uses an artificial intelligence
+(AD) algorithm to identify suspected findings on non-contrast brain CT studies in the medical care
+environment. The findings identified by the device include obstructive hydrocephalus.
+
+Radiological findings are identified by the device using an AI algorithm — a convolutional neural
+network trained using deep-learning techniques. Images used to train the algorithm were sourced from
+datasets that included a range of equipment manufacturers including Toshiba, GE Medical Systems,
+Siemens, Philips, and Canon Medical Systems. This dataset, which contained over 200,000 CT brain
+imaging studies, was annotated by qualified and trained radiologists.
+
+The performance of the device’s AI algorithm was validated in a standalone performance evaluation,
+in which the case-level output from the device was compared with a reference standard (‘ground
+truth’). This was determined by two ground truthers, with a third truther used in the event of
+disagreement. All truthers were US board-certified neuroradiologists.
+
+The device interfaces with image and order management systems (such as PACS/RIS) to obtain non-
+contrast brain CT studies for processing by the AI algorithm. Following processing, if any of the
+radiological findings of interest are identified in a non-contrast brain CT study, the device provides a
+notification to the image and order management system for prioritization of that study in the worklist.
+This enables users to review the studies containing features suggestive of these radiological findings
+earlier than in the standard clinical workflow. It is important to note that the device will never decrease
+a study’s existing priority in the worklist. This ensures that worklist items will never have their
+priorities downgraded based on AI results.
+
+The device workflow is performed parallel to and in conjunction with the standard clinical workflow
+for interpretation of non-contrast brain CTs. The device is intended to aid in prioritization and triage
+of radiological medical images only.
+
+Page 2
+
+Confidential Proprietary Information, not to be reproduced or made available to third parties without prior consent
+from annalise.ai and not to be used in any unauthorized way
+Aannalise.ai
+
+Vv. INDICATIONS FOR USE
+
+The Indications for Use statement is as follows:
+
+Intended context Annalise Enterprise is a device designed to be used in the medical care
+environment to aid in triage and prioritization of studies with features
+suggestive of the following finding:
+
+e obstructive hydrocephalus
+
+The device analyzes studies using an artificial intelligence algorithm to
+identify the finding. It makes study-level output available to an order
+and imaging management system for worklist prioritization or triage.
+
+The device is not intended to direct attention to specific portions of an
+image and only provides notification for the suspected finding.
+
+Its results are not intended:
+
+e to be used ona standalone basis for clinical decision making
+e to rule out specific findings, or otherwise preclude clinical
+assessment of CTB studies
+
+Intended modality Annalise Enterprise identifies suspected findings in non-contrast brain
+CT studies.
+Intended user The device is intended to be used by trained clinicians who, as part of
+
+their scope of practice, are qualified to interpret brain CT studies.
+
+Intended patient The intended population is patients who are 22 years or older.
+population
+
+The Indications for Use statement of the subject device differs to the predicate device only in the
+clinical conditions of interest, however a standalone performance evaluation was conducted and
+demonstrated that the device is as safe and effective for its intended use. Both the subject and predicate
+device are intended for use to assist with worklist triage by providing notifications of suspected
+findings and their associated priority.
+
+Page 3
+
+Confidential Proprietary Information, not to be reproduced or made available to third parties without prior consent
+from annalise.ai and not to be used in any unauthorized way
+Aannalise.ai
+
+VI. COMPARISON OF TECHNOLOGICAL CHARACTERISTICS
+WITH THE PREDICATE DEVICE
+
+The subject device was evaluated and compared to the predicate device with respect to the following
+characteristics:
+
+Indications for Use
+
+Anatomical site and modality
+
+Intended user and clinical use environment
+Technical method for notification and prioritization
+Set of findings and algorithm
+
+Device input and radiological image protocol
+Device output and means of notification to user
+System components
+
+. Location where results are received
+
+10. Prioritization relationship to standard of care workflow
+11. Ability to support effective triage
+
+CRI DAARwWNE
+
+The following characteristics showed a difference between the subject and predicate devices. The
+different characteristics include:
+
+1. Set of findings and algorithm
+2. Device output and means of notification to user
+
+The first difference between the subject and predicate device is the set of findings that the subject
+device identifies and the underlying artificial intelligence algorithm. The performance of the subject
+device algorithm for each of the findings was addressed in a standalone performance evaluation and
+showed that the subject device is as safe and effective for its intended use as the predicate device.
+
+The second difference between the subject and predicate device is the output and means of notification.
+While both devices provide preview images to be viewed on a non-medical viewer, the subject device
+injects back into a worklist whereas the predicate notification is directed to another desktop
+application. Furthermore, the subject adds a priority, whereas the predicate flags them for review.
+However, these differences do not raise new questions of safety and effectiveness.
+
+Page 4
+
+Confidential Proprietary Information, not to be reproduced or made available to third parties without prior consent
+from annalise.ai and not to be used in any unauthorized way
+Aannalise.ai
+
+VII. PERFORMANCE DATA
+
+The following performance data have been provided to support evaluation of substantial equivalence.
+A. Software Verification and Validation Testing
+
+Software verification and validation testing was conducted, and documentation was provided as
+recommended by FDA’s Guidance for Industry and FDA Staff, “Guidance for the Content of
+Premarket Submissions for Software Contained in Medical Devices”, May 11, 2005.
+
+B. Performance Testing
+
+Performance of the subject device was assessed in a pivotal performance study to satisfy requirements
+set forth in the special controls per 21CFR892.2080. The performance study included standalone
+model performance and triage effectiveness evaluations.
+
+Standalone performance was assessed via a retrospective, anonymized study of adult patient, DICOM-
+compliant non-contrast brain CT cases. The test dataset used during the standalone performance
+evaluation was newly acquired and independent from the training dataset used in model development.
+Independence was ensured through selection of test data from hospital network sites where none of
+the training data was sourced. The standalone performance study was conducted on an independent
+cohort which equated to a total dataset of 175 cases for slice thickness <1.5mm (positive n=75 and
+negative n=100) and 191 cases for slice thickness >1.5mm & <5.0mm (positive n=84 and negative
+n=107), collected consecutively from five US hospital network sites. These sites included both
+community hospitals and academic medical centers.
+
+The performance testing dataset included representation across subgroups for patient demographics:
+e slice thickness <1.5mm: gender [Female: 56.0 %, Male: 44.0%], age [mean: 61.2 years],
+ethnicity [Hispanic: 9.7%], race [White/Caucasian: 76.6%, Other: 18.3%, Unknown: 5.1%],
+and
+e slice thickness >1.5mm & <5.0mm: gender [Female: 55.0%, Male: 45.0%], age [mean: 61.6
+years], ethnicity [Hispanic: 8.9%], race [White/Caucasian: 77.0%, Other: 18.3%, Unknown:
+4.7%].
+
+It also included representation from important cohorts such as common co-existing findings and cases
+that may mimic the appearance of obstructive hydrocephalus (enlargement of ventricles due to
+alternate causes). The dataset included a majority of cases from GE Healthcare and Siemens CT
+scanners for the pivotal study. Additional analyses were conducted with GE, Philips, Siemens and
+Toshiba scanners to demonstrate the generalizability of the device.
+
+To determine the ground truth, each deidentified case was annotated in a blinded fashion by at least
+two ABR-certified and protocol-trained neuroradiologists (ground truthers), with consensus
+determined by two ground truthers and a third ground truther in the event of disagreement. The key
+results of the study are summarized in the following table.
+
+Page 5
+
+Confidential Proprietary Information, not to be reproduced or made available to third parties without prior consent
+from annalise.ai and not to be used in any unauthorized way
+Aannalise.ai
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Finding Slice Thickness Range | Operating Point | Sensitivity % (Se) Specificity % (Sp)
+(95% Cl) (95% Cl)
+Obstructive Hydrocephalus | <1.5mm 0.149943 97.3 (93.3,100.0) 94.0 (89.0,98.0)
+0.185900. 94.7 (89.3,98.7) 95.0 (90.0,99.0)
+0.281473 92.0 (85.3,97.3) 97.0 (93.0,100.0)
+>1.5mm & <5.0mm 0.100591 97.6 (94.0,100.0) 95.3 (90.7,99.1)
+0.149943 95.2 (90.5,98.8) 95.3 (90.7.99.1)
+0.185900 94.0 (89.3,98.8) 95.3 (90.7,99.1)
+0.281473 88.1 (81.0,94.0) 95.3 (90.7,99.1)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+The results demonstrate the subject device establishes effective triage within a clinician’s queue based
+on high sensitivity and specificity. Further, these results are substantially equivalent to those of the
+predicate device.
+
+Triage effectiveness (turn-around time) was assessed by an internal bench study using a dataset of
+n=277 cases positive for any of the findings eligible for prioritization. These cases were collected from
+multiple data sources spanning a variety of geographical locations, patient demographics and technical
+characteristics. The results demonstrated a triage turn-around time of 81.6 (95%CI: 80.3 — 82.9)
+seconds, which is substantially equivalent to the total performance time published for the predicate
+device.
+
+Therefore, the subject device has been shown to satisfy the performance requirements per
+21CFR892.2080, for ‘Radiological computer aided triage and notification software’, by providing
+clinically effective triage for non-contrast brain CT studies containing features suggestive of
+radiological findings of interest. This data demonstrates the subject device is safe and effective for its
+intended use, and thereby supports substantial equivalence.
+
+VIII.CONCLUSIONS
+
+The subject device and the predicate device are both software only packages, devices intended to
+assist with worklist triage by providing notification of findings. The subject and predicate devices
+utilize the same principles of operation and work in parallel to the current standard of care workflow.
+
+Both the subject and predicate devices use an artificial intelligence algorithm to identify findings in
+images and require the same inputs (DICOM image data) and provide the same outputs (prioritization
+for a medical worklist).
+
+The technological differences between the subject and predicate devices do not raise new questions of
+safety and effectiveness.
+
+Standalone performance testing and the comparison of technological characteristics with the predicate
+device shows that the subject device:
+
+e performs as intended,
+e is safe and effective for its intended use, and
+e is therefore substantially equivalent to the predicate device.
+
+Page 6
+
+Confidential Proprietary Information, not to be reproduced or made available to third parties without prior consent
+from annalise.ai and not to be used in any unauthorized way
+

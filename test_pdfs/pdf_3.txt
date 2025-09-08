@@ -1,0 +1,828 @@
+
+--- Page 4 (OCR) ---
+DEPARTMENT OF HEALTH AND HUMAN SERVICES.
+Food and Drug Administration
+
+Indications for Use
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: 07/31/2026
+See PRA Statement below.
+
+ 
+
+ 
+
+Submission Number (if known)
+
+ 
+
+K242292
+
+ 
+
+Device Name
+
+ 
+
+uAI Easy Triage ICH
+
+ 
+
+Indications for Use (Describe)
+
+ 
+
+ 
+
+uAI Easy Triage ICH is a radiological computer-assisted triage and notification software device
+indicated for analysis of non-enhanced head CT images. The device is intended to assist hospital
+networks and trained radiologists in workflow triage by flagging and prioritizing studies with
+suspected positive findings of Intracranial Hemorrhage (ICH).
+
+ 
+
+Type of Use (Select one or both, as applicable)
+& Prescription Use (Part 21 CFR 801 Subpart D)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Over-The-Counter Use (21 CFR 801 Subpart C)
+
+ 
+
+ 
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+
+The burden time for this collection of information is estimated
+
+to average 79 hours per response, including the
+
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+
+Department of Health and Human Services
+
+Food and Drug Administration
+
+Office of Chief Information Officer
+
+Paperwork Reduction Act (PRA) Staff
+
+PRAStaff@fda.hhs.gov
+
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+
+ 
+
+ 
+
+--- Page 5 (OCR) ---
+K242292
+
+ 
+
+510 (k) SUMMARY
+
+1. Date of Preparation:
+August 01, 2024
+
+2. Sponsor Identification
+
+Shanghai United 1 ing Intelli Co. Ltd
+No. 701 Yunjin Road, Xuhui District, Shanghai, 200232,
+PEOPLE'S REPUBLIC OF CHINA
+
+Primary Contact Correspondent :
+
+MCRA Digital Health
+
+Contact Person: Nima Akhlaghi
+
+Position: Director, Digital Health, AI & Imaging Center Lead
+Tel: 202-742-3889
+
+Email: nakhlaghi@mcra.com
+
+Applicant Contact Person:
+
+Zhao Xiaojing
+
+Position: Quality & Regulatory Manager
+Tel: +86-02 1-67076888-5386
+
+Email: xiaojing.zhao@uii-ai.com
+
+3. Identification of Proposed Device
+
+Trade Name: uAl Easy Triage ICH
+Common Name: Radiological computer aided triage and notification software
+Model(s): uAI Easy Triage ICH
+
+Regulatory Information
+
+Classification Name: Radiological computer aided triage and notification software
+Classification: IT
+
+Product Code: QAS
+
+Regulation Number: 21 CFR 892.2080
+
+Review Panel: Radiology
+
+4. Identification of Predicate Device(s)
+Page 1 of 12
+
+--- Page 6 (OCR) ---
+K242292
+
+ 
+
+Predicate Device
+510(k) Number: K221716
+Device Name: CINA
+
+5. Device Description
+
+uAI Easy Triage ICH is a radiological computer-assisted triage and notification
+software intended to assist radiologists by flagging potential intracranial hemorrhage
+(ICH) in non-contrast head CT images. The Triage Software is a component of the uAI
+Easy Triage platform, a comprehensive medical imaging communication system
+designed to integrate and deploy specialized image processing applications.
+
+The uAI Easy Triage ICH algorithm uses artificial intelligence CNN (convolutional
+neural networks) and advanced image processing to triage the non-contrast CT images
+for suspicious intracranial hemorrhage.
+
+To train and internally test this ICH CADt device, a total of 9791 data points were
+collected from multiple sites as well as cases in China. Only cases that met the
+inclusion criteria were used. The reference standard (ground truth) was established in
+the form of ICH positive/negative by radiologists.
+
+To clarify, 9791 cases were only used for training and internal testing and final
+validation data was from USA and independent from those used for training and
+internal testing.
+
+6. Indications for use
+
+uAI Easy Triage ICH is a radiological computer-assisted triage and notification
+software device indicated for analysis of non-enhanced head CT images. The device is
+intended to assist hospital networks and trained radiologists in workflow triage by
+flagging and prioritizing studies with suspected positive findings of Intracranial
+Hemorrhage (ICH).
+
+7. Summary of Technological Characteristics
+
+uAI Easy Triage ICH is a radiological computer-assisted triage and notification
+software intended to assist radiologists by flagging potential ICH in non-contrast head
+CT images. The software is a component of the uAI Easy Triage platform, a
+
+Page 2 of 12
+
+--- Page 7 (OCR) ---
+K242292
+
+ 
+
+comprehensive medical imaging communication system designed to integrate and
+deploy specialized image processing applications.
+
+The uAI Easy Triage ICH alerts users to new studies with suspicious ICH findings via
+pop-up notifications. The software provides both active and passive notification
+mechanisms. Active notifications are presented as an alert icon with a count of pending
+cases, and an alert status bar displaying patient details, suspected findings, and the time
+of examination. Passive notifications are represented by an icon beside the patient's
+name in the list for cases with detected ICH findings. Additionally, the application
+offers a DICOM image preview feature for radiologists to review. This preview is
+strictly informational, devoid of diagnostic markers, and is not to be used for definitive
+diagnosis.
+
+The uAI Easy Triage ICH embodies the core algorithmic technology that identifies
+image characteristics consistent with intracranial hemorrhage. The application reads
+DICOM files, verifies their compatibility with the prescribed acquisition protocols,
+executes the triage algorithm, and communicates findings in DICOM format,
+compatible with the uAI Easy Triage Platform.
+
+Page 3 of 12
+
+--- Page 8 (OCR) ---
+K242292
+
+UNITED IMAGING
+Intelligence
+
+ 
+
+Table 1 Substantial Equivalence Table
+
+ 
+
+Item
+
+Proposed Device
+uAl Easy Triage ICH
+
+Predicate Device
+
+CINA (K221716)
+
+Remark
+
+ 
+
+Radiological Computer Aided
+
+Radiological Computer Aided
+
+ 
+
+ 
+
+ 
+
+ 
+
+Device Classification Name Triage And Notification Software | Triage And Notification Software Same
+Product Code QAS QAS Same
+Regulation Number 21 CFR 892.2080 21 CFR 892.2080 Same
+Device Class I I Same
+Classification Panel Radiology Radiology Same
+
+ 
+
+Intended Use/Indications for
+Use
+
+ 
+
+ 
+
+uAI Easy Triage ICH is a
+radiological computer-assisted
+triage and notification software
+device indicated for analysis of
+non-enhanced head CT images.
+The device is intended to assist
+hospital networks and trained
+
+radiologists in workflow triage by
+
+ 
+
+Cina is a radiological computer
+aided triage and notification
+software indicated for use in the
+analysis of (1) non-enhanced head
+CT images and (2) CT
+angiography of the head.
+
+The device is intended to assist
+
+ 
+
+Compared to predicate device, the
+proposed device provides one
+applications for ICH while the
+predicate device CINA (K221716)
+provides two applications for ICH
+and LVO.
+
+uAlI Easy Triage ICH and the
+predicate device CINA(K221716)
+have the same intended use
+
+ 
+
+ 
+
+Page 4 of 12
+
+--- Page 9 (OCR) ---
+K242292
+
+UNITED IMAGING a
+
+Intelligence
+
+ 
+
+Item
+
+Proposed Device
+
+uAl Easy Triage ICH
+
+Predicate Device
+
+CINA (K221716)
+
+Remark
+
+ 
+
+ 
+
+ 
+
+flagging and prioritizing studies
+with suspected positive findings of
+
+Intracranial Hemorrhage (ICH).
+
+ 
+
+hospital networks and trained
+radiologists in workflow triage by
+flagging and communicating
+suspected positive findings of (1)
+head CT images for Intracranial
+Hemorrhage (ICH) and (2) head
+CT angiography for large vessel
+occlusion (LVO) of the anterior
+circulation (distal ICA, MCA-M1
+or proximal MCA-M2).
+
+Cina uses an artificial intelligence
+algorithm to analyze images and
+highlight cases with detected (1)
+ICH or (2) LVO ona standalone
+Web application in parallel to the
+ongoing standard of care image
+interpretation. The user is
+presented with notifications for
+
+cases with suspected ICH or LVO
+
+ 
+
+and\indications for use in terms of
+finding suspected intracranial
+hemorrhage in non-enhanced head
+CT, flagging suspected cases, and
+indicating the case to the attention of
+the clinician.
+
+ 
+
+Page 5 of 12
+
+ 
+
+--- Page 10 (OCR) ---
+UNITED IMAGING
+
+ 
+
+ 
+
+ 
+
+K242292 Intelligence
+Proposed Device Predicate Device
+Item Remark
+uAl Easy Triage ICH CINA (K221716)
+findings.
+
+Notifications include compressed
+preview images that are meant for
+informational purposes only, and
+are not intended for diagnostic use
+beyond notification. The device
+does not alter the original medical
+image, and it is not intended to be
+
+used as a diagnostic device.
+
+The results of Cina are intended to
+be used in conjunction with other
+patient information and based on
+professional judgement to assist
+with triage/prioritization of
+medical images. Notified
+clinicians are ultimately
+responsible for reviewing full
+
+images per the standard of care.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Page 6 of 12
+
+--- Page 11 (OCR) ---
+UNITED IMAGING
+
+ 
+
+ 
+
+ 
+
+K242292 Intelligence
+Proposed Device Predicate Device
+Item Remark
+uAl Easy Triage ICH CINA (K221716)
+User population Radiologist Radiologist Same
+Anatomical region of interest Head Head Same
+
+ 
+
+Data acquisition protocol
+
+Non-contrast CT scan of the head
+
+Non-contrast CT scan of the head
+or neck and CT angiogram images
+
+of the brain
+
+Compared to predicate device, the
+proposed device supports non-
+contrast head CT data for ICH
+application while the predicate device
+support non-contrast head CT data for
+ICH application or neck and brain CT
+angiogram data for LVO application.
+The difference between the proposed
+device and the predicate device will
+not impact the safety and
+effectiveness of the subject device.
+
+ 
+
+DICOM information about the
+
+DICOM information about the
+
+ 
+
+interest
+
+ 
+
+ 
+
+highlight, or direct users’ attention
+
+to a specific location in the
+
+ 
+
+highlight, or direct users’ attention
+
+to a specific location in the
+
+ 
+
+View DICOM data : . . . Same
+patient, study and current image patient, study and current image
+. : No; device does not mark, No; device does not mark,
+Segmentation of region of
+Same
+
+ 
+
+ 
+
+Page 7 of 12
+
+ 
+
+--- Page 12 (OCR) ---
+UNITED IMAGING
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+K242292 Intelligence
+Proposed Device Predicate Device
+Item Remark
+uAl Easy Triage ICH CINA (K221716)
+original image original image
+Artificial intelligence algorithm Artificial intelligence algorithm
+Algorith: S
+Sonam with database of images with database of images ame
+Notification /
+Yes Yes Same
+Prioritization
+Presentation of a preview of the Presentation of a preview of the
+study for initial assessment not study for initial assessment not
+meant for diagnostic purposes. meant for diagnostic purposes.
+Preview . . . .
+The device operates in parallel The device operates in parallel Same
+images with the standard of care, which with the standard of care, which
+remains the default option for all remains the default option for all
+cases. cases.
+Alteration of
+No No Same
+original image
+Removal of No No Same
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Page 8 of 12
+
+ 
+
+--- Page 13 (OCR) ---
+K242292
+
+UNITED IMAGING a
+Intelligence
+
+ 
+
+Item
+
+Proposed Device
+
+uAl Easy Triage ICH
+
+Predicate Device
+
+CINA (K221716)
+
+Remark
+
+ 
+
+cases from
+
+worklist queue
+
+ 
+
+Structure
+
+ 
+
+ 
+
+- ICH image processing
+
+applications
+
+- uAl Easy Triage Platform,
+including Alert Icon, Patient
+
+Management, and Image Viewer.
+
+ 
+
+- LVO and ICH image processing
+
+applications
+
+- Cina Platform (worklist and
+
+Image Viewer)
+
+ 
+
+Compared to predicate device, the
+proposed device have same software
+structure and add an alert icon
+module to pop-up the suspected
+positive findings of ICH. The
+difference between the proposed
+device and the predicate device will
+not impact the safety and
+effectiveness of the subject device.
+
+ 
+
+Page 9 of 12
+
+ 
+
+--- Page 14 (OCR) ---
+K242292 UNITED IMAGING Ub
+
+Intelligence
+8. Performance Data
+
+The following performance data were provided in support of the substantial
+equivalence determination.
+
+Biocompatibility
+Not Applicable to the proposed device, because the device is stand-alone software.
+
+Electrical Safety and Electromagnetic Compatibility (EMC)
+Not Applicable to the proposed device, because the device is stand-alone software.
+
+Software Verification and Validation
+
+Software verification and validation testing was provided to demonstrate safety and
+efficacy of the proposed device.
+
+Per FDA Guidance “GUIDANCE FOR THE CONTENT OF PRE-MARKET
+SUBMISSIONS FOR SOFTWARE CONTAINED IN DEVICES”, dated June 14,
+2023, the Level of Concern of the software contained in the proposed device is
+determined to be: Basic Documentation Level.
+
+Those documentations include:
+* Software Description
++ Risk management File
+* Software Requirements Specification (SRS)
+* Software Architecture Diagram
+* Software Development Environment Description
++ Software Verification and Validation
+* Software Version History
+* Cybersecurity Documents
+
+Animal Study
+No animal study was required.
+
+Clinical Studies
+No clinical study was required.
+
+Performance Testing
+
+Algorithm training of uAI Portal software has been conducted on images collected
+from China as training dataset. The dataset ensures a variety of data for different gender,
+
+Page 10 of 12
+
+--- Page 15 (OCR) ---
+UNITED IMAGING =
+K242292 Intelligence
+age, equipment and CT protocol. Algorithm validation has been conducted on data
+from the USA. To validate the uAI Easy Triage ICH software from a clinical
+perspective, the AI-based algorithm contained in the product underwent a retrospective
+study to evaluate the performance of uAI Easy Triage ICH in terms of sensitivity,
+specificity and time to notification to identify/notify patients with suspected
+
+Intracranial Hemorrhage (ICH) processing non-contrast CT images.
+
+Sensitivity and specificity of uAI Easy Triage ICH in processing of non-contrast head
+CT have been analyzed by comparison to a ground truth established by majority read
+of 3 U.S.-board-certified neuroradiologists.
+
+A total of 295 non-contrast CT scans (studies) were obtained from different zip codes
+across four U.S. states. There were approximately equal numbers of positive and
+negative cases (147 of images with ICH and 148 without ICH, respectively) included
+in the analysis.
+
+Regarding the validation of the algorithm, the test data was used independently from
+that used for training, tuning and internal testing dataset.
+
+The validation data demographic information is summarized below.
+
+Table 2 Clinical testing data subgroup information
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Subgroup Breakdown. Sample Size
+Male 49%
+Gender Female 51%
+18-45 17%
+Age Ranges (Years) [45-65 36%
+65+ 47%
+White 63%
+Race Group Black 18%
+others 19%
+GE 17%
+Equipment Philips 21%
+Siemens 62%
+Intraparenchymal Hemorrhage (IPH) 30%
+Intraventricular Hemorrhage (IVH) 17%
+ICH Subtypes Subarachnoid Hemorrhage (SAH) 24%
+Subdural Hemorrhage (SDH) 22%
+Extradural Hemorrhage (EDH) 0.3%
+
+ 
+
+Comparing the uAI Easy Triage ICH software output to the ground truth, the sensitivity
+and specificity of uAI Easy Triage ICH are 92% (95% CI: 86%-96%) and 95% (95%
+Cl: 90%-98%), respectively, exceeding the acceptance criteria of 80%.
+
+Multiple subgroups of interest were considered in the analysis. In fact, the validation
+data was acquired from different regions across the U.S. to account for race/ethnicity
+
+Page 11 of 12
+
+--- Page 16 (OCR) ---
+UNITED IMAGING Ub
+
+K242292 Intelligence
+in the intended U.S. patient population. Detailed subgroup analysis were reported in
+
+the labeling.
+
+The uAI Easy Triage ICH Time to Notification was measured during the study. The
+average Time to Notification in seconds was 41.1 with a 95% confidence interval (CI)
+for the mean equaling (40.1, 42.1).
+
+In conclusion, the performance of the study for the validation of uAI Easy Triage ICH
+demonstrates that the device is effective for triage and notification as the performance
+levels (sensitivity and specificity) meet the predefined acceptance criteria and the time
+to notification of the device is similar to the predicate device’s time.
+
+Other Standards and Guidance
+
+* NEMA PS 3.1 - 3.20 Digital Imaging and Communications in Medicine (DICOM)
+Set
+
+* ISO 14971 Medical devices — Application of risk management to medical devices
+(Third Edition 2019-12).
+
+* IEC 62304 Medical device software - Software life cycle processes (Edition 1.1
+2015-06 CONSOLIDATED VERSION).
+
+* Cybersecurity in Medical Devices: Quality System Considerations and Content of
+Premarket Submissions (Document issued on September 27, 2023).
+
+9. Substantially Equivalent (SE) Conclusion
+
+Compare to the predicate device, the subject device has a subset of the predicate
+application which resulted in a limited indication for use. The subject device has
+similar technological characteristics compare to the predicate device and the difference
+does not raise any new question of safety and effectiveness. Therefore the subject
+device is substantially equivalent to the proposed predicate.
+
+Page 12 of 12
+

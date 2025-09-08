@@ -1,0 +1,1062 @@
+DEPARTMENT OF HEALTH AND HUMAN SERVICES. Form Approved: OMB No. 0910-0120
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Food and Drug Administration Expiration Date: 07/31/2026
+Indications for Use See PRA Statement below.
+Submission Number (if known)
+K240791
+Device Name
+ADAS 3D
+
+ 
+
+ 
+
+Indications for Use (Describe)
+
+ 
+
+ADAS 3D is indicated for use in clinical settings to support the visualization and analysis of MR and
+CT images of the heart for use on individual patients with cardiovascular disease.
+
+ADAS 3D is indicated for patients with myocardial scar produced by ischemic or non-ischemic heart
+disease. ADAS 3D processes MR and CT images. The quality and the resolution of the medical
+images determines the accuracy of the data produced by ADAS 3D.
+
+ADAS 3D is indicated to be used only by qualified medical professionals (cardiologists,
+electrophysiologists, radiologists or trained technicians) for the calculation, quantification and
+visualization of cardiac images and intended to be used for pre-planning and during
+electrophysiology procedures. The data produced by ADAS 3D must not be used as an irrefutable
+basis or a source of medical advice for clinical diagnosis or patient treatment. The data produced by
+ADAS 3D is intended to be used to support qualified medical professionals for clinical decision
+making.
+
+The clinical significance of using ADAS 3D to identify arrhythmia substrates for the treatment of
+cardiac arrhythmias (e.g., ventricular tachycardia) or risk stratification has not been established.
+
+ 
+
+ 
+
+ 
+
+Type of Use (Select one or both, as applicable)
+
+ 
+
+ 
+
+Xl Prescription Use (Part 21 CFR 801 Subpart D) Over-The-Counter Use (21 CFR 801 Subpart C)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+
+ 
+
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+
+Department of Health and Human Services
+Food and Drug Administration
+
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+ 
+
+Adas3D
+Medical
+
+ 
+
+ 
+
+510(k) Summary K240791
+
+ 
+
+1 General Information
+
+This 510(k) Summary is being submitted in accordance with the requirements detailed in 21 CFR 807.92.
+
+DATE:
+
+SUBMITTER:
+
+CONTACT:
+
+DEVICE TRADE NAME:
+
+COMMON NAME:
+
+CLASSIFICATION NAME:
+
+PRODUCT CODE:
+
+REGULATION DESCRIPTION:
+
+PREDICATE DEVICE:
+
+September 9, 2024
+
+Adas3D Medical S.L.
+Rambla Catalunya 53, 4-H
+08036 Barcelona
+Barcelona
+
+Spain
+
+Antoni Riu
++34 93 328 3964
+anto. @adas3d.com
+
+ADAS 3D
+
+Radiological Image Processing System
+
+Radiological Image Processing System (21 CFR 892.2050)
+
+Primary product code: QIH
+Secondary product code: LLZ
+
+Picture archiving and communications system
+
+ADAS 3D (K230803)
+
+ 
+ 
+
+ia 510(k) Summary K240791
+
+Medical
+
+ 
+
+ 
+
+ 
+
+ 
+
+2 Device Description
+
+ADAS 3D is a stand-alone software tool intended to be used for post-processing cardiovascular enhanced
+Magnetic Resonance (MR) images and Computed Tomography Angiography (CTA) images that are
+formatted in the Digital Imaging and Communication in Medicine (DICOM) standard. ADAS 3D software aids
+in the non-invasive calculation, quantification and visualization of cardiac imaging data to support a
+
+comprehensive diagnostic decision-making process for understanding cardiovascular disease.
+
+ADAS 3D exports information to multiple industry standard file formats suitable for documentation and
+information sharing purposes. The 3D data is exported into industry standard file formats supported by
+
+catheter navigation systems.
+ADAS 3D analyses the enhancement of myocardial fibrosis from DICOM MR images to support:
+
+e Visualization of the distribution of the enhancement in a three-dimensional (3D) chamber of the
+heart.
+
+© Quantification of the total volume of the enhancement within the Left Ventricle (LV) and the
+visualization of the enhancement area in multiple layers through the cardiac structure.
+
+e Calculation, quantification and visualization of corridors of intermediate, signal intensity
+enhancement in the LV.
+
+¢@ Quantification and visualization of the total area and distribution of the enhancement within the left
+Atrium (LA).
+
+Additionally, ADAS 3D imports DICOM CTA images to support:
+
+@ Quantification of LV wall thickness.
+e Identification and Visualization of other 3D anatomical structures.
+@ Quantification and visualization of LA wall thickness.
+
+© Quantification and visualization of distances from the LA epicardium to other 3D anatomical
+structures.
+
+Additionally, ADAS 3D imports DICOM Magnetic Resonance Angiography (MRA) images to support:
+
+e Identification and Visualization of other 3D anatomical structures.
+
+Additionally, ADAS 3D uses the following machine-learning-based features:
+
+e@ Standard Initialization of the LV, LA, and Aorta from CTA
+
+Standard Initialization of the Coronary Arteries from CTA
+
+Standard Initialization of the LA from CTA
+
+e Standard Initialization of the LV from 2D LGE-MRI and Automatic Slice Alignment
+
+Standard Initialization of the LV from 3D LGE-MRI
+@ Standard Initialization of the LA from 3D LGE-MRI
+ 
+
+ia 510(k) Summary K240791
+Medical
+
+ 
+
+ 
+
+ 
+
+ 
+
+It is intended to be used by qualified medical professionals (cardiologists, radiologists or trained
+technicians) experienced in examining and evaluating cardiovascular MR and CTA images as part of the
+
+comprehensive diagnostic decision-making process.
+
+3 Indications for Use
+
+ADAS 30D is indicated for use in clinical settings to support the visualization and analysis of MR and CT images
+of the heart for use on individual patients with cardiovascular disease.
+
+ADAS 3D is indicated for patients with myocardial scar produced by ischemic or non-ischemic heart disease.
+ADAS 3D processes MR and CT images. The quality and the resolution of the medical images determines the
+accuracy of the data produced by ADAS 3D.
+
+ADAS 3D is indicated to be used only by qualified medical professionals (cardiologists, electrophysiologists,
+radiologists or trained technicians) for the calculation, quantification and visualization of cardiac images and
+intended to be used for pre-planning and during electrophysiology procedures. The data produced by ADAS
+3D must not be used as an irrefutable basis or a source of medical advice for clinical diagnosis or patient
+treatment. The data produced by ADAS 3D is intended to be used to support qualified medical professionals
+for clinical decision making.
+
+The clinical significance of using ADAS 3D to identify arrhythmia substrates for the treatment of cardiac
+arrhythmias (e.g., ventricular tachycardia) or risk stratification has not been established.
+ 
+
+ia 510(k) Summary K240791
+
+Medical
+
+ 
+
+ 
+
+ 
+
+ 
+
+4 Comparison with Predicate Device
+
+Adas3D Medical SL is modifying its own device [ADAS 3D; K230803] under this traditional 510(k). The purpose
+of this submission is to make three (3) modifications to the device. The following two tables compare the
+Indications for Use, Device Description (including functional and technological characteristics) and the new
+modifications of the subject device to the predicate device.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Subject Device Predicate Device
+plenty ADAS 3D ADAS 3D
+Comparison
+
+(Adas3D Medical S.L.) (K230803)
+Regulatory
+data
+Regulatory Class Il Class Il
+Class
+Classification . . . . . .
+name Radiological Image processing system Radiological Image processing system
+Regulation 21 CFR 892.2050 21 CFR 892.2050
+Number
+Product Code QIH, LLZ LLZ
+510(k) Number K240791 K230803
+Use
+Indications for | ADAS 3D is indicated for use in clinical settings Same
+Use to support the visualization and analysis of MR
+
+and CT images of the heart for use on
+individual patients with cardiovascular
+
+disease.
+
+ADAS 3D is indicated for patients with
+myocardial scar produced by ischemic or non-
+ischemic heart disease. ADAS 3D processes MR
+and CT images. The quality and the resolution
+of the medical images determines the
+
+accuracy of the data produced by ADAS 3D.
+
+ADAS 3D is indicated to be used only by
+qualified medical professionals (cardiologists,
+electrophysiologists, radiologists or trained
+technicians) for the calculation, quantification
+and visualization of cardiac images and
+intended to be used for pre-planning and
+
+during electrophysiology procedures. The data
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+510(k) Summary K240791
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Medica
+Subject Device Predicate Device
+a ADAS 3D ADAS 3D
+(Adas3D Medical S.L.) (K230803)
+
+produced by ADAS 3D must not be used as an
+
+irrefutable basis or a source of medical advice
+
+for clinical diagnosis or patient treatment. The
+
+data produced by ADAS 30D is intended to be
+
+used to support qualified + medical
+
+professionals for clinical decision making.
+
+The clinical significance of using ADAS 3D to
+
+identify arrhythmia substrates for the
+
+treatment of cardiac arrhythmias (e.g.,
+
+ventricular tachycardia) or risk stratification
+
+has not been established.
+Device ADAS 3D is a stand-alone software tool | ADAS 3D isa stand-alone software tool designed
+Description designed for post-processing cardiovascular | for post-processing cardiovascular enhanced
+(Including enhanced Magnetic Resonance (MR) images | Magnetic Resonance (MR) images and
+Functional and | and Computed Tomography Angiography | Computed Tomography Angiography (CTA)
+Technological | (CTA) images that are formatted in the Digital | images that are formatted in the Digital Imaging
+Characteristics) | Imaging and Communication in Medicine | and Communication in Medicine (DICOM)
+
+ 
+
+(DICOM) standard. ADAS 3D software aids in
+the non-invasive calculation, quantification
+and visualization of cardiac imaging data to
+support a comprehensive diagnostic decision-
+making for
+
+process understanding
+
+cardiovascular disease.
+
+ADAS 3D exports information to multiple
+industry standard file formats suitable for
+information
+
+documentation and
+
+The 3D data
+
+sharing
+
+purposes. is exported into
+industry standard file formats supported by
+
+catheter navigation systems.
+
+ADAS 3D analyses the enhancement of
+myocardial fibrosis from DICOM MR images to
+support:
+
+ 
+
+standard. ADAS 3D software aids in the non-
+
+invasive calculation, quantification and
+visualization of cardiac imaging data to support
+a comprehensive diagnostic decision-making
+for cardiovascular
+
+process understanding
+
+disease.
+
+ADAS 3D exports information to multiple
+industry standard file formats suitable for
+documentation and information sharing
+purposes. The 3D data is exported into industry
+standard file formats supported by catheter
+
+navigation systems.
+
+ADAS 3D analyses the enhancement of
+myocardial fibrosis from DICOM MR images to
+
+support:
+
+ 
+
+ 
+ 
+
+ 
+
+510(k) Summary K240791
+
+ 
+
+ 
+
+Adas3D
+Medical
+Subject Device Predicate Device
+plenty ADAS 3D ADAS 3D
+Comparison
+(Adas3D Medical S.L.) (K230803)
+
+ 
+
+ 
+
+ 
+
+¢ Visualization of the distribution of the
+enhancement in a three-dimensional
+(3D) chamber of the heart.
+
+© Quantification of the total volume of
+the enhancement within the Left
+Ventricle (LV) and the visualization of
+the enhancement area in multiple
+
+layers through the cardiac structure.
+
+© Calculation, quantification and
+
+visualization of corridors of
+
+intermediate signal _ intensity
+
+enhancement in the LV.
+
+¢ Quantification and visualization of
+the total area and distribution of the
+enhancement within the left Atrium
+(LA).
+
+Additionally, ADAS 3D imports DICOM CTA
+
+images to support:
+®@ Quantification of LV wall thickness.
+
+e Identification and Visualization of
+
+other 3D anatomical structures.
+
+@ Quantification and visualization of LA
+
+wall thickness.
+
+© Quantification and visualization of
+distances from the LA epicardium to
+
+other 3D anatomical structures.
+
+Additionally, ADAS 3D DICOM
+
+(MRA)
+
+imports
+Magnetic Resonance Angiography
+
+images to support:
+
+e Identification and Visualization of
+
+other 3D anatomical structures.
+
+ 
+
+@ Visualization of the distribution of the
+enhancement in a three-dimensional
+
+(3D) chamber of the heart.
+
+© Quantification of the total volume of
+the enhancement within the Left
+Ventricle (LV) and the visualization of
+the enhancement area in multiple
+
+layers through the cardiac structure.
+
+© Calculation, quantification and
+
+visualization of corridors — of
+
+intermediate signal _ intensity
+
+enhancement in the LV.
+
+= =Quantification and visualization of the
+total area and distribution of the
+enhancement within the left Atrium
+
+(LA).
+
+Additionally, ADAS 3D imports DICOM CTA
+
+images to support:
+© Quantification of LV wall thickness.
+
+e@ Identification and Visualization of
+
+other 3D anatomical structures.
+
+© Quantification and visualization of LA
+
+wall thickness.
+
+© Quantification and visualization of
+distances from the LA epicardium to
+
+other 3D anatomical structures.
+
+Additionally, ADAS 3D imports DICOM Magnetic
+
+Resonance Angiography (MRA) images to
+
+support:
+
+e@ Identification and Visualization of
+
+other 3D anatomical structures.
+
+It is designed to be used by qualified medical
+
+professionals (cardiologists, radiologists or
+
+ 
+
+ 
+ 
+
+ 
+
+510(k) Summary K240791
+
+ 
+
+ 
+
+Adas3D
+Medical
+Subject Device Predicate Device
+plenty ADAS 3D ADAS 3D
+Comparison
+(Adas3D Medical S.L.) (K230803)
+
+ 
+
+ 
+
+ 
+
+Additionally, ADAS 3D uses the following
+
+machine-learning-based features:
+
+© Standard Initialization of the LV, LA,
+and Aorta from CTA
+
+e@ Standard Initialization of the
+
+Coronary Arteries from CTA
+
+@ Standard Initialization of the LA from
+
+CTA
+
+@ Standard Initialization of the LV from
+2D LGE-MRI and Automatic Slice
+
+Alignment
+
+@ Standard Initialization of the LV from
+
+3D LGE-MRI
+
+@ Standard Initialization of the LA from
+
+3D LGE-MRI
+
+It is designed to be used by qualified medical
+professionals (cardiologists, radiologists or
+trained technicians) experienced in examining
+and evaluating cardiovascular MR and CTA
+images as of the
+
+part comprehensive
+
+diagnostic decision-making process.
+
+ 
+
+trained technicians) experienced in examining
+and evaluating cardiovascular MR and CTA
+images as part of the comprehensive diagnostic
+
+decision-making process.
+
+ 
+
+ 
+ 
+
+ia 510(k) Summary K240791
+
+Medical
+
+ 
+
+ 
+
+5 Changes from the predicate device
+
+ 
+
+Predicate Device
+Subject Device
+
+ 
+
+ 
+
+ADAS 3D
+Feature ADAS 3D. Comparison
+(Adas3D Medical S.L.)
+(Adas3D Medical S.L.)
+(K230803)
+Supported Linux RHEL 8, Windows 11 and | Windows 10 Added support for
+Operating Windows 10 Linux RHEL 8 and
+Systems Windows 11
+Initial Semi-automatic using Machine | Semi-automatic using Machine | Added three new
+Identification | Learning technique: Learning technique: semi-automatic
+of structures e@ Left Chambers from CTA e@ Left Chambers from CTA segmentations using
+
+Machine Learning
+
+e Left Ventricle from 2D DE-MRI | @ Left Ventricle from 2D DE-MRI technique.
+
+@ = Coronaries from CTA @  Coronaries from CTA
+
+e Left Ventricle from 3D DE-MRI_ | Manual: Improved the already
+
+© Left Atrium from 3D DE-MRI | @ Left Ventricle from 3D DE-MRI_ | existing three semi-
+
+automatic
+e@ Left Atrium Wall Thickness | @ Left Atrium from 3D DE-MRI
+
+segmentations.
+from CTA
+
+@ Left Atrium Wall Thickness from
+CTA
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+6 Summary of Non-Clinical Testing
+
+The subject device has undergone design reviews, risk analyses, and verification and validation testing, to
+ensure its safety and effectiveness. The subject device has been assessed using well-established methods to
+validate that is substantial equivalent to the predicate device.
+
+6.1 Machine Learning features
+
+The machine-learning features were trained and tested using DICOM data from several clinical sites from
+multiple countries. The DICOM data was acquired using a variety of CT/MRI scanners and scanner protocols
+from different manufacturers.
+
+This DICOM data was anonymized by the hospitals before being sent to us, in compliance with the European
+General Data Protection Regulation (GDPR). This anonymization process prevented including personal
+patient information such as gender, age, or ethnicity.
+
+This DICOM dataset includes a diverse range of atrial and ventricular conditions. The Left Ventricle (LV)
+includes ischemic and non-ischemic cardiomyopathies such as left ventricular hypertrophy and dilated
+cardiomyopathy, as well as other cardiac conditions like premature ventricular contractions. The Left Atrium
+(LA), includes a diverse range of conditions and presentations, from relatively healthy atrial tissue to various
+forms of atrial fibrillation (paroxysmal, persistent, long-standing persistent, and recurrent cases), other atrial
+ 
+
+ia 510(k) Summary K240791
+
+Medical
+
+ 
+
+ 
+
+ 
+
+ 
+
+pathologies such as atrial flutter and atrial tachycardia, and structural heart diseases impacting left atrial
+function.
+
+6.1.1 Training
+
+For each machine learning feature, the training dataset has been obtained from the initial DICOM dataset,
+according to the image modality and the target structure. All DICOM images are from European hospitals.
+The details of the training dataset for each machine learning feature are summarized in the table below.
+
+ 
+
+ 
+
+Machine learning feature Number of Scanner manufacturers
+DICOM images
+Standard Initialization of 111 GE (62%), Toshiba (35%), Philips (3%)
+
+the Left Chambers and
+Aorta from CTA
+
+ 
+
+ 
+
+ 
+
+Standard Initialization of 231 Toshiba (48%), Siemens (37%), GE (14%) and Philips
+the Coronaries from CTA (1%).
+Standard Initialization the 136 GE (65%), Toshiba (32%) and Philips (3%)
+LA from CTA
+Standard Initialization LV 126 Siemens (91%), GE (6%), Phillips (3%)
+
+from 2D DE-MRI
+
+ 
+
+Standard Initialization of 110 Siemens (99%), GE (1%)
+the LV from 3D DE-MRI
+
+ 
+
+Standard Initialization of 82 GE (51%), Philips (49%)
+the LA from 3D DE-MRI
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+The DICOM dataset has been annotated identifying the target structures. The annotation of the data was
+generated initially by the hospitals’ clinical teams and revised by Adas3D Medical’s Clinical Team. The Adas3D
+Medical’s Clinical Team consists of highly experienced individuals with knowledge of cardiac anatomy,
+interpretation of MRI and CT volumes, and the use of ADAS 3D.
+
+6.1.2 Performance testing
+
+The performance testing for each machine learning feature was performed using a subset of the initial DICOM
+dataset, that was selected according to the target structure, the image modality, the country, and the scan
+manufacturer. Each testing dataset has been selected from hospitals not used in any stage of algorithm
+development, including training. The details of each testing dataset are summarized in the table below.
+
+ 
+
+ 
+
+Machine learning Number | Data sources Scanner manufacturers
+feature of cases
+Standard Initialization 100 | US (62%) and | US: SIEMENS (61%), Toshiba (32%) and GE (7%)
+of the Left Chambers
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+Adas3D
+Medical
+
+ 
+
+510(k) Summary K240791
+
+ 
+
+ 
+
+ 
+
+and Aorta from CTA
+
+OUS (38%)
+
+OUS: SIEMENS (47%), Toshiba (26%), Canon (13%), GE
+(11%) and Philips (3%)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+MRI
+
+ 
+
+ 
+
+ 
+
+ 
+
+Standard Initialization | 100 | US (64%) and | US: SIEMENS (64%), Toshiba (26%), GE (8%) and
+of the Coronaries from OUS (36%) | Phillips (2)
+CTA OUS: SIEMENS (47%), Toshiba (28%), Canon (14%), GE
+(8%) and Philips (3%)
+Standard Initialization | 100 | US (65%) and | US: SIEMENS (58%), Toshiba (34%) and GE (8%)
+9
+the LA from CTA OUS (35%) | ous; SIEMENS (53%), Toshiba (30%), Canon (11%), GE
+(3%) and Philips (3%)
+Automatic Slice 70 | US (52%) and | US: SIEMENS (72%), Philips (25%) and GE (3%)
+7 9
+Alignment for LV from US (48%) | ous; philips (58%), SIEMENS (18%) and GE (24%)
+2D DE-MRI
+Standard Initialization | 100 | US (52%) and | US: SIEMENS (71%), Philips (23%) and GE (6%)
+- 9
+of the “arom 2D DE OUS (48%) | ous; philips (50%), SIEMENS (19%) and GE (31%)
+Standard Initialization | 100 | US (69%) and | US: SIEMENS (62%), Philips (32%) and GE (6%)
+- 5
+of the ‘irom 3D DE OUS (31%) | Gus: SIEMENS (49%), Philips (45%), Toshiba (3%) and
+GE (3%)
+Standard Initialization 95 | US (60%) and | US: Philips (50%), SIEMENS (45%) and GE (5%)
+of the LA from 3D DE- OUS (35%)
+
+OUS: SIEMENS (71%), Philips (26%) and GE (3%)
+
+ 
+
+Ground truth annotations were generated using the manual tools of the FDA-cleared ADAS 3D software by
+two clinical experts independent of the clinical experts who established the ground truth of the training
+
+dataset.
+
+The performance metrics and the acceptance criteria for each target structure are based on a review of state-
+
+of-the-art algorithms. Performance testing follows a non-inferiority approach, with a predefined non-
+
+inferiority margin. The primary goal of ADAS 3D is to provide a preliminary initialization of the target
+
+structure, which would then be subject to further refinement by the user. This non-inferiority approach
+
+confirms that the performance aligns with the average performance benchmarks reported in the field.
+
+The following metrics have been used to define the acceptance criteria:
+
+@ MSD: Mean Surface Distance.
+
+e@ HD: Hausdorff Distance.
+
+e MDS: Mean Difference in Shifts computes the slice alignment error between two 2D MRI images. It
+is computed as the mean of the shifts in x and y dimensions for all slices.
+
+ 
+ 
+
+ 
+
+ia 510(k) Summary K240791
+
+Medical
+
+ 
+
+ 
+
+ 
+
+APD: The Average Perpendicular Distance measures the average distance (in mm) of all
+corresponding contour points between two contours. A low APD value means that the two contours
+match closely.
+
+DC: Dice Metric.
+
+Color agreement (CA), Color disagreement by one color (CD1), and Color disagreement by two colors
+or more (CD2): These three metrics are defined in the paper: Valles-Colomer, A., Rubio Forcada, B.,
+Soto-lglesias, D. et al. Reproducibility analysis of the computerized tomography angiography—derived
+
+left atrial
+
+wall
+
+thickness
+
+maps. J
+
+Interv Card Electrophysiol
+
+https://doi.org/10.1007/s10840-023-01472-5
+
+66, 1045-1055 (2023).
+
+The table below summarizes the performance results. The metric values used for evaluating the performance
+are highlighted in bold.
+
+Machine Learning Target Metric Mean Lower Higher Threshold Meets
+feature structure cigs cl95 acceptance
+criteria
+Standard lv pc 0.93 0.92 0.94 0.84 yes
+Initialization of 1, MSD 1.29 1.03 156 2.23 yes
+the Left
+Chambersand LA pc 0.94 094 0.95 0.84 yes
+Aorta from CTA a MSD 106 0.95 147 2.23 yes
+AO pc 0.94 094 0.95 0.84 yes
+AO MSD 0.93 051 134 2.23 yes
+LAA pc 0.84 0.83 0.85 0.76 yes
+LAA MSD 101 091 44 2.23 yes
+Standard LCA pc 0.82 080 084 0.78 yes
+Initialization of cy HD 7.71 6.05 9.37 10.86 yes
+the Coronary
+Arteries from RCA DC 0.82 080 0.83 0.78 yes
+CTA RCA HD 661 5.24 7.97 10.86 yes
+Standard LAENDO MSD 037° 032 «0.41 ~—0.32 no
+Initialization of
+the tA trom cra LAEPI MSD 0.56 051 0.61 0.76 yes
+lA CA 56.09 53.56 58.63 43.90 yes
+lA cp1 38.32 36.37 40.28 49.00 yes
+lA cp2 558 4.73 644 12.10 yes
+Automatic Slice
+Alignment for LV LV MDS 239 2.22 255 6.23 yes
+from 2D LGE-MRI
+Standard LVENDO DC 0.90 090 0.91 0.85 yes
+Initialization of veNDO APD 201 189 213 2.10 no
+LVENDO.—-HD 9.72 9.04 10.40 13.25 yes
+ 
+
+510(k) Summary K240791
+
+ 
+
+ 
+
+ 
+
+ 
+
+Adas3D
+Medical
+the LVfrom2D Lv EPI DC 093 093 0.94 0.89 yes
+LGE-MRI
+LV EPI APD 2.06 1.95 217 1.93 no
+LV EPI HD 981 911 1051 13.25 yes
+Standard LVENDO DC 0.88 087 088 0.79 yes
+Initialization of
+thetvfrom3p  VENDO HD 2.40 2.15 264 27.32 yes
+LGE-MRI LV EPI pc 0.91 090 092 0.78 yes
+LV EPI HD 9.57 881 10.33 27.32 yes
+Standard LA DC 0.90 089 0.91 0.86 yes
+Initialization of
+thetAfrom3p. A MsD 162 145 178 1.39 no
+LGE-MRI LA HD 12.36 11.17 13.55 16.50 yes
+
+Four tests did not meet the non-inferiority criteria. In these four cases, the discrepancies are sub-pixel,
+indicating that our algorithm's performance is acceptable given the minimum pixel spacing of the input
+images.
+
+A subgroup analysis found that the algorithms’ performance is consistent across US and OUS groups.
+6.1.3 Performance testing conclusion
+
+The results of the performance testing confirm that the subject device met all acceptance criteria and
+demonstrate that the performance of the machine learning features is in line with the performance of the
+predicate device.
+
+7 Conclusion
+
+The comparison of the subject device with the predicate device show that they have substantially equivalent
+indications for use, functional and technological characteristics.
+
+Adas3D Medical believes the subject device is substantially equivalent to the predicate device and is as safe
+and effective as the predicate device.
+

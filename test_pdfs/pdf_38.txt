@@ -1,0 +1,854 @@
+ 
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES. Form Approved: OMB No. 0910-0120
+
+ 
+
+ 
+
+ 
+
+Food and Drug Administration Expiration Date: 07/31/2026
+Indications for Use See PRA Statement below.
+510(k) Number (if known)
+K250005
+Device Name
+Clever One
+
+ 
+
+Indications for Use (Describe)
+
+Clever One is dental imaging software that is intended to provide tools for supporting diagnosis and treatment.
+
+These tools enable end users to view and interpret a series of DICOM compliant medical images and are intended for use
+by trained medical professionals. Clever One allows users to load, view, and save DICOM images from CT, panoramic,
+cephalometric, intraoral, and other imaging equipment. It also provides functionalities such as 2D viewing, 2D analysis,
+3D visualization, 3D analysis.
+
+ 
+
+Type of Use (Select one or both, as applicable)
+
+ 
+
+ 
+
+Xl Prescription Use (Part 21 CFR 801 Subpart D) (J Over-The-Counter Use (21 CFR 801 Subpart C)
+
+ 
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+
+Department of Health and Human Services
+Food and Drug Administration
+
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+
+FORM FDA 3881 (8/23) Page 1 of 1 PSC Publishing Services (301) 443-6740 EF
+K250005
+
+510(k) Summary
+
+This summary of 510(k) information is being submitted in accordance with requirements of 21
+CFR Part 807.92.
+
+1. Date: May 23, 2025
+2. Applicant / Submitter
+
+Ewoosoft Co., Ltd.
+
+801-ho, Vatechnetworks Bldg., 13, Samsung 1-ro 2-gil,
+Hwaseong-si, Gyeonggido , Republic of Korea
+
+Tel: +82 31 8015 6172 Fax: +82 31 8015 6196
+Contact person: Hyeonguk Kang
+
+Email: paul.kang@ewoosoft.com
+
+3. Subject Device:
+
+Trade/Device Name: Clever One
+
+Regulation Number: 21 CFR 892.2050
+
+Regulation Name: Medical Image Management and Processing System
+Regulatory Class: Class II
+
+Product Code: QIH
+
+4. Predicate Device:
+
+Manufacturer: Ewoosoft Co., Ltd.
+
+Trade/Device Name: EzDent-i
+
+510k Number: K241114
+
+Regulation Number: 21 CFR 892.2050
+
+Regulation Name: Medical Image Management and Processing System
+Regulatory Class: Class II
+
+Product Code: LLZ
+
+Manufacturer: Ewoosoft Co., Ltd.
+
+Trade/Device Name: Ez3D-i
+
+510k Number: K231757
+
+Regulation Number: 21 CFR 892.2050
+
+Regulation Name: Automated Radiological Image Processing Software
+Regulatory Class: Class II
+
+Product Code: QIH
+
+Page 1 of 8
+Device Description:
+
+Clever One is a dental imaging software designed to acquire, process, view, edit, and
+analyze medical images for supporting diagnostic and preoperative planning purposes. It
+supports standard DICOM formats for 2D and 3D image files and enables advanced imaging
+functionalities for enhanced diagnostic accuracy.
+
+The software provides a range of features, including:
+
+- 2D Imaging: Loading, editing, and viewing 2D dental images in standard formats (e.g.,
+DICOM, JPG, BMP).
+
+- 3D Imaging: Visualization and reconstruction of 3D CT images, including multi-planar views
+(MPR) and volume rendering.
+
+- Preoperative Planning: Implant position simulation, canal drawing, and bone density
+analysis to support treatment planning.
+
+- Data Interoperability: Facilitates data transfer and storage using DICOM-compliant
+workflows, ensuring compatibility with third-party systems and imaging devices.
+
+The software interfaces with dental imaging equipment, such as CT, panoramic,
+cephalometric, and intraoral X-ray systems, as well as intraoral cameras, for image
+acquisition. It is designed for use in network environments, allowing users to upload and
+download clinical diagnostic images and patient data for enhanced collaboration and
+efficient patient management.
+
+Indication for use:
+
+Clever One is dental imaging software that is intended to provide tools for supporting
+diagnosis and treatment.
+
+These tools enable end users to view and interpret a series of DICOM compliant medical
+images and are intended for use by trained medical professionals. Clever One allows users
+to load, view, and save DICOM images from CT, panoramic, cephalometric, intraoral, and
+other imaging equipment. It also provides functionalities such as 2D viewing, 2D analysis, 3D
+visualization, 3D analysis.
+
+Intended Patient Population
+
+Our product has no clinical diagnostic or treatment functions and its main purpose is
+visualizing data. All contents shown in the software are visualized information of numerical
+values acquired from acquisition equipment and visualization results only assist end-users in
+patient counseling, diagnosis, and treatment planning. Users can adjust the visualization
+settings according to content viewed by the user. All diagnosis and treatment decisions
+made are solely up to the user. The 3D tooth segmentation function is limited to adult
+subjects with permanent teeth.
+
+Page 2 of 8
+9. Substantial Equivalence:
+
+ 
+
+Subject Device
+
+Equivalent Device
+
+Equivalent Device
+
+ 
+
+ 
+
+ 
+
+Device name Clever One v1.0 EzDent-i v3.4 Ez3D-i v5.5
+510K number - K241114 K231757
+Manufacturer Ewoosoft Ewoosoft Ewoosoft
+
+ 
+
+Indications for
+use
+
+Clever One is dental
+imaging software that
+is intended to provide
+tools for supporting
+diagnosis and
+treatment.
+
+These tools enable
+end users to view and
+interpret a series of
+DICOM compliant
+medical images and
+are intended for use
+by trained medical
+professionals. Clever
+One allows users to
+load, view, and save
+DICOM images from
+CT, panoramic,
+cephalometric,
+intraoral, and other
+imaging equipment. It
+also provides
+functionalities such as
+2D viewing, 2D
+analysis, 3D
+visualization, 3D
+analysis.
+
+EzDent-i is dental
+imaging software that
+is intended to provide
+diagnostic tools for
+maxillofacial
+radiographic imaging.
+These tools are
+available to view and
+interpret a series of
+DICOM compliant
+dental radiology
+images and are meant
+to be used by trained
+medical professionals
+such as radiologist
+and dentist.
+
+EzDent-i is intended
+for use as software to
+acquire, view and save
+2D image files, load
+DICOM project files
+from panorama,
+cephalometric, and
+intra-oral imaging
+equipment.
+
+Ez3D-i is dental
+imaging software that
+is intended to provide
+diagnostic tools for
+maxillofacial
+radiographic imaging.
+These tools are
+available to view and
+interpret a series of
+DICOM compliant
+dental radiology
+images and are meant
+to be used by trained
+medical professionals
+such as radiologist
+and dentist. Ez3D-i is
+intended for use as
+software to load, view
+and save DICOM
+images from CT,
+panorama,
+cephalometric and
+intraoral imaging
+equipment and to
+provide 3D
+visualization, 2D
+analysis, in various
+MPR (Multi-Planar
+Reconstruction)
+functions.
+
+ 
+
+Technology/Princ
+iple of Operation
+
+ 
+
+ 
+
+Clever One is a dental
+imaging software
+designed to acquire,
+process, view, edit,
+and analyze medical
+images for supporting
+diagnostic and
+preoperative planning
+
+ 
+
+EzDent-i is a device
+that provides various
+features to acquire,
+transfer, edit, display,
+store, and perform
+digital processing of
+medical images.
+EzDent-i is a patient &
+
+ 
+
+Ez3D-i v5.5 is 3D
+viewing software for
+dental CT images in
+DICOM format with a
+host of useful
+functions including
+MPR, 2-dimensional
+analysis and 3-
+
+ 
+
+Page 3 of 8
+
+ 
+ 
+
+ 
+
+ 
+
+purposes. It supports
+standard DICOM
+formats for 2D and 3D
+image files and
+enables advanced
+imaging functionalities
+for enhanced
+diagnostic accuracy.
+
+The software provides
+a range of features,
+including:
+
+- 2D Imaging: Loading,
+editing, and viewing
+2D dental images in
+standard formats
+(e.g., DICOM, JPG,
+BMP).
+
+- 3D Imaging:
+Visualization and
+reconstruction of 3D
+CT images, including
+multi-planar views
+(MPR) and volume
+rendering.
+
+- Preoperative
+Planning: Implant
+position simulation,
+canal drawing, and
+bone density analysis
+to support treatment
+planning.
+
+- Data
+Interoperability:
+Facilitates data
+transfer and storage
+using DICOM-
+compliant workflows,
+ensuring compatibility
+with third-party
+systems and imaging
+devices.
+
+ 
+
+image management
+software specifically
+for digital dental
+radiography. It also
+provides server/client
+model so that the
+users upload and
+download clinical
+diagnostic images and
+patient information
+from any workstations
+in the network
+environment.
+
+EzDent-i supports
+general image formats
+such as JPG and BMP
+for 2D image viewing
+as well as DICOM
+format.
+
+EzDent-i supports the
+acquisition of dental
+images by interfacing
+with OpenCvV library
+to import the intra-
+oral camera images. It
+also supports the
+acquisition of
+CT/Panoramic/Cephal
+o/Intra-Oral Sensor
+images by interfacing
+with X-ray capture
+software.
+
+ 
+
+dimensional image
+reformation. It
+provides advanced
+simulation functions
+such as Implant
+Simulation, Drawing
+Canal, and Implant
+Environ Bone Density,
+etc. for the benefit of
+effective doctor and
+patient
+communication and
+precise treatment
+planning.
+
+ 
+
+Page 4 of 8
+
+ 
+ 
+
+The software
+interfaces with dental
+imaging equipment,
+such as CT,
+panoramic,
+cephalometric, and
+intraoral X-ray
+systems, as well as
+intraoral cameras, for
+image acquisition. It is
+designed for use in
+network
+environments,
+allowing users to
+upload and download
+clinical diagnostic
+images and patient
+data for enhanced
+collaboration and
+efficient patient
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+management.
+
+Platform IBM-compatible PC or | IBM-compatible PC or | IBM-compatible PC or
+PC network PC network PC network
+
+Operating Microsoft Window 10 | Microsoft Windows Microsoft Window 10
+
+System or higher 10,11 or higher
+
+User Interface Mouse, Keyboard Mouse, Keyboard Mouse, Keyboard
+
+Image Input Images can be Images can be Images can be
+
+Sources scanned, loaded from | scanned, loaded from | scanned, loaded from
+digital cameras or digital cameras or digital cameras or
+card readers, or card readers, or card readers, or
+imported from a imported from a imported from a
+radiographic imaging | radiographicimaging | radiographic imaging
+device device device
+
+32 bit / 64 bit 64 bit 32 / 64 bit 64 bit
+
+Image format DICOM DICOM DICOM
+
+Patient Database | SQL SQL SQL
+
+Compatibility
+
+Includes Image Length, Multi Length, | Linear distance, angle | Length, Multi Length,
+
+Measurement Angle, Multi Angle, Angle, Multi Angle,
+
+tools Circle, ROI/Area, Circle, ROI/Area,
+
+Volume, Profile
+
+Volume, Profile
+
+ 
+
+ 
+
+Image viewing
+
+ 
+
+Full, side by side,
+gallery, thumbnail
+
+ 
+
+Full, side by side,
+gallery, thumbnail
+
+ 
+
+Full, side by side,
+gallery, thumbnail
+
+ 
+
+Page 5 of 8
+
+ 
+ 
+
+Image
+manipulation
+
+Grayscale, invert,
+emboss, brightness,
+contrast, gamma,
+sharpen, median,
+despeckle, hue,
+saturation, equalize,
+flip, mirror, masking,
+rotate, magnify,
+annotation,
+cephalometric tracing,
+ceph growth,
+projections, implant
+simulations, film view,
+zooming, whitening,
+nerve canal tracing,
+memo
+
+Brightness, contrast,
+sharpness, inverse,
+film view, rotate,
+zooming, whitening,
+nerve canal tracing,
+memo
+
+Grayscale, invert,
+emboss, brightness,
+contrast, gamma,
+sharpen, median,
+despeckle, hue,
+saturation, equalize,
+flip, mirror, masking,
+rotate, magnify,
+annotation,
+cephalometric tracing,
+ceph growth,
+projections, implant
+simulations
+
+ 
+
+Implant module
+
+Generic implant
+libraries
+
+Generic implant
+libraries
+
+Generic implant
+libraries
+
+ 
+
+3D imaging
+capability
+
+Clever One can view,
+transfer and process
+3D radiographs.
+Furthermore, it
+supports Smart Click,
+Smart Clipping,
+Implant Simulation
+and Canal Draw.
+
+Includes interface to
+3D imaging software,
+Ez3D-i. EzDent-i
+imaging software does
+not view, transfer or
+process 3D
+radiographs.
+
+Ez3D-I can view,
+transfer and process
+3D radiographs.
+Furthermore, it
+supports Smart Click,
+Smart Clipping,
+Implant Simulation
+and Canal Draw.
+
+ 
+
+Image annotation
+
+Test, paint, ellipse,
+pointer, select, draw,
+magnify, line,
+rectangle, polygon,
+ruler, protractor,
+smile library, smudge,
+brush, redeye
+reduction, select
+region, copy / paste
+
+Text, paint, ellipse,
+pointer, select, draw,
+magnify, line,
+rectangle, polygon,
+ruler, protractor,
+smile library, smudge,
+brush, redeye
+reduction, select
+region, copy / paste
+
+Test, paint, ellipse,
+pointer, select, draw,
+magnify, line,
+rectangle, polygon,
+ruler, protractor,
+smile library, smudge,
+brush, redeye
+reduction, select
+region, copy / paste
+
+ 
+
+ 
+
+ 
+
+Distribution of USB, EzUpdater EzUpdater USB, EzUpdater
+Installation File
+
+for Upgrade
+
+Customer Manufacturer Manufacturer Manufacturer
+Support website, phone website, phone website, phone
+
+ 
+
+number, and e-mail
+information provided.
+
+ 
+
+number, and e-mail
+information provided.
+
+ 
+
+number, and e-mail
+information provided.
+
+ 
+
+Page 6 of 8
+
+ 
+ 
+
+Dose Information
+
+File information, Dose
+
+File information, Dose
+
+File information, Dose
+
+ 
+
+Display indicator (if indicator (if indicator (if
+applicable) applicable) applicable)
+
+Report Create, open, view, Create, open, view, Create, open, view,
+
+Management edit, delete edit, delete edit, delete
+
+ 
+
+Pre-integrated
+PMS
+
+Clever Dent, Weclever
+
+Clever Dent, Weclever
+
+Clever Dent, Weclever
+
+ 
+
+Send E-mail
+
+ 
+
+ 
+
+Send e-mail,
+attachment, compress
+to zip file, signature,
+convert report to,
+converted image to,
+patient information
+anonymization
+
+ 
+
+Send e-mail,
+attachment, compress
+to zip file, signature,
+convert report to,
+converted image to,
+patient information
+anonymization
+
+ 
+
+Send e-mail,
+attachment, compress
+to zip file, signature,
+convert report to,
+converted image to,
+patient information
+anonymization
+
+ 
+
+The subject device, Clever One, is a software product designed to combine the functionality of
+two predicate devices, EzDent-i and Ez3D-i. EzDent-i provides 2D imaging capabilities, while
+Ez3D-i offers 3D imaging capabilities. Clever One integrates the technologies of these two
+devices to support both 2D and 3D imaging, resulting in a unified platform for medical imaging.
+
+1. Technological Comparison:
+Clever One adopts the same technological principles as EzDent-i and Ez3D-i, utilizing
+
+DICOM image formats and digital image input sources. The combined technology
+
+enables Clever One to provide both 2D and 3D imaging functionalities, which align
+
+ 
+
+directly with the features offered by the predicate devices. All major functionalities—
+including bone density analysis and implant simulation—are identical to those of the
+predicate devices EzDent-I and Ez3D-I.
+
+Principle of Operation:
+
+The operation of Clever One is substantially equivalent to EzDent-i and Ez3D-i. Clever
+One inherits the 2D imaging capabilities from EzDent-i and the 3D imaging capabilities
+from Ez3D-i without introducing new principles of operation.
+
+Software and Platform:
+
+All devices, including Clever One, operate on a Windows-based platform using Windows
+10 as the operating system. The integration of functionalities does not alter the
+fundamental platform compatibility.
+
+User Interface and Functional Enhancements:
+
+The user interface of Clever One integrates and enhances the graphical interfaces of
+EzDent-i and Ez3D-i to support 2D and 3D imaging in a seamless manner. This
+enhancement does not introduce new risks or functionalities beyond those already
+established by the predicates.
+
+Page 7 of 8
+10.
+
+11.
+
+12.
+
+5. Safety and Effectiveness:
+The combined functionalities of Clever One do not raise new questions regarding safety
+or effectiveness. The system builds upon validated features of EzDent-i and Ez3D-i,
+ensuring that the overall safety profile remains consistent with the predicates.
+
+Conclusion:
+
+Clever One is substantially equivalent to the predicate devices EzDent-i (K241114) and Ez3D-
+i (K231757) in terms of technology, principle of operation, platform, and functional
+capabilities. The integration of 2D and 3D imaging does not introduce new technological
+characteristics that would require additional validation beyond that conducted for the
+predicate devices.
+
+Technological Characteristics:
+
+Clever One is a software device that does not contact the patient, nor does it control any
+life sustaining devices. Results produced by the software’s diagnostic, treatment planning
+and simulation tools are dependent on the interpretation of trained and licensed
+radiologists, clinicians and referring physicians as an adjunctive to standard radiology
+practices for diagnosis.
+
+Performance Data:
+
+SW verification/validation and the measurement accuracy test were conducted to establish
+the performance, functionality and reliability characteristics of the subject devices. The
+device passed all of the tests based on pre-determined Pass/Fail criteria.
+
+The subject device incorporates a new platform that features network and cloud
+connectivity. In accordance with the FDA's guidance document, "Cybersecurity in Medical
+Devices: Quality System Considerations and Content of Premarket Submissions,"
+comprehensive cybersecurity risk management and verification and validation activities
+were conducted. The results of these cybersecurity assessments, the supporting
+documentation, and the cybersecurity management plan are included in this premarket
+submission.
+
+Conclusion:
+
+The subject device is substantially equivalent in the areas of technical characteristics,
+general function, application, and indications for use. The new device does not introduce a
+fundamentally new scientific technology, and the device has been validated through system
+level test. Therefore, we conclude that the subject device described in this submission is
+substantially equivalent to the predicate device.
+
+Page 8 of 8
+

@@ -1,0 +1,648 @@
+
+--- Page 4 (OCR) ---
+DEPARTMENT OF HEALTH AND HUMAN SERVICES. Form Approved: OMB No. 0910-0120
+Food and Drug Administration Expiration Date: 07/31/2026
+
+Indications for Use See PRA Statement below.
+
+ 
+
+ 
+
+Submission Number (if known)
+
+ 
+
+K240036
+
+Device Name
+
+PIUR tUS Infinity
+
+ 
+
+ 
+
+ 
+
+ 
+
+Indications for Use (Describe)
+
+PIUR tUS Infinity is a computer-aided detection device intended to assist and support medical
+professionals in the diagnostic workflow of thyroid and thyroid nodules acquired from FDA-cleared
+ultrasound systems, including image documentation, analysis, and reporting. The device supports
+the physician with additional information during image review, including quantification and
+visualization of sonographic characteristics of thyroid nodules.
+
+PIUR tUS Infinity may be used on any adult patient aged 22 and older, independent of gender,
+linguistic and cultural background, or health status, unless any of the contraindications apply.
+
+The PIUR tUS Infinity acts as part of the diagnostic chain and must not be used as a sole source for
+treatment decisions, but as an add-on solution to regular 2D ultrasound imaging.
+
+PIUR tUS Infinity device is not intended for body contact (including skin, mucosal membrane,
+breached or compromised surfaces, blood path indirect, tissues, bones, dentin, or circulation blood).
+Type of Use (Select one or both, as applicable)
+
+[X| Prescription Use (Part 21 CFR 801 Subpart D) Over-The-Counter Use (21 CFR 801 Subpart C)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+
+Department of Health and Human Services
+
+Food and Drug Administration
+
+Office of Chief Information Officer
+
+Paperwork Reduction Act (PRA) Staff
+
+PRAStaff@fda.hhs.gov
+
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+
+--- Page 5 (OCR) ---
+510(K) SUMMARY
+510(k) Number: K240036
+Date Prepared: September 20, 2024
+
+Table 1: Submitter Information
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Manufacturer: Manufacturer’s Contact Person:
+
+PIUR Imaging GmbH Jennifer Willner
+
+Hamburgerstr. 11/Top 7 President JW Regulatory Consulting LLC
+
+1050 Vienna Austria Phone: +1 (612) 240-8904
+
+US FDA ERN: Pending Email: Jennifer@JWRegulatoryConsulting.com
+Table 2: Device Information
+
+Trade Name PIUR tUS Infinity
+
+Common Name PIUR tUS Infinity
+
+Classification Name Picture Archiving and Communications System
+
+Regulation 21 CFR 892.2050
+
+Product Code QIH
+
+Regulatory Classification: | Class II
+
+Device Panel: Radiology (OHT8)
+
+ 
+
+ 
+
+ 
+
+ 
+
+The PIUR tUS Infinity is substantially equivalent to the previously cleared predicate AmCAD-
+UT (Table 3). Neither of these have been subject to a design-related recall.
+
+Table 3: Predicate Devices
+Predicate Device Manufacturer FDA 510(k)
+AmCAD-UT AmCad BioMed Corporation K203555
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Device Description
+
+PIUR tUS Infinity is a computer-aided solution to aid in the diagnostic workflow of thyroid and
+thyroid nodules, including image documentation, analysis, and reporting. Computer vision and
+machine learning algorithms are applied to a sequence of ultrasound images of the thyroid that
+have been acquired by a compatible FDA-cleared ultrasound system. The solution identifies the
+thyroid lobe and proposes its margins to the user who then can make adjustments to the
+segmentation and approve the final result. Based on this, a lobe volume is calculated. With
+additional user input, thyroid nodules can be marked, quantified, and visualized as multiplanar
+reconstructions or 3D volume renderings. The system provides a user interface for the user to
+select the five ACR TI-RADS parameters and calculates the ACR TI-RADS level from the user
+input for each nodule. All proposed results must be verified, adjusted if necessary, and confirmed
+by the user before they can be added to an automatically generated clinical report.
+
+The Infinity software runs on a stand-alone computer (Infinity Workstation — not part of the
+medical product) that fulfils the defined minimum requirements. It takes as an input a sequence
+of ultrasound images that are transmitted from the ultrasound to the Infinity Workstation
+
+PIUR Imaging September 2024
+
+--- Page 6 (OCR) ---
+wirelessly through the Infinity Box. The Infinity Box is a piece of hardware that connects to
+compatible standard ultrasound systems via digital video output such as HDMI or DVI. It grabs
+2D ultrasound images through a video grabber and transfers the images to the Infinity
+Workstation via Wi-Fi in real-time. In addition, a small Infinity Sensor must be clipped onto the
+ultrasound transducer using individually designed attachments. An inertial measurement unit
+(IMU) tracks the orientation of the transducer during the scan and sends this information to the
+Infinity Workstation via Bluetooth. The Infinity Workstation combines information from the
+Infinity Box and Sensor to generate tomographic 3D ultrasound volumes on which the above-
+described image analysis can be performed.
+
+The PIUR tUS Infinity acts as part of the diagnostic chain only and must not be used as a sole
+source for diagnostic or treatment decisions.
+
+The solution is intended to be used on patients aged 22 and older, independent of gender,
+linguistic and cultural background, or health status, unless any of the contraindications apply, in
+a non-sterile environment. The solution is not intended to be used on patients with open wounds
+or irritated skin or during surgery.
+
+Indications for Use
+
+PIUR tUS Infinity is a computer-aided detection device intended to assist and support medical
+professionals in the diagnostic workflow of thyroid and thyroid nodules acquired from FDA-
+cleared ultrasound systems, including image documentation, analysis, and reporting. The device
+supports the physician with additional information during image review, including quantification
+and visualization of sonographic characteristics of thyroid nodules.
+
+PIUR tUS Infinity may be used on any adult patient aged 22 and older, independent of gender,
+linguistic and cultural background, or health status, unless any of the contraindications apply.
+
+The PIUR tUS Infinity acts as part of the diagnostic chain and must not be used as a sole source
+for treatment decisions, but as an add-on solution to regular 2D ultrasound imaging.
+
+PIUR tUS Infinity device is not intended for body contact (including skin, mucosal membrane,
+breached or compromised surfaces, blood path indirect, tissues, bones, dentin, or circulation
+blood).
+
+Technological Characteristics
+
+The PIUR tUS Infinity system provides the following functions:
+e Use of ultrasound image post-processing to aid in the diagnosis of thyroid diseases.
+
+¢ Operates in combination with hardware to generate 3D volumes. The Infinity Sensor is
+connected to the ultrasound transducer to detect probe movement for spatial 3D
+information. This use of hardware allows for reduced inter- and intra-observer variability
+compared to 2D ultrasound.
+
+PIUR Imaging September 2024
+
+--- Page 7 (OCR) ---
+e Provides volumetric information as diagnostic output for the thyroid lobe and nodule as
+additional information. This includes nodule volume, which can be important for
+evaluating nodule growth over time.
+
+Performance Standards
+PIUR tUS Infinity has been developed in conformance with the following standards and FDA
+guidance, as applicable:
+e ISO 13485:2016, Quality management systems — Requirements for regulatory purposes
+e ISO 14971:2019, Medical devices — Application of risk management to medical devices
+
+e IEC 62366-1:2015, Medical devices — Part 1: Application of usability engineering to
+medical devices
+
+e IEC 62304:2015, Medical device software — Software lifecycle processes
+e IEC 82304-1:2016, Health Software Part 1: General Requirements for Product Safety
+
+e EN 301 489-1 V2.2.3 (2019-11) — Electromagnetic compatibility (EMC) standard for
+radio equipment and services; Part I: common technical requirements; Harmonized
+standard covering essential requirements of article 3.1b of Directive 2014/53/EU and the
+essential requirements of article 6 of Directive 2014/30/EU
+
+e EN 301 489-17 V3.2.4:2020 — Electromagnetic compatibility and Radio spectrum
+Matters (ERM); Electromagnetic compatibility (EMC) standard for radio equipment; Part
+17: Specific conditions for Broadband Data Transmission Systems
+
+e IEC 60601-1:2013 — Medical electrical equipment — Part 1: General requirements for
+basic safety and essential performance
+
+e IEC 60601-1-2:2014 — Medical electrical equipment General requirements for basic
+safety and essential performance. Collateral Standard: Electromagnetic disturbances.
+Requirements and tests
+
+e IEC 60601-2-37:2016 — Medical electrical equipment - Part 2-37: Particular requirements
+for the basic safety and essential performance of ultrasonic medical diagnostic and
+monitoring equipment
+
+e ISO 15223-1:2021, Medical devices — Symbols to be used with information to be
+supplied by the manufacturer — Part 1: General requirements
+
+e IEC 60417:2002, Graphical symbols for use on equipment
+e NEMA PS 3.1-3.20:2016, Digital Imaging and Communications in Medicine (DICOM)
+
+e Content of Premarket Submissions for Management of Cybersecurity in Medical
+Devices, September 2023
+
+e¢ Computer-Assisted Detection Devices Applied to Radiology Images and Radiology
+Device Data — Premarket Notification [510(k)] Submissions, September 2022
+
+PIUR Imaging September 2024
+
+--- Page 8 (OCR) ---
+Performance Data
+
+The PIUR tUS Infinity system complies with DICOM (Digital Imaging and Communications in
+Medicine), developed by the American College of Radiology and the National Electrical
+Manufacturers Association — NEMA PS 3.1-3.20.
+
+PIUR Imaging conducted summative usability evaluation, performance validation testing and
+software verification and validation testing of the PIUR tUS Infinity system. The results of the
+usability and performance validation testing demonstrated that the PIUR tUS Infinity system
+provides accurate representation of key processing parameters under a range of clinically
+relevant parameters associated with the intended use of the software. Software performance,
+validation and verification testing demonstrated that the PIUR tUS Infinity system met all design
+requirements and specifications.
+
+To validate the safety and performance of the PIUR tUS Infinity System software and machine
+learning algorithms, PIUR conducted performance testing that consisted of two major parts:
+
+1) Volume Measurement Validation
+
+a. Demonstrate non-inferiority of volume measurements against conventional
+protocol using:
+i. Standardized (%) absolute inter-observer differences
+ii. Lin’s Concordance Correlation Coefficient
+iii. Mean Squared Error
+
+2) ACR TI-RADS Classification Validation
+
+a. Demonstrate non-inferiority of the PIUR tUS Infinity in ACR TI-RADS
+classification against conventional 2D ultrasound using Weighted Cohen’s Kappa
+coefficient in 196 male and female patients (US, Europe & Brazil) across multiple
+ethnicities and using 7 ultrasound models (covering low-end, mid-range, and
+high-end scanners).
+
+b. In addition, PIUR assessed performance for individual ACR TI-RADS sub-
+parameters to exclude bias or distortion introduced by 3D reconstruction using a
+sub-set of 102 patients. Weighted Cohen’s Kappa Coefficients and Limits of
+Agreement for ultrasound categories (total score, composition, echogenicity,
+shape, margin and echogenic foci) were assessed on thyroid nodules.
+
+Electrical safety and EMC testing were conducted on the PIUR tUS Infinity. The testing
+complies with the applicable sections of IEC 60601-1:2013, Medical electrical equipment — Part
+1: General requirements for basic safety and essential performance, TEC 60601-1-2:2014,
+Medical electrical equipment — Part 1-2: General requirements for the basic safety and essential
+performance — Collateral standard: Electromagnetic compatibility — Requirements and tests, and
+IEC 60601-2-37:2016, Medical electrical equipment - Part 2-37: Particular requirements for the
+basic safety and essential performance of ultrasonic medical diagnostic and monitoring
+equipment. An additional white-noise test verified that the use of the wireless PIUR tUS Infinity
+equipment does not induce any additional white noise band in the ultrasound image, and
+
+PIUR Imaging September 2024
+
+--- Page 9 (OCR) ---
+therefore, does not degrade the quality of ultrasound images
+
+Together with software verification and validation, safety and performance testing demonstrated
+that PIUR tUS Infinity system satisfies all design requirements and device specifications and is
+substantially equivalent to the Predicate Device.
+
+Substantial Equivalence
+
+In comparison with the Predicate AmCAD device (K203555), the PIUR tUS Infinity device has
+the same intended use / indications, technological characteristics and principles of operation as
+described in the comparison table below.
+
+Table 4: Substantial Equivalence Comparison Table
+
+ 
+
+Description
+
+Subject Device
+
+Predicate Device (K203555)
+
+ 
+
+Product Name
+
+PIUR tUS Infinity
+
+AmCAD-UT
+
+ 
+
+ 
+
+Manufacturer PIUR Imaging GmbH AmCad BioMed Corporation
+Product Code/ | gir / 21CFR 892.2050 QIH / 21CER 892.2050
+egulation
+
+ 
+
+Indications for
+Use
+
+ 
+
+ 
+
+PIUR tUS Infinity is a computer-aided
+detection device intended to assist and
+support the medical professionals in the
+diagnostic workflow of thyroid and
+thyroid nodules acquired from FDA-
+cleared ultrasound systems, including
+image documentation, analysis, and
+reporting. The device supports the
+physician with additional information
+during image review, including
+quantification and visualization of
+sonographic characteristics of thyroid
+nodules.
+
+PIUR tUS Infinity may be used on any
+adult patient aged 22 and older,
+independent of gender, linguistic and
+cultural background, or health status,
+unless any of the contraindications
+apply.
+
+PIUR tUS Infinity device is not
+intended for body contact (including
+skin, mucosal membrane, breached or
+compromised surfaces, blood path
+indirect, tissues, bones, dentin, or
+circulation blood).
+
+ 
+
+AmCAD-UT is a Windows-based
+computer-aided detection (CADe)
+device intended to assist the medical
+professionals in analyzing thyroid
+ultrasound images, acquired from
+FDA-cleared ultrasound systems.
+The region of interest (ROI) of a
+user-selected thyroid nodule is
+defined by users or suggested by an
+Al contouring algorithm. After the
+initial review of the ultrasound
+images by the physicians, the device
+further provides detailed information
+with quantification and visualization
+of sonographic characteristics of
+thyroid nodules. The device is
+intended for use on ultrasound
+images of discrete thyroid nodules
+larger than Icm, for which a biopsy
+recommendation is required.
+
+ 
+
+ 
+
+PIUR Imaging
+
+September 2024
+
+--- Page 10 (OCR) ---
+ 
+
+Description
+
+Subject Device
+
+Predicate Device (K203555)
+
+ 
+
+Functional
+Capability of
+Image Processing
+
+The device performs 2D to 3D
+reconstruction to generate volumetric
+data of a thyroid. User-selected
+computer vision and machine learning
+algorithm suggested volumes of thyroid
+lobe and nodules are visualized to be
+confirmed by user. The system provides
+a user interface for the user to manually
+select sonographic characteristics of
+each nodule (hyperechoic foci,
+echogenicity, texture, margin,
+orientation and anechoic areas) from
+which an ACR TI-RADS score will be
+computed.
+
+AmCAD-UT analyzes the user-
+defined or Al-suggested regions of
+interest (ROI) of a user-selected
+thyroid nodule for detection and
+quantification of sonographic
+characteristics (hyperechoic foci,
+echogenicity, texture, margin,
+orientation and anechoic areas). The
+device further provides detailed
+information with visualization of
+sonographic characteristics of
+thyroid nodules.
+
+ 
+
+Device provides quantification and
+visualization of sonographic
+
+AmCAD-UT is to provide
+quantification and visualization of
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Reaueee characteristics based on 3D volumetric | sonographic characteristics after
+e data. Results provide proposals to be physicians’ initial review of the
+reviewed and confirmed by physicians. | images.
+The image can be annotated with the
+The device can export volumetric data, | detected sonographic characteristics
+Output Generated | annotated screenshots and reports. and be recorded by the device. The
+by the CAD Report can contain both sides of the software also automatically
+Device patient and includes all relevant generates reports given the user
+diagnostic information. preference inputs in the analysis
+process.
+Type of Film to be
+Processed by the Digital ultrasound videoclip (cineloop) | Digital ultrasound image
+CAD Device
+Based on computer vision, machine Based on AI, Statistical Pattern
+Software Design _| learning, pattern recognition and Recognition and Quantification
+quantification method. method
+The ground truth to be established for The ground truth to be established
+Ground Truth performance studies of the device are for performance studies of the device
+Establishment annotated data sets labeled by medical | jg the ROI labeled by a panel of
+specialists. specialists.
+Platform Windows-based Same
+Operating System | Standard PC or review station Same
+Clinical . . .
+Application Thyroid Lesions Thyroid cancers
+Image Type Ultrasound volume image Ultrasound Image
+
+ 
+
+ 
+
+ 
+
+ 
+
+PIUR Imaging
+
+September 2024
+
+ 
+
+--- Page 11 (OCR) ---
+ 
+
+Description
+
+Subject Device
+
+Predicate Device (K203555)
+
+ 
+
+Image Format
+
+DICOM format:
+
+Secondary Capture Image Storage -
+1.2.840.10008.5.1.4.1.1.7
+
+Multi-frame Grayscale Byte Secondary
+Capture Image Storage -
+1.2.840.10008.5.1.4.1.1.7.2
+Multi-frame True Color Secondary
+Capture Image Storage -
+1.2.840.10008.5.1.4.1.1.7.4
+
+Refer to: DICOM-Conformance
+Statement-PIUR tUS Infinity
+
+DICOM3.0, Bitmap, JPEG
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ROI
+Quantification Yes Yes
+Automatically
+Generating Yes Same
+Report
+Performance Results from standalone performance Results from standalone performance
+Testing Data to testing of machine learning algorithm testi f AT ted ROIs of
+Support SE suggested ROIs of user-selected esting o! Sugeester Sol
+Determination nodules user-selected nodules
+Infinity Box . .
+Device Infinity Sensor N/A — Predicate is a software only
+Components ty device (SaMD)
+Infinity Software
+pCO Yes Same
+Compliance
+Acquires medical image data from
+Data Acquisition | DICOM compliant Ultrasound imaging | Same
+devices
+ace Ultrasound image via DICOM format Same
+Types
+Conclusions
+
+The PIUR tUS Infinity system performs as intended and presents no unacceptable risks to the
+intended patient population. The performance testing supports the safety of the device and
+demonstrate that the PIUR tUS Infinity system performs as intended in the specified use
+conditions. The PIUR tUS Infinity system is substantially equivalent in intended use,
+technological characteristics, safety, and performance characteristics to the legally marketed
+Predicate AmCAD-UT Device (K203555).
+
+PIUR Imaging
+
+September 2024
+
+ 
+

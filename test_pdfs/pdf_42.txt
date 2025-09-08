@@ -1,0 +1,817 @@
+Please type in the marketing application/submission number, if it is known. This
+
+textbox will be left blank for original applications/submissions. K251276
+
+ 
+
+Please provide the device trade name(s).
+
+ 
+
+Swoop® Portable MR Imaging® System
+
+ 
+
+Please provide your Indications for Use below.
+
+The Swoop Portable MR Imaging System is a portable, ultra-low field magnetic resonance imaging device
+for producing images that display the internal structure of the head where full diagnostic examination is not
+clinically practical. When interpreted by a trained physician, these images provide information that can be
+useful in determining a diagnosis.
+
+ 
+
+Please select the types of uses (select one or both, as [XJ Prescription Use (Part 21 CFR 801 Subpart D)
+applicable). Over-The-Counter Use (21 CFR 801 Subpart C)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+FAYPERFINE
+
+510(k) Summary
+
+S ® Portable MR Imaging® Syst
+woop® Portable maging” System K251276
+
+510(k) SUBMITTER
+
+Company Name: Hyperfine, Inc.
+Company Address: 351 New Whitfield St
+Guilford, CT 06437
+
+CONTACT
+
+Name: Kristen Evenson
+Telephone: (612) 251-3030
+
+Email: kevenson@hyperfine.io
+Date Prepared: May 20, 2025
+
+DEVICE IDENTIFICATION
+
+Trade Name: Swoop® Portable MR Imaging® System
+
+Common Name: Magnetic Resonance Imaging
+
+Regulation Number: 21 CFR 892.1000
+
+Classification Name: System, Nuclear Magnetic Resonance Imaging Coil, Magnetic Resonance,
+
+Specialty
+Product Code: LNH; MOS
+Regulatory Class: Class II
+
+PREDICATE DEVICE INFORMATION
+
+The subject Swoop Portable MR Imaging System is substantially equivalent to the predicate Swoop
+System (K240944).
+
+DEVICE DESCRIPTION
+
+The Swoop system is portable, ultra-low field MRI device that enables visualization of the internal
+structures of the head using standard magnetic resonance imaging contrasts. The main interface is a
+commercial off-the-shelf device that is used for operating the system, providing access to patient data,
+exam setup, exam execution, viewing MRI image data for quality control purposes, and cloud storage
+interactions. The system can generate MRI data sets with a broad range of contrasts. The Swoop system
+user interface includes touch screen menus, controls, indicators, and navigation icons that allow the
+operator to control the system and to view imagery. The Swoop System image reconstruction algorithm
+utilizes deep learning to provide improved image quality for T1W, T2W, FLAIR, and DWI sequences.
+
+The subject Swoop System described in this submission includes software modifications related to the
+pulse sequences and image processing.
+
+INDICATIONS FOR USE
+
+The Swoop Portable MR Imaging System is a portable, ultra-low field magnetic resonance imaging
+device for producing images that display the internal structure of the head where full diagnostic
+examination is not clinically practical. When interpreted by a trained physician, these images provide
+information that can be useful in determining a diagnosis.
+
+SUBSTANTIAL EQUIVALENCE DISCUSSION
+
+The table below compares the subject device to the predicate.
+
+ 
+
+\specification fubies Swoop Portable MR Imaging [Predicate Swoop Portable MR Imaging
+
+stem System (K240944)
+[The Swoop Portable MR Imaging System
+lis a portable, ultra-low field magnetic
+resonance imaging device for producing
+limages that display the internal
+Intended Use/ Indications for Use: ptructure of the head where full [Same
+diagnostic examination is not clinically
+practical. When interpreted by a trained
+physician, these images provide
+linformation that can be useful in
+\determining a diagnosis.
+
+Patient Population: (Adult and pediatric patients (2 0 years) [Same
+
+ 
+
+ 
+
+ 
+
+(Anatomical Sites: [Head same
+
+ 
+
+At the point of care in professional
+health care facilities such as emergency
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Environment of Use: rooms, intensive/critical care units, Same
+hospitals, outpatient, or rehabilitation
+centers.
+
+Energy Used and/or delivered: IMagnetic Resonance [Same
+
+Magnet:
+
+Physical Dimensions 835 mm x 630 mm x 652 mm [Same
+Bore Opening 610 mm x 315 mm Same
+Weight 320 kg [Same
+Field Strength 63.3 mT permanent magnet [Same
+
+Gradient:
+
+Strength : 24 mT/m, Y: 23 mT/m, Z: 39 mT/m Same
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Rise Time : 2.1 ms, Y: 2.0 ms, Z: 3.8 ms Same
+
+ 
+ 
+
+Specification
+
+uber Swoop Portable MR Imaging
+
+Predicate Swoop Portable MR Imaging|
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+stem System (K240944)
+Slew Rate 24 T/m/s, Y: 22 T/m/s, Z: 21 T/m/s Same
+[Computer Display [Hyperfine-supplied tablet [Same
+IRF Coils:
+Number of Coils lt head coil same
+Coil Type |TX/RX [Same
+Coil Geometry Form-fitting [Same
+Inner Dimensions (mm) |205 mm x 240 mm Same
+Coil Design Linear Volume [Same
+Patient Weight Capacity |1.6kg-200 kg [Same
+(Operation Temperature 115-30 C Same
+Warm Up Time 3 minutes Same
+\Temperature Control INo Same
+Humidity Control INo [Same
+Image Processing:
+Noise Correction Noise eahiepiial and line noise same
+suppression for all sequences
+\T1W
+© = T1-Standard Advanced Gridding same
+e _71-Gray/White Contrast
+\T2W
+° 72 Advanced Gridding [Same
+e 12-Fast
+FLAIR Advanced Gridding same
+
+ 
+
+[Advanced Gridding,
+Fast Iterative Shrinkage Thresholding
+[Algorithm (FISTA)
+
+Fast Iterative Shrinkage Thresholding
+(Algorithm (FISTA)
+
+ 
+
+mage Post-Processing
+
+ 
+
+le Advanced Denoising
+
+le Image orientation transform
+
+le Geometric distortion correction
+le Receive coil intensity correction
+le Advanced Interpolation
+
+le DICOM output
+
+ 
+
+le Advanced Denoising
+
+le Image orientation transform
+
+le Geometric distortion correction
+le Receive coil intensity correction
+le DICOM output
+
+ 
+
+ 
+
+ 
+
+The subject device and the predicate device have the same intended use, operating principles, and
+
+similar technological characteristics. There are minor differences between the subject device and the
+predicate in pulse sequences and image processing. These differences do not raise new questions of
+safety and efficacy as compared to the predicate.
+
+NON-CLINICAL PERFORMANCE
+
+As part of demonstrating substantial equivalence to the predicate, a risk-based assessment was
+completed to identify the risks associated with the modifications. Based on the risk assessment, the
+following testing was performed. The subject device passed all the testing in accordance with internal
+requirements and applicable standards to support substantial equivalence.
+
+ 
+
+ 
+
+software requirements were met.
+
+rest Test Description (Applicable Standard(s)
+software Software verification testing in accordance with 1eC 62304:2016
+cee at the design requirements to ensure that the FDA Guidance, Content of Premarket
+erification Submissions for Device Software
+
+Functions”
+
+ 
+
+ll mage Performance
+
+\Testing to verify the subject device meets all
+image quality criteria.
+
+le NEMA MS 1-2008 (R2020)
+
+le NEMA MS 3-2008 (R2020)
+
+le NEMA MS 9-2008 (R2020)
+
+le NEMA MS 12-2016
+
+le American College of Radiology
+standards for named sequences
+
+ 
+
+\Testing to verify cybersecurity controls and
+
+le FDA Guidance, “Cybersecurity in
+Medical Devices: Quality System
+
+ 
+
+ 
+
+ 
+
+|Cybersecurit
+v Y management. Considerations and Content of
+Premarket Submissions”
+Software Validation to ensure the subject device meets FDA Guidance, “Content of Premarket
+i dati i Submissions for Device Software
+‘alidation luser needs and performs as intended.
+
+ 
+
+Functions”
+
+ 
+
+The following testing was leveraged from the predicate device. Test results from the predicate were
+used to support the subject device because the conditions were identical or the subject device
+modifications did not introduce a new worst-case configuration or scenario for testing.
+
+ 
+
+fest
+
+Test Description
+
+[Applicable Standard(s)
+
+ 
+
+Biocompatibility
+
+Biocompatibility testing of patient-contacting
+materials.
+
+ISO 10993-1:2018
+ISO 10993-5:2009
+le _1SO 10993-10:2010
+
+ 
+
+je FDA Guidance, “Reprocessing Medical
+Devices in Health Care Settings:
+
+ 
+
+ 
+
+ 
+
+ 
+
+for Magnetic Resonance Imaging Systems.
+
+ 
+
+prea feaning and disinfection validation of patient- Validation Methods and Labeling”
+8 ° le 1SO 17664:2017
+je ASTM F3208-17
+safer Electrical Safety, EMC, and Essential Performance *  ANSI/AAMI ES 60601-1:2005/(R)2012
+Y testing. °
+le
+[Characterization of the Specific Absorption Rate
+Performance NEMA MS 8-2016
+
+ 
+
+ 
+
+ADVANCED RECONSTRUCTION PERFORMANCE ANALYSIS AND VALIDATION
+
+ 
+
+Performance analysis and validation of the subject device Advanced Reconstruction models was
+performed using a test dataset entirely independent from the dataset used for model training. The test
+dataset comprised of a total of 118 individual subjects and 378 unique images collected using sequence
+
+ 
+
+ 
+types available on the subject device. For each subject, a subset of the following sequences were
+scanned, chosen appropriately for the indication for imaging: T1 Graywhite, T1 Standard, T2, T2 Fast,
+FLAIR, DWI (DWI b=0, DWI b=900, ADC). Axial, Sagittal, and Coronal orientations were included; for DWI,
+only Axial was available. A description of the acceptance criteria and subset of data used for each test is
+included in the test summaries below.
+
+In all cases, models are trained and validated with MRI data and images as the only inputs and outputs;
+there are no confounding factors and clinical subgroups are not defined or considered. While gender and
+age are available for most subjects, age, gender, ethnic background, and pathology are not expected to
+influence model architecture.
+
+Performance Analysis:
+
+Study Design: Advanced Reconstruction was assessed for robustness, stability, and generalizability over a
+variety of subjects, design parameters, artifacts, and scan conditions using reference-based metrics.
+Aset of images including Swoop data, high field images, and synthetic contrast images, was used as
+ground truth target images. Test input data (synthetic k-space generated from the target images) was
+reconstructed using both Advanced and Linear Reconstruction, and the similarity to the original ground
+truth image was compared between the two reconstruction methods. Reconstruction outputs with
+motion and zipper artifacts were qualitatively assessed.
+
+Reference Standard and Metrics:
+
+Normalized mean squared error (NMSE) and structural similarity index (SSIM) were used to compare the
+ability of Advanced Reconstruction to reproduce the ground truth image compared to Linear
+Reconstruction.
+
+Dataset and Sample Size per Model:
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+T1, 72, 44 92 Gender
+FLAIR Female Male Unknown
+55% 30% 15%
+Age
+0-2 2-18 18-35, 35-60 60+ 18+* Unknown
+16% 14% 11% 20% 23% 9% 7%
+*partially anonymized
+Ethnicity data not recorded.
+Number of sites: 9
+Equipment
+Swoop Mk1.7 Swoop Mk1.8 Swoop Mk1.9
+57% 9% 34%
+Included pathology: Alzheimer’s Disease, Hemorrhage, Hydrocephalus,
+Hypoglycemia, Intracereberal Hemorrhage, Multiple Sclerosis, Subdural
+Hemorrhage, Seizure, Traumatic Brain Injury, Treacher Collins Syndrome,
+Tumor, White Matter Hyperintensity
+Dw! 34 65 Gender:
+Female Male Unknown
+41% 47% 12%
+Age:
+0-2 2-18 18-35, 35-60 60+ Unknown
+21% 15% 18% 23% 18% 5%
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Ethnicity data not recorded.
+
+Number of sites: 6
+
+ 
+
+ 
+
+Equipment:
+Swoop Mk1.7 Swoop Mk1.9
+73% 27%
+
+ 
+
+ 
+
+ 
+
+ 
+
+Included pathology: Alzheimer’s Disease, Hemorrhage, Hydrocephalus,
+Hypoglycemia, Subdural Hemorrhage, Seizure, Traumatic Brain Injury,
+Thrombosis, Treacher Collins Syndrome, White Matter Hyperintensity
+
+ 
+
+ 
+
+Study Results:
+
+For all models and all test datasets NMSE was reduced and SSIM was improved for Advanced
+Reconstruction test images compared to Linear Reconstruction test images. Advanced Reconstruction
+preserved the presentation of motion and zipper artifacts and no unexpected output was observed.
+Contrast-to-Noise Ratio Validation
+
+Study Design: Regions of interest (ROI) encompassing pathologies were annotated and reviewed by two
+American Board of Radiology (ABR) certified radiologists. The contrast-to-noise of hyper- and hypo-
+intense pathologies were measured with respect to healthy white matter tissue from the same image.
+The inclusion criterion for images used for this study was at least one visible pathology.
+
+Reference Standard and Metrics: Linear Reconstruction was used as the reference standard for the
+comparison. Contrast-to-Noise Ratio (CNR) between pathology and healthy tissues was measured to
+quantify how accurately pathology features are preserved by Advanced Reconstruction.
+
+The mean CNR of Advanced Reconstruction was required to be greater than the mean CNR of the
+baseline Linear Reconstruction at statistical significance level of 0.05 for each sequence type.
+
+Dataset and Sample Size:
+
+16 images per sequence type were included for lesion annotation. All annotated images were then
+reviewed and inaccurate ROI annotations were excluded from the analysis. The data meeting inclusion
+criteria are described below.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Patients 43
+Images 95,
+ROls 316
+Demographics | Gender:
+and other Female Male Unknown
+Variability 62% 17% 21%
+Age:
+0-2 2-18 18-35 35-60 60+ 2+* Unknown
+8% 31% 7% 10% 31% 9% 4%
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+*partially anonymized
+Ethnicity data not recorded.
+Number of sites: 8
+
+Equipment type:
+Swoop Mk1.7 Swoop Mk1.8 Swoop Mk1.9
+36% 18% 46%
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Included pathology: stroke, white matter disease, hemorrhage, tumor, hydrocephalus,
+cerebral edema, hypoxic brain injury, Alzheimer’s, Treacher-Collins syndrome, seizures,
+multiple sclerosis, post-surgical tumor resection, and thrombectomy follow-up
+
+ 
+
+ 
+
+ 
+
+ 
+Study Results: In all cases, CNR of Advanced Reconstruction was greater than or equal to Linear
+Reconstruction for both hyper- and hypo-intense pathologies. The study result demonstrates that
+Advanced Reconstruction does not unexpectedly modify, remove, or reduce the contrast of pathology
+features.
+
+Advanced Reconstruction Image Validation
+
+Study Design: Five external, ABR-certified radiologists representing clinical users were asked to review
+side-by-side clinical image sets taken with the subject Swoop System, reconstructed with both Advanced
+and Linear Reconstruction. The reviewers rated the images using a five-point scale for image quality and
+the consistency of diagnosis using both methods in the categories of noise, sharpness, contrast,
+geometric fidelity, artifact, and overall image quality.
+
+Reference Standard and Metrics:
+
+Linear Reconstruction was used as the reference standard for the comparison. Advanced Reconstruction
+was required to perform at least as well as Linear Reconstruction in all categories (median score 20 on
+Likert scale) and perform better (21 on Likert scale) in at least one of the quality-based categories.
+
+Dataset and Sample size:
+Asample size of at least 16 was used per sequence. Within the sample dataset at least four cases for
+each sequence-available image orientation (axial, sagittal, coronal) were used.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Patients 46
+Images 177
+Demographics | Gender:
+and other Female Male Unknown
+Variability 31% 23% 46%
+Age:
+0-2 2-18 18-35, 35-60 60+ 2+*
+6% 11% 6% 17% 39% 21%
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+*partially anonymized
+Ethnicity data not recorded.
+
+Number of sites: 11
+
+Equipment type:
+Swoop Mk1.7 Swoop Mk1.8 Swoop Mk1.9
+20% 10% 70%
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Included pathology: Alzheimer’s Disease, Cavernous malformation, Cerebral Amyloid
+Angiopathy, Cerebral Tuberculosis, Cortical dysplasia, Edema, Empyema Evacuation,
+Ethmoidectomy, Hemorrhage, Hydrocephalus, Multiple Sclerosis, Subarachnoid
+Hemorrhage, Subdural Hemorrhage, Seizure, Stroke, Subdural Empyema, Thrombosis,
+Treacher Collins Syndrome, Tumor, White Matter Hyperintensity
+
+ 
+
+ 
+
+ 
+
+ 
+Test Results: Advanced Reconstruction achieved a median score of 2 (the most positive rating scale
+value) in all categories. This scoring indicates reviewers found Advanced Reconstruction improved image
+quality while maintaining diagnostic consistency relative to Linear Reconstruction.
+
+CONCLUSION
+
+Based on the intended use, technological characteristics, performance results, and comparison to the
+predicate, the subject Swoop Portable MR Imaging System has been shown to be substantially
+equivalent to the predicate device identified in this submission and does not present any new issues of
+safety or effectiveness.
+

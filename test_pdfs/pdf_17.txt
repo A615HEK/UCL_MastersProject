@@ -1,0 +1,437 @@
+DEPARTMENT OF HEALTH AND HUMAN SERVICES. Form Approved: OMB No. 0910-0120
+Food and Drug Administration Expiration Date: 07/31/2026
+
+Indications for Use See PRA Statement below.
+
+ 
+
+ 
+
+Submission Number (if known)
+
+ 
+
+k242300
+Device Name
+
+MI View&GO
+
+ 
+
+ 
+
+ 
+
+ 
+
+Indications for Use (Describe)
+
+MI View&GO is a medical diagnostic application for viewing, manipulation, quantification, analysis
+and comparison of medical images with one or more time-points. MI View&GO supports functional
+data, such as positron emission tomography (PET) or nuclear medicine (NM), as well as anatomical
+datasets, such as computed tomography (CT) or magnetic resonance (MR).
+
+MI View&GO is intended to be utilized by appropriately trained health care professionals to aid in
+the management of diseases associated with oncology, cardiology, neurology, and organ function.
+The images and results produced by MI View&GO can also be used by the physician to aid in
+radiotherapy treatment planning.
+
+ 
+
+ 
+
+ 
+
+Type of Use (Select one or both, as applicable)
+x Prescription Use (Part 21 CFR 801 Subpart D) Over-The-Counter Use (21 CFR 801 Subpart C)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+ 
+
+K242300 SIEMENS
+Healthineers
+510(k) Summary
+1. Identification of the Submitter
+Submitter / Primary Contact Brian Wui
+Person Regulatory Affairs
+
+hansong.wui@siemens-healthineers.com
++1 (865) 367-4337
+
+Secondary Contact Person Clayton Ginn
+
+Regulatory Affairs
+clayton.ginn@siemens-healthineers.com
++1 (865) 898-2692
+
+Applicant Name and Address Siemens Medical Solutions, Inc. USA
+
+2501 North Barrington Road
+Hoffman Estates IL, 60192, USA
+Establishment Registration Number: 1423253
+
+2. Device Name and Classification
+
+Product Trace Name:
+Common Name:
+Classification Name:
+Classification Panel:
+CFR Section:
+
+Device Class:
+Product Code:
+
+MI View&GO VA30
+
+Medical image management and processing system
+Automated Radiological Image Processing Software
+Radiology
+
+21 CFR §892.2050
+
+Class Il
+
+QlH
+
+3. Predicate Devices
+
+Primary Predicate Device:
+
+Product Trace Name:
+510(k) Number:
+Clearance Date:
+Common Name:
+Classification Name:
+Classification Panel:
+CFR Section:
+
+Device Class:
+Product Code:
+
+MI View&GO VA20
+
+K201202
+
+07/21/2022
+
+Medical image management and processing system
+Automated Radiological Image Processing Software
+Radiology
+
+21 CFR §892.2050
+
+Class Il
+
+QlH
+
+Siemens Medical Solutions USA, Inc. 1
+Reference Device
+Trade Name:
+510(k) Number:
+Clearance Date:
+Common Name:
+
+Classification Name:
+
+Classification Panel:
+CFR Section:
+
+Device Class:
+Product Code:
+
+SIEMENS
+Healthineers
+
+ 
+
+syngo.via MI Workflows VB80
+
+K232000
+
+11/28/2023
+
+Medical image management and processing system
+Automated Radiological Image Processing Software
+Radiology
+
+21 CFR §892.5050
+
+Class Il
+
+QlH
+
+4. Device Description
+
+MI View&GO is a software-only medical device which will be delivered in conjunction with Siemens
+SPECT/CT and PET/CT scanners. MI View&GO software provides additional specific capabilities for
+handling of PET and SPECT as well as CT and MR data directly at the acquisition console.
+
+The MI View&GO software integrates molecular imaging more efficiently in the clinical environment by
+providing an interface for its users to review, post-process and read medical images immediately after
+acquisition. The purpose of the MI View&GO is to allow the technologist and reading physician to:
+
+¢ — Review acquired and reconstructed images at the scanner console
+¢ Determine that the acquired data is of sufficient quality for reading, so the patient can be
+
+released.
+
+e Prepare images for reading
+e Perform a basic read
+
+5. Indications for Use
+
+MI View&GO is a medical diagnostic application for viewing, manipulation, quantification, analysis and
+comparison of medical images with one or more time-points. MI View&GO supports functional data,
+
+such as positron emission tomography (PET) or nuclear medicine (NM), as well as anatomical datasets,
+such as computed tomography (CT) or magnetic resonance (MR).
+
+MI View&GO is intended to be utilized by appropriately trained health care professionals to aid in the
+management of diseases associated with oncology, cardiology, neurology, and organ function. The
+images and results produced by MI View&GO can also be used by the physician to aid in radiotherapy
+
+treatment planning.
+
+6. Indications for Use Comparison to the Predicate Device
+
+The indications for use are the same between the subject device and the primary predicate device.
+
+Siemens Medical Solutions USA, Inc. 2
+SIEMENS
+Healthineers
+
+7. Comparison of Technological Characteristics with the Predicate Device
+
+ 
+
+MI View&GO with software version VA30 software provides the same technological characteristics in
+terms of materials, energy source, and control mechanisms when compared to the legally marketed
+predicate device since all devices are software only devices.
+
+The software features have been modified in comparison to the predicate device to support enhanced
+device functionality.
+
+The intended use, indications for use, and fundamental scientific technology for the subject device
+remains unchanged from the predicate device. No features present from the predicate device have been
+de-scoped.
+
+At a high level, the subject and predicate devices are based on the following same technological
+elements:
+
+© Data Supported (PET, SPECT, CT, MR)
+
+e  Server/Client architecture
+
+© Workflow Activities (preprocessing, evaluation and reading, reporting and storage)
+e Feature Licensing Structure
+
+e SUV values calculated
+
+The following technological differences exist between the subject device and predicate devices.
+MI View&GO VA30:
+
+e MI Features:
+o. Brain AC-PC(Anterior Commissure — Posterior Commissure)
+o. PERCIST
+o VOI Isocontour
+e Shared Software Common Tools and CT Features:
+o. Layout Editor
+o Average
+o. Stroke Layout
+e Layout Improvements:
+o MIP (Maximum Intensity Projection) Rotation
+o Volume Stripe Image Order
+
+Any differences in technological characteristics do not raise different questions of safety and
+effectiveness. Testing and validation are completed. Test results show that the subject devices are
+comparable to the predicate devices in terms of technological characteristics and safety and
+effectiveness and therefore are substantially equivalent to the predicate devices.
+
+Siemens Medical Solutions USA, Inc. 3
+SIEMENS
+Healthineers
+
+8. Non-Clinical and/or Clinical Test Summary & Conclusions
+
+ 
+
+The following performance data were provided in support of the substantial equivalence determination.
+
+Software Verification and Validation
+
+‘Enhanced’ software documentation per FDA’s guidance document “Content of Premarket Submissions
+for Device Software Functions” issued on June, 2023 is also included as part of this submission. The
+performance data demonstrates continued conformance with special controls for medical devices
+containing software. The testing supports that all software specifications have met the predetermined
+acceptance criteria. Verification and validation testing substantiates all requirement and functional
+specifications, including specifications related to device hazards, and supports the claim of substantial
+equivalence.
+
+Performance Testing
+
+The device under application, MI View&GO, did not conduct any additional performance testing.
+
+Risk Analysis
+
+The risk analysis was completed, and risk control implemented to mitigate identified hazards. The
+testing results support that all the software specifications have met the predetermined acceptance
+criteria. Testing for verification and validation of the device was found acceptable to support the claims
+of substantial equivalence.
+
+Standards
+Siemens hereby certifies that MI View&GO meets the following FDA Recognized Consensus standards
+listed below:
+
+ 
+
+ 
+
+ 
+
+ 
+
+Designation coy
+Number and | 1, Development | Recognition
+Edition/Dat PI Number
+
+: Organization
+
+PS 3.1-3.20 | Digital Imaging and Communications in Medicine
+
+2023e (DICOM) set NEMA 12-349
+62304
+
+Edition 1.1
+
+2015-06 Medical Device Software ~Software Life Cycle AAMI ANS! | 45 75
+CONSOLIDA | Processes IEC ~
+
+TED
+
+VERSION
+
+14971 Third : oe
+
+Edition Media devices ~ Application of risk management to | |< 5-15
+2019-12 neaveew!
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Siemens Medical Solutions USA, Inc. 4
+SIEMENS
+Healthineers
+
+ 
+
+ 
+
+62366-1
+Edition 1.1
+2020-06
+CONSOLIDA
+TED
+VERSION
+
+Medical devices - Part 1: Application of usability
+engineering to medical devices
+
+AAMI, ANSI,
+IEC
+
+5-129
+
+ 
+
+15223-1
+Fourth
+edition
+2021-07
+
+Medical devices - Symbols to be used with medical
+device labels, labelling, and information to be
+supplied - Part 1: General requirements
+
+Iso
+
+5-134
+
+ 
+
+20417 First
+edition
+2021-04
+Corrected
+version
+2021-12
+
+ 
+
+ 
+
+Medical devices — Information to be supplied by the
+manufacturer
+
+ 
+
+Iso
+
+5-135,
+
+ 
+
+ 
+
+ 
+
+Conclusion
+
+There are no differences in the Indications for Use, Intended Use, or Fundamental Technological
+Characteristics of the MI View&GO VA30 software as compared to the currently commercially available
+MI View&GO VA20 software (K222172).
+
+Both the current and predicate devices are used for viewing, manipulation, quantification, analysis, and
+comparison of medical images from single or multiple imaging modalities with one or more time-points.
+
+Additionally, the new features implemented within this release do not raise any new issues of safety and
+effectiveness as compared to the predicate device. Based on this information, as well as the
+documentation in support of the modifications, it is Siemens’ opinion that the MI View&GO software—
+with the modifications outlined in this application—is substantially equivalent to the predicate device.
+
+Siemens Medical Solutions USA, Inc.
+

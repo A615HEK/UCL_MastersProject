@@ -1,0 +1,611 @@
+ 
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES. Form Approved: OMB No. 0910-0120
+
+ 
+
+ 
+
+ 
+
+Food and Drug Administration Expiration Date: 07/31/2026
+Indications for Use See PRA Statement below.
+510(k) Number (if known)
+K240290
+Device Name
+
+AiMIFY (1.x)
+
+ 
+
+Indications for Use (Describe)
+
+AiMIFY is an image processing software that can be used for image enhancement in MRI images. It can be used to
+increase contrast-to-noise ratio (CNR), contrast enhancement (CEP), and lesion-to-brain ratio (LBR) of enhancing tissue
+in brain MRI images acquired with a gadolinium-based contrast agent. It is intended to enhance MRI images acquired
+using standard approved dosage per the contrast agent’s instructions for use.
+
+ 
+
+Type of Use (Select one or both, as applicable)
+
+ 
+
+ 
+
+Xl Prescription Use (Part 21 CFR 801 Subpart D) (J Over-The-Counter Use (21 CFR 801 Subpart C)
+
+ 
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+
+Department of Health and Human Services
+Food and Drug Administration
+
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+
+FORM FDA 3881 (8/23) Page 1 of 1 PSC Publishing Services (301) 443-6740 EF
+AiMIFY 510(k) Summary
+
+Table 1. Contact Details & Device Name
+
+K240290
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Date Summary Prepared: 2024-08-20
+
+Contact Details
+
+Applicant Name: Subtle Medical, Inc.
+
+Applicant Address: 883 Santa Cruz Ave, Suite 205
+Menlo Park, CA 94025 United States
+
+Applicant Contact: Ms. Ronny Elor
+
+ 
+
+Applicant Contact Telephone:
+
+(925) 324-8467
+
+ 
+
+Applicant Contact Email:
+
+ronny@subtlemedical.com
+
+ 
+
+Correspondent Name:
+
+Enzyme Corporation
+
+ 
+
+Correspondent Address:
+
+611 Gateway Blvd, Ste 120
+South San Francisco, CA 94080 United States
+
+ 
+
+Correspondent Contact:
+
+Mr. Jared Seehafer
+
+ 
+
+Correspondent Contact Telephone:
+
+(415) 638-9554
+
+ 
+
+Correspondent Contact Email:
+
+jared@enzyme.com
+
+ 
+
+Device Name
+
+ 
+
+Device Trade Name:
+
+AiMIFY (1.x)
+
+ 
+
+Common Name:
+
+Medical image management and processing system
+
+ 
+
+Classification Name:
+
+System, Image Processing, Radiological
+
+ 
+
+ 
+
+ 
+
+Regulation Number: 892.2050
+Product Code: LLZ
+Device Class: Class IT
+
+ 
+
+Legally Marketed Predicate
+Device:
+
+ 
+
+ 
+
+Predicate #: K223623
+Predicate Trade Name: SubtleMR
+Predicate Manufacturer: Subtle Medical
+
+ 
+
+ 
+
+AiMIFY 510(k) Summary
+Page 1
+K240290
+
+Device Description Summary
+
+The AiMIFY device is a software as a medical device consisting of a machine learning software
+algorithm that enhances images taken by MRI scanners. AiMIFY consists of a software algorithm that
+improves contrast-to-noise ratio (CNR), contrast enhancement (CEP), and lesion-to-brain ratio (LBR) of
+Gadolinium-Based Contrast Agent (GBCA) enhanced T1-weighted images while maintaining diagnostic
+performance, using deep learning technology. It is a post-processing software that does not directly
+interact with the MR scanner and does not have a graphical user interface. It is intended to be used by
+radiologists in an imaging center, clinic, or hospital. The AiMIFY software uses Tl pre and
+post-contrast MR images acquired as part of standard of care contrast-enhanced MRI exams as the
+software input. The outputs are the corresponding images with enhanced contrast presence. AiMIFY
+enhances DICOM images.
+
+AiMIFY image processing software uses a convolutional neural network based algorithm to enhance the
+AiMIFY-contrast images from pre-contrast and standard-dose post-contrast images. The image
+processing can be performed on MRI images with predefined or specific acquisition protocol settings as
+follows: gradient echo (pre- and post-contrast), 3D BRAVO (pre- and post-contrast), 3D MPRAGE (pre-
+and post-contrast), 2D T1 spin echo (pre- and post-contrast), T1 FLAIR/ inversion recovery spin echo
+(pre- and post-contrast).
+
+The AiMIFY image is created by AiMIFY and sent back to the picture archiving and communication
+system (PACS) or other DICOM node by the compatible MDDS for clinical review.
+
+Because the software runs in the background, it has no user interface. It is intended to be used by
+radiologists in an imaging center, clinic, or hospital.
+
+Note, depending on the functionality of the compatible MDDS, AiMIFY can be used within the
+facility’s network or remotely. The AiMIFY device itself is not networked and therefore does not
+increase the cybersecurity risk of its users. Users are provided cybersecurity recommendations in
+labeling.
+
+Intended Use / Indications for Use
+AiMIFY is an image processing software that can be used for image enhancement in MRI images. It can
+be used to increase contrast-to-noise ratio (CNR), contrast enhancement (CEP), and lesion-to-brain ratio
+(LBR) of enhancing tissue in brain MRI images acquired with a gadolinium-based contrast agent. It is
+intended to enhance MRI images acquired using standard approved dosage per the contrast agent’s
+instructions for use.
+
+Intended Use / Indications for Use Comparison
+AiMIFY and SubtleMR are both intended to enhance 2D/3D T1 imaging data from MRI imaging
+systems.
+
+AiMIFY 510(k) Summary
+Page 2
+K240290
+
+Technological Comparison
+The following table shows the similarities and differences between the technological characteristics of
+the predicate and subject devices.
+
+Table 2. Summary of Technological Characteristics Comparison
+
+ 
+
+Topic Predicate Device Subject Device
+
+ 
+
+Physical Software package that operates on off-the-shelf | Same
+Characteristics | hardware
+
+ 
+
+ 
+
+ 
+
+ 
+
+DICOM The software processes DICOM compliant Same
+Standard image data
+
+Compliance
+
+Operating Linux Same
+System
+
+Modalities MRI Same
+User Interface None — enhanced images are viewed on Same
+
+existing PACS workstations
+
+ 
+
+Workflow The software operates on DICOM files on the | Same
+file system, enhances the images, and stores
+the enhanced images on the file system. The
+receipt of original DICOM image files and
+delivery of enhanced images as DICOM files
+depends on other software systems. Enhanced
+images co-exist with the original images.
+
+ 
+
+Algorithm SubtleMR implements an image enhancement | AiMIFY implements an image
+
+algorithm using convolutional neural network | enhancement algorithm using
+
+based filtering. Original images are enhanced convolutional neural network based
+
+by running through a cascade of filter banks, filtering. The model performs non-linear
+where thresholding and scaling operations are | scaling of the contrast uptake between the
+applied. Separate neural network based filters | pre- and post-contrast images to improve
+are obtained for noise reduction and sharpness | the visualization of the areas in the brain
+increase. The parameters of the filters were that have absorbed the contrast material.
+obtained through an image-guided
+optimization process.
+
+ 
+
+ 
+
+Inputs SubtleMR processes a single input image (with | AiMIFY processes two input images (T1
+low SNR or low resolution) and outputs a pre-contrast and T1 post-contrast) and
+single image with higher SNR or resolution. outputs a single image with a higher
+
+relative CNR.
+
+Processing SubtleMR processes the input image slice by AiMIFY processes the input image in a
+slice in a 2D fashion using a ResNET style 2.5D fashion using a UNet style neural
+neural network. network.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+AiMIFY 510(k) Summary
+Page 3
+K240290
+
+Fundamentally, both devices enhance images from input data provided by MR imaging systems. Though
+there are technological differences, they do not present different questions of safety and effectiveness,
+and the methods for assessing the safety and effectiveness of the subject device are substantively similar
+to those of the predicate device.
+
+Predetermined Change Control Plan
+AiMIFY has a Predetermined Change Control Plan for planned changes to improve the generalizability
+of the AiMIFY Artificial Intelligence/Machine Learning (AI/ML) model, to reduce processing time, and
+improve perceived image quality.
+
+Improved generalizability of the AiMIFY AI/ML model is expected to affect the labeled limitations of
+AiMIFY, as the model will be more generalizable than the cleared version of the device. Improvements
+planned include additional training and/or performance data to add more gadolinium-based contrast
+agents, add additional patient ages (infants and children), add additional clinical conditions, and add
+additional scanner models. The AiMIFY AI/ML model is planned to be retrained with additional output
+channels to reduce processing time, and shall be subject to the same performance testing endpoints and
+acceptance criteria as the cleared version of the device.
+
+Additionally, an optional pre-processing feature is planned that consists of an algorithm which will
+suppress vessel enhancement of the AiMIFY AI/ML model to reduce vessel conspicuity in the
+AiMIFY-enhanced images and resulting in improved perceived image quality. The vessel suppression
+algorithm shall be subject to the same performance testing performance testing endpoints and
+acceptance criteria as the cleared version of the device, along with the additional endpoints that lesions
+in AiMIFY-enhance images with vessel suppression should have equivalent CNR, LBR, CEP
+improvements than images without suppression and that the CNR, LBR, CEP around small and large
+blood vessels are lower in AiMIFY-enhance images with vessel suppression than without. The vessel
+suppression algorithm shall be subject to the same performance testing dataset used in the cleared
+version of the device, along with additional data containing lesions that appear like blood vessels to
+demonstrate that the vessel suppression algorithm doesn’t incorrectly suppress enhancement of the
+lesion in this edge case situation.
+
+All changes shall be performed as a part of Subtle Medical’s Design Change Control process in a
+Quality Management System that is ISO 13485:2016 and MDSAP certified. All impacted design
+documentation, testing documentation, and labeling shall be updated appropriately for each change.
+None of the changes shall result in a change to the Indications for Use, Cautions, performance
+endpoints, or acceptance criteria of AiMIFY. Each change to AiMIFY shall be accompanied by a
+software version-specific Customer Release Notes describing the change along with software
+version-specific User Manual (with updated Limitations description if applicable) and other updated
+labeling.
+
+AiMIFY 510(k) Summary
+Page 4
+K240290
+
+Non-Clinical and/or Clinical Tests Summary & Conclusions
+Dataset Characteristics:
+
+The dataset used for the quantitative and qualitative tests consists of 95 T1 brain cases with a variety of
+protocols, contrast agent, MRI scanners, and patient demographics.
+
+The images varied in acquisition including:
+e TI input protocols: BRAVO, MPRAGE+, FLAIR, FSE.
+e Orientation: axial, sagittal, coronal
+e Acquisition type: 2D, 3D
+
+The images were acquired from various scanners:
+e Field strength: 0.3T, 1.5T, 3.0T
+e Vendors: GE, Philips, Siemens, Hitachi
+
+The images were sourced from a variety of patients:
+
+e Age: Relatively even distribution from age 7 to 86.
+
+e Sex: Relative event distribution of females and males.
+
+e Pathologies: Cerebritis, Glioma, Meningioma, Lymphoma, Metastases, Multiple Sclerosis,
+Neuritis, Inflammation, Other tumor related (resection / radiation necrosis / suspected cyst / etc.),
+other abnormalities
+
+e@ Population Demographics*: California, USA; New York, USA; Nationwide, USA; Beijing,
+China
+
+*Due to privacy practices, ethnicities of the training and testing data is unknown but can be inferred
+based on the population demographics from where they were sourced. The population demographics of
+data sources used for training and testing are as follows per the Census.gov July 2022 Estimates. In
+California, USA, the population of 39m people are distributed by race and hispanic origin as: White
+alone 70.7%, Black or African American alone 6.5%, American Indian and Alaskan Native alone 1.7%,
+Asian alone 16.3%, Native Hawaiian and Other Pacific Islander alone, percent 0.5%, Two or More Race
+4.3%, Hispanic or Latino 40.3%, and White alone (not Hispanic or Latino) 34.7%. In New York, USA,
+the population of 20m people are distributed by race and hispanic origin as: White alone 68.6%, Black
+or African American alone 17.7%, American Indian and Alaskan Native alone 1%, Asian alone 9.6%,
+Native Hawaiian and Other Pacific Islander alone, percent 0.1%, Two or More Race 2.8%, Hispanic or
+Latino 19.7%, and White alone (not Hispanic or Latino) 54.2%. In the overall USA, the population of
+333m people are distributed by race and hispanic origin as: White alone 75.5%, Black or African
+American alone 13.6%, American Indian and Alaskan Native alone 1.3%, Asian alone 6.3%, Native
+Hawaiian and Other Pacific Islander alone, percent 0.3%, Two or More Race 3%, Hispanic or Latino
+19.1%, White alone (not Hispanic or Latino) 58.9%.
+
+AiMIFY 510(k) Summary
+Page 5
+K240290
+
+Quantitative Assessment (Bench Test):
+
+In addition to software verification & validation, performance bench testing was conducted to
+demonstrate the safety and efficacy of applying AiMIFY to enhance contrasted images using a
+convolutional neural network on clinically acquired pre- and post-contrast brain images. To evaluate the
+performance of the software, Subtle quantitatively evaluated the 95 acquired studies recruited from
+clinical sites or hospitals. Of these cases, it was found during the Reader Study that 57 of them had
+lesions. The acquired studies include pre-contrast, post-contrast, and AiMIFY images from various
+sites, age ranges, manufacturers, scanner models, orientations, and magnitudes of field strengths. They
+were used to assess the superiority of the AiMIFY against the acquired post-contrast image using
+Contrast Enhancement Percentage (CEP), Contrast-to-Noise Ratio (CNR), and Lesion-to-Brain Ratio
+(LBR) to perform the analysis.
+
+The primary endpoint of the quantitative test was that the CNR, LBR, and CEP ofa selected region of
+interest (ROI) in each test dataset is on average improved by greater than or equal to 50% after AIMIFY
+enhancement compared to the traditionally acquired contrast images.
+
+Two ROIs were drawn by a board-certified radiologist for each case to capture the enhancing lesion and
+brain parenchyma. An ROI was drawn at the superior sagittal sinus region without an enhancing lesion.
+The post-contrast image was labeled where the ROI was copied to the AiMIFY image with relevant
+metrics on the case. The ROI is designed to estimate the signal intensity value.
+
+Contrast-to-Noise Ratio (CNR) was determined to be 559.94% across all 95 cases, and 831.70%
+for the 57 lesion-only cases. The CNR of the AiMIFY images is significantly higher (Wilcoxon
+signed-rank test, p < 0.0001) than that of the standard post-contrast images. The high increase of CNR of
+AiMIFY images compared to standard post-contrast images is due to the fact that both the contrast
+between a lesion and the normal parenchyma is increased by AiMIFY and also the noise of the images is
+reduced by the denoising module of AiMIFY.
+
+Lesion-to-Brain Ratio (LBR) was determined to be 62.07% across all 95 cases, and 58.80% for the
+57 lesion-only cases. The Contrast Enhancement Percentage (CEP) between the acquired
+post-contrast image and AiMIFY was determined to be 133.29% across all 95 cases, and 101.80%
+for the 57 lesion only cases. The LBR and the CEP metric of the AiMIFY images are both significantly
+better (Wilcoxon signed-rank test, p-value < 0.0001) than that of the standard post-contrast images. Both
+metrics are measuring the main effects of AiMIFY, which is the increase of signal intensity of enhancing
+tissue, measured as CEP and leading to higher LBR.
+
+In summary, these results prove that the AiMIFY images are enhanced with the acquired post-contrast in
+
+terms of the signal intensity value from the brain parenchyma to the enhanced lesion.
+
+AiMIFY 510(k) Summary
+Page 6
+K240290
+
+Qualitative Assessment (Reader Study):
+
+The AiMIFY Reader Study aimed to demonstrate image enhancement of contrasted MRI images by
+applying AiMIFY post-processing enhancement software using convolutional neural networks.
+Specifically, 3 board-certified neuro-radiologists evaluated the Perceived Visibility of anatomic features
+and lesions. The primary diagnostic categories were (1) Meningioma, (2) Glioma, (3) Lymphoma, (4)
+Metastases, (5) Infection, (6) Cerebritis, (7) Multiple Sclerosis, (8) Neuritis, (9) Other tumor-related
+(resection / radiation necrosis / suspected cyst / etc.), and (10) Other abnormality. The readers were
+presented with both the pre- and post-contrast input images and the AiMIFY enhanced image. Readers
+were asked to evaluate the Perceived Visibility of Lesion Contrast Enhancement, Lesion Border
+Delineation, and Lesion Internal Morphology on a 4-point Likert scale. Additionally, readers were asked
+to evaluate Perceived Image Quality, Artifact Presence, and Vessel Conspicuity on a 4-point Likert
+scale.
+
+The primary endpoint of the qualitative test was the visibility of lesion features (lesion contrast
+enhancement, border delineation, and internal morphology) for cases with identified lesions in the test
+datasets should be statistically significantly better for AiMIFY processed images per the Wilcoxon
+signed rank test by p<0.05.
+
+Lesion Contrast Enhancement, Border Delineation, and Internal Morphology were significantly
+better than standard post-contrast by p<0.0001. Therefore, results provide evidence that AiMIFY
+provides a significant improvement of lesion contrast enhancement, border delineation, and internal
+morphology visualization.
+
+The secondary endpoint of the qualitative test was the visibility of perceived image quality and image
+artifacts for all cases in the test datasets for AiMIFY processed images should NOT be statistically
+significantly worse than standard post-contrast images per the Wilcoxon signed rank test by p<0.05.
+
+Perceived Image Quality and Artifact Presence And Impact On Clinical Diagnosis were
+significantly not worse than standard post-contrast by p<0.0001. Additionally, two of three readers
+demonstrated that Perceived Image Quality is better than standard post-contrast by p<0.0001. Therefore,
+these results provide evidence that AiMIFY does not have worse perceived image quality or artifacts
+that impact diagnosis, and may have higher perceived image quality.
+
+In addition to the primary and secondary endpoints, the study contained several exploratory endpoints to
+characterize AiMIFY’s performance.
+
+Exploratory Endpoints:
+Vessel Conspicuity
+
+AiMIFY 510(k) Summary
+Page 7
+K240290
+
+The first exploratory endpoint was the evaluation of user preference of vessel conspicuity for all cases in
+the test datasets for AiMIFY processed images to establish the limitations of AiMIFY.
+
+Compared to 3.51% of standard post-contrast cases, 11.58% of AiMIFY cases were rated as likely to
+impact diagnosis due to vessel conspicuity. However, in 90% of cases vessel conspicuity was assessed as
+unlikely to impact or having no impact on diagnosis. This shows that the potential negative impact of the
+higher vessel conspicuity with AiMIFY is limited. Additionally, a further breakdown of results by reader
+revealed that there was significant variability in reader preference regarding vessel conspicuity.
+
+False Lesion Analysis
+
+The second exploratory endpoint was the evaluation of false lesion frequency, cause, and severity for all
+cases in the test datasets for AiMIFY processed images to establish a caution statement for AiMIFY.
+
+73% of cases did not have false lesions, 4% of cases with false lesions did not have impact on diagnosis,
+9% of cases with false lesions had minor impact on diagnosis, 14% of cases with false lesions had major
+impact on diagnosis (4% being due to false lesions that are introduced by AiMIFY, 2% due to quality of
+input images, and 8% being due to a combination of both causes). 100% of cases received scores from
+all readers that the Standard-of-Care image was sufficient to identify the false lesion(s).
+
+Lesion Size
+
+To establish the range of lesions that AiMIFY is validated to be used on the size of lesions in the 95 test
+subject validation datasets used for AiMIFY quantitative and qualitative assessment was performed.
+
+AiMIFY has been validated with lesion sizes ranging from 1.23 cc to 7.08 cc with 95% CI, and has been
+tested on lesions as small as 0.02 cc and as large as 59.83 cc. AiMIFY processed images had greater
+lesion contrast enhancement than standard-of-care post-contrast images for both small lesions (<lcc:
+AiMIFY = 3.57 versus Original = 2.71) and large lesions (>1cc: AiMIFY = 3.77 versus Original = 3.23).
+This establishes the range of lesion sizes over which AiMIFY performance has been validated, and that
+enhancement is seen in both small (<1cc) and large (>1cc) lesions.
+
+Radiomics
+
+Radiomics analysis was performed to assess the similarity in the texture related features of the lesions as
+well as parenchyma tissue / healthy tissue, using the concordance correlation coefficient (CCC) as the
+metric, on 95 subject datasets (the same data from the AiMIFY Quantitative Assessment described
+above).
+
+AiMIFY 510(k) Summary
+Page 8
+K240290
+
+The similarity in the texture measured as Concordance Correlation Coefficient (CCC) between AiMIFY
+input and output images in seven radiomics feature classes were all >= 0.65 for lesion tissue.
+Specifically, the CCC in the seven radiomics feature classes ranged from 0.68 to 0.89, which are all >=
+0.65, for lesion tissue. Seven radiomics feature classes of SOC and AiMIFY-enhanced have a good
+correlation for lesion tissue.
+
+The similarity in the texture measured as CCC between AiMIFY input and output images in seven
+radiomics feature classes were all >= 0.8 for parenchyma tissue / healthy tissue. Specifically, the CCC in
+the seven radiomics feature classes ranged from 0.82 to 0.92, which are all >= 0.8, for parenchyma
+tissue / healthy tissue. Seven radiomics feature classes of SOC and AiMIFY-enhanced have a good
+correlation for parenchyma tissue / healthy tissue.
+
+Dose Appearance
+
+To assess whether AiMIFY-enhanced images have a high-dose-like appearance, the ‘dose concentration’
+of AiMIFY-enhanced images to standard post-contrast images was compared using a physics-based
+formula. “BRAVO” sequence images were chosen for this evaluation due to the widely accepted signal
+evolution equation which is well established in the literature. On average, AiMIFY-enhanced images had
+93% more dose concentration than standard post-contrast images, indicating they do have a
+high-dose-like appearance.
+
+In addition, the training and validation datasets were compared in terms of CNR increase, where the
+training dataset compared CNR increase from low-dose to regular-dose post-contrast images while the
+testing dataset compared CNR increase from standard regular-dose post-contrast images and the
+AiMIFY-enhanced post-contrast images. Both datasets had significant increases in CNR increase.
+
+SubtleMR
+
+The AiMIFY device makes use of the SubtleMR device (K223623) as a denoising module in its
+post-processing engine. As the SubtleMR device was not previously tested or trained on
+AiMIFY-processed images, validation of SubtleMR using the validation tests described in K223623 was
+conducted to ensure performance of that device on this new type of input data.
+
+When using SubtleMR in AiMIFY post-processing, average scores between the original and SubtleMR
+enhanced images are <= 0.5 Likert scale points for visibility of small structures. Specifically, the average
+score between original and SubtleMR enhanced images was 0.05 points. These results demonstrate that
+SubtleMR’s denoising does not over-smooth images processed by the AiMIFY algorithm.
+
+When using SubtleMR in AiMIFY post-processing, average scores difference between the original and
+SubtleMR enhanced images are <= 0.5 Likert scale points for perceived SNR, Image Quality, Image
+
+AiMIFY 510(k) Summary
+Page 9
+K240290
+
+Artifact Scores. Specifically, the average SNR score difference between original and SubtleMR
+enhanced images was 0.05 for Septum Pellucidum, 0.08 for Cranial Nerves, and 0.07 for Cerebellar
+Folia. The average image quality/diagnostic confidence score difference between original and SubtleMR
+enhanced images was 0.11 for Septum Pellucidum, 0.04 for Cranial Nerves, and -0.05 for Cerebellar
+Folia. The average imaging artifacts score difference between original and SubtleMR enhanced images
+was 0.11 for Septum Pellucidum, 0.14 for Cranial Nerves, and 0.05 for Cerebellar Folia.
+
+These results demonstrate that SubtleMR’s denoising does not negatively impact perceived SNR,
+perceived image quality/diagnostic confidence, or imaging artifacts in images processed by the AiMIFY
+algorithm.
+
+When evaluating for SNR improvement, the average SNR improvement was 14%, greater than the 5%
+
+acceptance criteria established in the SubtleMR validation, indicating that Subtle MR can denoise images
+processed by the AiMIFY algorithm.
+
+Conclusion:
+
+These results demonstrate that the AiMIFY is substantially equivalent to the predicate device.
+
+AiMIFY 510(k) Summary
+Page 10
+

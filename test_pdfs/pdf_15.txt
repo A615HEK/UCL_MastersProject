@@ -1,0 +1,353 @@
+ 
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES. Form Approved: OMB No. 0910-0120
+
+ 
+
+ 
+
+ 
+
+Food and Drug Administration Expiration Date: 07/31/2026
+Indications for Use See PRA Statement below.
+510(k) Number (if known)
+K233977
+Device Name
+Velacur
+
+ 
+
+Indications for Use (Describe)
+
+Velacur is intended to provide estimates of tissue stiffness generated from shear wave speed measurements (40-70 Hz),
+ultrasound attenuation and Velacur Determined Fat Fraction (VDFF). The Velacur Determined Fat Fraction combines
+ultrasound attenuation and backscatter coefficient measurements. The device is indicated to non-invasively determine
+liver tissue stiffness, attenuation, and Velacur Determined Fat Fraction. VDFF is not intended to be used in pediatric
+patients. These are meant to be used in conjunction with other clinical indicators in order to aid in clinical management of
+patients with liver diseases, including hepatic steatosis.
+
+The device is intended to be used in a clinical setting and by trained medical professionals.
+
+ 
+
+Type of Use (Select one or both, as applicable)
+Xl Prescription Use (Part 21 CFR 801 Subpart D) (J Over-The-Counter Use (21 CFR 801 Subpart C)
+
+ 
+
+ 
+
+ 
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+
+Department of Health and Human Services
+
+Food and Drug Administration
+
+Office of Chief Information Officer
+
+Paperwork Reduction Act (PRA) Staff
+
+PRAStaff@fda.hhs.gov
+
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+
+FORM FDA 3881 (8/23) Page 1 of 1 PSC Publishing Services (301) 443-6740 EF
+Velacur 510(k) Summary
+
+°
+Model: LI-1005 @ Soniclincytes Section 5-1
+Section 5 — 510(k) Summary K233977
+
+Sonic Incytes Velacur system
+|. Submitter:
+
+Sonic Incytes
+
+#309-1788 West Sth Avenue
+
+Vancouver, BC V6J 1P2 Canada
+
+Telephone: +1 604 875 4111 Extension: 54851
+
+Contact person: Rhona Shanker
+Date Prepared: 15 December 2023
+
+Il. Device
+Name of Device: Velacur
+Model: LI-1005
+
+Common Name: Ultrasound elastography system
+
+ 
+
+ 
+
+ 
+
+Classification Name Regulation Product Code
+Ultrasonic Pulsed Echo 21 CFR §892.1560 IYO
+
+Imaging System
+
+Diagnostic Ultrasonic 21 CFR §892.1570 ITX
+Transducer
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Predicate Device
+
+Velacur (K232459) manufactured by Sonic Incytes Medical Corp., Vancouver, Canada, and
+cleared on September 12, 2023.
+
+Reference device: Siemens Acuson Sequoia (K183575) cleared on March 20, 2019.
+Device Description
+
+The device that is the subject of this submission is the same one cleared under K232459,
+Velacur.
+
+Velacur is a portable device intended to non-invasively measure the stiffness and attenuation of
+the liver via measurement of liver tissue shear modulus and ultrasound attenuation. This is done
+by measuring the wavelength or wave speed of mechanically created shear waves within the
+organ of the patient. Attenuation is measured directly via the loss in power of the ultrasound
+beam.
+
+The device is designed to be used at the point of care, in clinics and hospitals. The device is
+used by a medical profession, an employee of the clinic/hospital. The activation unit is placed
+under the patient, while lying supine on an exam bed. The activation unit vibrates at frequencies
+40, 50, and 60 Hz causing shear waves within the liver of the patient. The ultrasound
+transducer is placed on the patient’s skin, over the intercostal space, and is used to take
+
+ 
+
+Section 5 5-1
+510(k) Summary
+
+Velacur e
+Model: U-1005 @ Soniclincytes Section 5 -2
+
+volumetric scans of the liver while shear waves are occurring. The device includes two
+algorithms designed to help users detect good quality shear waves and identify liver tissue.
+From the scan data, the device calculates tissue stiffness and attenuation.
+
+Minor hardware and software changes were made to the device. The organ guide (cleared in
+K223287) was also extended to add more optional overlays on top of the liver overlay to help
+with optimizing the scan and training users to obtain adequate images. The significant change is
+the addition of a new output measure for Velacur, an ultrasound derived fat fraction (VDFF).
+
+Intended Use! Indication for Use
+
+Velacur is intended to provide estimates of tissue stiffness generated from shear wave speed
+measurements (40-70 Hz), ultrasound attenuation and Velacur Determined Fat Fraction
+(VDFF). The Velacur Determined Fat Fraction combines ultrasound attenuation and backscatter
+coefficient measurements. The device is indicated to non-invasively determine liver tissue
+stiffness, attenuation, and Velacur Determined Fat Fraction. VDFF is not intended to be used in
+pediatric patients. These are meant to be used in conjunction with other clinical indicators in
+order to aid in clinical management of patients with liver diseases, including hepatic steatosis.
+
+The device is intended to be used in a clinical setting and by trained medical professionals.
+Substantial Equivalence
+
+The candidate device has the same intended use and indications for use as the predicate
+device in that the outputs are meant to be used in conjunction with other clinical indicators in
+order to aid in clinical management of patients with liver diseases.
+
+The technology used in the candidate and predicate device is based on ultrasound to measure
+elastography and attenuation (ACE). The systems measure the same physical variables, tissue
+stiffness and ultrasound attenuation, and therefore the devices are substantially equivalent in
+their basic technology.
+
+Sonic Incytes has introduced a third Velacur output, the Velacur Determined Fat Fraction
+(VDFF), in addition to the elasticity and ACE output. The Siemens Sequoia Ultrasonically
+Derived Fat Fraction (UDFF) was used as the reference device for this output measure. The
+same as UDFF, the VDFF algorithm combines ultrasound attenuation measurements and a
+computed backscatter coefficient (BSC). The same as UDFF, MRI proton density fat fraction
+was used as the ground truth for validation. The performance testing acceptance criteria were
+based on UDFF testing and results.
+
+The candidate device with the described changes does not raise any new issues of safety or
+effectiveness.
+
+Performance Data
+The following testing was performed:
+
+e Performance verification testing of the Velacur Determined Fat Fraction output
+e Backscatter testing on phantoms, using phantoms with known backscatter parameters
+e Sweep guidance tool testing
+
+ 
+
+Section 5 5-2
+510(k) Summary
+
+Velacur e
+Model: U-1005 @ Soniclincytes Section 5 -3
+
+e Human Factors testing
+e Validation testing of the organ guide extension
+¢ Software Verification and Validation
+
+Recognized Consensus Standards Used
+The system complies with the same standards as the predicate, the standards are:
+
+IEC 60601-1-2 Edition 4.1: Medical Electrical Equipment - Part 1-2: General Requirements for
+Basic Safety and Essential Performance - Collateral Standard: Electromagnetic Disturbances -
+Requirements and Tests
+
+ANSI AAMI 60601-1:2005/(R)2012 And A1:2012: Medical Electrical Equipment - Part 1:
+General Requirements for Basic Safety and Essential Performance (IEC 60601-1:2005, MOD)
+
+IEC 60601-1-6 Edition 3.1 2013-10: Medical Electrical Equipment - Part 1-6: General
+Requirements for Basic Safety and Essential Performance - Collateral Standard: Usability
+
+IEC 62304:2006/A1:2015: Medical Device Software - Software Life Cycle Processes [Including
+Amendment 1 (2016)
+
+IEC 60601-2-37 Edition 2.1 2015 Medical Electrical Equipment - Part 2-37: Particular
+Requirements for The Basic Safety and Essential Performance Of Ultrasonic Medical Diagnostic
+And Monitoring Equipment
+
+IEC 62359: Edition 2.1 2017-09: Ultrasonics - Field Characterization - Test Methods for The
+Determination of Thermal and Mechanical Indices Related to Medical Diagnostic Ultrasonic
+Fields
+
+ISO 14971 Third Edition 2019-12: Medical Devices - Application of Risk Management to
+Medical Devices
+
+ISO 10993-1 fifth edition 2018-08: Biological Evaluation of Medical Devices - Part 1:
+Evaluation and Testing Within A Risk Management Process
+
+Validation of Velacur Determined Fat Fraction algorithm (VDFF)
+
+Velacur Determined Fat Fraction was tested in a cohort of patients with both Velacur and MRI-
+PDFF scans. 112 patients from 4 sites were used in for parameter fitting (training) and 70 new
+patients from 3 separate sites (with different Velacur operators) were used for the final
+validation. All MRI scans were assessed to create the final measurement.
+
+Acceptance criteria were based on the correlation coefficient (r) between VDFF and MRI-PDFF,
+and the detection of 5% steatosis. Demographic distribution of the patients is summarized
+below:
+
+Parameter Fitting Validation Cohort
+Cohort (Training)
+
+Number of patients 112 70
+
+Number of Sites 4 3
+
+ 
+
+Section 5 5-3
+Velacur
+Model:
+
+510(k) Summary
+
+U-1005 @ Sonic ncytes Section 5-4
+
+Sex (“% Female) 53% Female 75.7% Female
+Age (mean + std) 57.44 11.7 46.9 + 13.8
+BMI (mean + std) 3044.4 30.9 + 7.58
+Race/Ethnicity (% white) 36% 69%
+
+MRI PDFF (mean + std) 14.2 + 8.23 10.1 + 9.75
+
+The final correlation coefficient [95% Cl] in the validation cohort was 0.85 [0.77-0.91]. The AUC
+[95% Cl] for detection of 5% steatosis, which is the consensus level for the diagnosis of any
+steatosis, was 0.97 [0.89-0.99].
+
+Machine Learning Validation for Organ Guide Extension
+
+The Organ Guide was extended to include surrounding organs and features.
+Dice Coefficient and pixel accuracy were used for characterization and validation of the
+performance of the organ guide extension. The acceptance criteria were:
+
+o Dice Coefficient > 0.7
+
+o Pixel accuracy > 80%
+More than 5,000 patient images were used for training. Training data was collected
+during clinical trials of volunteers and patients with chronic liver disease of all severities.
+Data was collected from sites across the US and Canada.
+Evaluation was completed on more than 800 images from 21 patients.
+Volunteers and patients were recruited from all genders, ages between 18-70 and all
+ethnicities, with from 33-50% minority representation.
+Evaluation data was collected from volunteers and patients with non-alcoholic fatty liver
+disease and non-alcoholic steatohepatitis. All patients were recruited from hepatology
+clinics and represent a group with more severe liver disease than the general public.
+All data was collected using the Velacur system.
+Ground truth was established using manual image segmentation by experts in the field
+of sonography and/or ultrasound elastography.
+Data used in the validation of the algorithm performance was obtained from separate
+patients, sites and collected by different users than the data used for training in order to
+ensure data independence.
+
+Machine Learning Validation for Wave Quality Guide
+
+The Wave Quality Guide is an algorithm to measure the area of good quality waves
+within the image or volume. This is shown to the user through an optional semi
+transparent overlay, and the quality bar in the interface.
+Dice Coefficient and sensitivity/specificity were used for characterization and validation
+of the performance of the wave quality guide. The acceptance criteria were:
+
+o Dice Coefficient > 0.7
+
+o Sensitivity and Specificity > 80%
+
+ 
+
+Section 5 5-4
+510(k) Summary
+
+Velacur e
+Model: U-1005 @ Soniclincytes Section 5-5
+
+e More than 15,000 patient images from 100+ patients were used for training. Training
+data was collected during clinical trials of volunteers and patients with chronic liver
+disease of all severities. Data was collected from sites across the US and Canada.
+
+e Evaluation was completed on more than 4,000 images from 36 patients.
+
+e Volunteers and patients were recruited from all genders, ages between 18-70 and all
+ethnicities, with from 33-50% minority representation.
+
+e Evaluation data was collected from volunteers and patients with non-alcoholic fatty liver
+disease and non-alcoholic steatohepatitis. All patients were recruited from hepatology
+clinics and represent a group with more severe liver disease than the general public.
+
+e All data was collected using the Velacur system.
+
+e Ground truth was established using manual image segmentation by experts in the field
+of ultrasound elastography.
+
+e Data used in the validation of the algorithm performance was obtained from separate
+patients, sites and collected by different users than the data used for training in order to
+ensure data independence.
+
+Conclusion
+
+The conclusion drawn from the testing described above demonstrate that the device is
+substantially equivalent to the predicate device with respect to safety, effectiveness and
+performance.
+
+ 
+
+Section 5 5-5
+
