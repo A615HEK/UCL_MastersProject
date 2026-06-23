@@ -1,7 +1,39 @@
+# 1. All imports
 import pandas as pd
 from urllib.error import HTTPError
-from time import sleep
+from time import sleep, perf_counter
 
+# Reading the PDF by OCR - Preliminaries
+import requests, io, pytesseract
+from PIL import Image
+from PyPDF2 import PdfReader
+import fitz as fz #PyMuPdf
+
+import os, ollama, json
+from pydantic import BaseModel
+
+# RAG Imports
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+import faiss
+import numpy as np
+from sentence_transformers import SentenceTransformer
+
+# 2. Class definitions
+# JSON Schema
+# Defining Pydantic Schema
+class ProductInfo(BaseModel):
+    AI_Product_name:str
+    AI_Company_name:str
+    Sub_specialty:str
+    Imaging_Modality:str
+    Intended_Purpose:str
+    Summary_passage_of_Clinical_use:str
+    Summary_passage_of_Product_output:str
+    CE_Classification:str
+    FDA_Classification:str
+    Manufacturer:str
+
+# 3. Function definitions
 def check_DB_updates(fda_db_path:str = "FDA_DB.csv"):
     """
     Checks the FDA Database, compares it with the local copy for
@@ -14,13 +46,13 @@ def check_DB_updates(fda_db_path:str = "FDA_DB.csv"):
 
     # Save the details
     csvFileName = fda_db_path
-    stored_DF = pd.read_csv(csvFileName, index_col=None)
-
-    # Check for differences
     new_indices = []
-    for val in dataframe["Submission Number"].values:
-        if val not in stored_DF["Submission Number"].values:
-            new_indices.append(stored_DF["Submission Number"][stored_DF["Submission Number"] == val].index)
+    if os.path.exists(fda_db_path):
+        stored_DF = pd.read_csv(csvFileName, index_col=None)
+        # Check for differences
+        for val in dataframe["Submission Number"].values:
+            if val not in stored_DF["Submission Number"].values:
+                new_indices.append(stored_DF["Submission Number"][stored_DF["Submission Number"] == val].index)
     if len(new_indices) == 0:
         print("No difference...")
     else:
@@ -35,42 +67,15 @@ def check_DB_updates(fda_db_path:str = "FDA_DB.csv"):
     required_data = required_data[required_data["Submission Number"].str.contains("K") == True]
     required_data.reset_index(inplace=True)
     required_data = required_data.drop("index", axis=1)
+    return required_data
 
-def scrape_based_on_ID(required_FDA_doc_idx:list, required_data):
+def scrape_pdfs(required_data, file_with_URLs:str = "pdf_urls.txt", devices_already_done:int = 0, devices_needed_currently:int = 20, sleep_time_recommended:int = 25):
     """
-    Scrape pdf URL data for particular device IDs and save them
-    to a text file
+    Scrape pdf URL data and save them to a text file<br>
+    sleep_time_recommended:int (in seconds) --> from robots.txt<br>
+    devices_needed_currently:int --> Number of devices to be scraped in the current run
     """
     pdf_urls = []
-    sleep_time_recommended = 25 # in seconds --> from robots.txt
-    file_with_URLs = "pdf_urls.txt"
-    for doc_id in required_FDA_doc_idx:
-        try:
-            device_ID = required_data["Submission Number"][doc_id]
-            specific_device_FDA_URL = f"https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID={device_ID}"
-            some_ret = pd.read_html(specific_device_FDA_URL) # Pandas DataFrame object
-            # For single digit years its just a single digit -> 4 not 04
-            year_submitted = str(int(some_ret[7].loc[some_ret[7][0] == "Date Received"][1].values[0][-2:]))
-            pdf_URL = f"https://www.accessdata.fda.gov/cdrh_docs/pdf{year_submitted}/{device_ID}.pdf"
-            pdf_urls.append(pdf_URL)
-            print(f"Finished device with ID: {doc_id}...")
-            if doc_id != required_FDA_doc_idx[-1]:
-                sleep(sleep_time_recommended)
-        except HTTPError:
-            print(HTTPError)
-    with open(file_with_URLs, "a") as f:
-        for i in range(len(pdf_urls)):
-            f.write(pdf_urls[i]+"\n")
-
-def scrape_pdfs(required_data):
-    """
-    Scrape pdf URL data and save them to a text file
-    """
-    pdf_urls = []
-    sleep_time_recommended = 25 # in seconds --> from robots.txt
-    devices_already_done = 4 # Done 29 --> Start from 29 for next batch
-    devices_needed_currently = 17
-    file_with_URLs = "pdf_urls.txt"
     for i in range(devices_already_done, devices_already_done+devices_needed_currently):
         try:
             sleep(sleep_time_recommended)
@@ -92,3 +97,160 @@ def scrape_pdfs(required_data):
     with open(file_with_URLs, "a") as f:
         for i in range(len(pdf_urls)):
             f.write(pdf_urls[i]+"\n")
+
+def get_pdf_data(file_URL:str, pytesseract_flag:bool|int = False) -> tuple[list[str], float]:
+    """Pass file URL to get the contents of the document"""
+    try:
+        response = requests.get(url=file_URL)
+        filestream = io.BytesIO(response.content)
+        info_doc = []
+        if pytesseract_flag:
+            # OCR and reading the file contents
+            doc = fz.open(stream=filestream, filetype="pdf")
+            for page_num in range(doc.page_count):
+                page = doc.load_page(page_num)
+                pix = page.get_pixmap(matrix=fz.Matrix(2,2))
+                img = Image.open(io.BytesIO(pix.tobytes()))
+                text = pytesseract.image_to_string(img)
+                info_doc.append(f"\n--- Page {page_num+1} ---\n" + text)
+            doc.close()
+        else:
+            pdf_file = PdfReader(filestream)
+            info_doc = [f"\n--- Page{i+1} ---\n"+pdf_file.pages[i].extract_text() for i in range(len(pdf_file.pages))]
+        return info_doc
+    except HTTPError:
+        print(HTTPError)
+        return []
+
+def remove_letter_page(info_doc:list) -> list[str]:
+    """Removes the obligatory letter page(s) from the FDA"""
+    letter_pages = []
+    for page in info_doc:
+        if ("enclosure" in page.lower()) or ("sincerely" in page.lower()):
+            letter_pages.append(info_doc.index(page))
+    if letter_pages[0] == 0:
+        return info_doc[letter_pages[-1]+1:]
+    else:
+        return info_doc[:letter_pages[0]] + info_doc[letter_pages[-1]+1:]
+
+def write_pdf_to_txt(file_URL:str, pytesseract_flag:bool|int = False):
+    """
+    Reads & writes the PDF in the specified URL to a .txt file <br>
+    pytesseract_flag:bool --> True - If Tesseract exists;
+                              False (Default) - If no Tesseract
+    """
+    i = 0 # TODO: Check this
+    # Create a directory to hold the scraped PDF data
+    if not os.path.exists("./test_pdfs"):
+        print("Creating Test Directory...")
+        os.mkdir("./test_pdfs")
+    pdf_text = "".join(remove_letter_page(get_pdf_data(file_URL, pytesseract_flag)))
+    with open(f"./test_pdfs/pdf_{i+1}.txt", "w") as current_file:
+        current_file.write(pdf_text)
+
+def join_docs(article_parts, *papers_to_process) -> str:
+    """
+    Join all document sources and return them as a single string
+    """
+    processed_docs = ""
+    processed_docs += "\n".join(article_parts)
+    if papers_to_process:
+        for doc_considered in papers_to_process:
+            processed_docs += "".join(doc_considered)
+    return processed_docs
+
+def get_answers(model:str, doc_contents:str, prompt:str, times_to_run:int = 5, temperature:float = 0):
+    for i in range(times_to_run):
+        if temperature == None:
+            response = ollama.generate(model = model,
+                        prompt = f"--- Document Contents: ---\n{doc_contents}\n\n--- My Query: ---\n{prompt}",
+                        format = "json")
+        else:
+            response = ollama.generate(model = model,
+                                    prompt = f"--- Document Contents: ---\n{doc_contents}\n\n--- My Query: ---\n{prompt}",
+                                    format = "json",
+                                    options = {"temperature": temperature})
+        print(f"--- Response from time {i+1}: ---")
+        print(response.response)
+
+# RAG Portions
+## Chunker
+def Chunker(doc_contents:str):
+    """
+    Split the document string into chunks
+    """
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
+    docs_after_split = text_splitter.split_text(doc_contents)
+    return docs_after_split
+
+## Embedding and Vector DB Creation
+def Embedder(docs_after_split:list[str], model_name:str = "all-MiniLM-L6-v2"):
+    embedding_model = SentenceTransformer(model_name)
+    details_required = ["AI Product name", "AI Company name", "Sub-specialty", "Imaging Modality", "Intended Purpose", "Summary paragraph/sentence of Clinical use", "Summary paragraph/sentence of Product output", "CE Classification", "FDA Classification", "Manufacturer"]
+    trial_ollama_prompt = "You are part of an automated machine interface that specialises in scanning through FDA regulatory documents to find the requested fields that are present in the document provided to you and packaging these outputs into only valid JSON outputs. Given above are the contents from various regulatory documents on a particular product. I require the following details from the document: " + ", ".join(details_required) + ". Return None for the CE_Classification if it is not specified. Give me these information in a JSON format only."
+    start_time = perf_counter()
+    doc_embeddings = embedding_model.encode(docs_after_split)
+    print(f"Embedding time: {perf_counter() - start_time}")
+    index = faiss.IndexFlatL2(len(doc_embeddings[0]))
+    index.add(doc_embeddings.astype(np.float32))
+    query_embeddings = embedding_model.encode(trial_ollama_prompt).reshape((1,-1))
+    return index, query_embeddings
+
+## Similarity Search and Retrieval
+def Retriever(index, query_embeddings, num_rel_docs_to_return:int = 7):
+    distances, indices = index.search(query_embeddings.astype(np.float32), num_rel_docs_to_return)
+    return distances, indices
+
+def RAG(doc_contents:str, num_rel_docs_to_return:int = 7, model_name:str = "all-MiniLm-L6-v2"):
+    """
+    Consolidated function to perform RAG using all-MiniLm-L6-v2
+    """
+    docs_after_split = Chunker(doc_contents)
+    index, query_embeddings = Embedder(docs_after_split, model_name)
+    _, indices = Retriever(index, query_embeddings, num_rel_docs_to_return)
+    relevant_doc_contents = "".join([docs_after_split[i] for i in indices[0]])
+    return relevant_doc_contents
+
+def save_responses(data_to_save:pd.DataFrame, save_file_name:str):
+    """
+    Function to save LLM responses
+    """
+    if os.path.exists(save_file_name):
+        data_to_save.to_csv(save_file_name, mode='a', index=False, header=False)
+    else:
+        data_to_save.to_csv(save_file_name, index=False)
+
+def LLM_response(model:str, details_required:list, details_schema:dict, doc_contents:str, save_file_name:str = None, judge:bool = False, gen_response:str = None, options:dict = None, run_num:str = None):
+    """
+    Function to get and return the response generated from the
+    specified LLM
+    """
+    if judge:
+        prompt = "You are part of the judging module of an automated machine interface that specialises in scanning through FDA regulatory documents to find the requested fields that are present in the document provided to you and packaging these outputs into only valid JSON outputs. Given above are the contents from an FDA regulatory document on a particular product. I require the following details from the document: " + ", ".join(details_required) + f". Given below is the JSON response from the module that you need to judge: {gen_response}. For each of the fields comment only with True or False, True if the fields match with the information from the document provided and False otherwise. Give me the outputs in a JSON format only."
+    else:
+        prompt = "You are part of an automated machine interface that specialises in scanning through FDA regulatory documents to find the requested fields that are present in the document provided to you and packaging these outputs into only valid JSON outputs. Given above are the contents from various regulatory documents on a particular product. I require the following details from the document: " + ", ".join(details_required) + ". Return None for the CE_Classification if it is not specified. Give me these information in a JSON format only."
+    if not options:
+        options = {"temperature": 0}
+    print(f"options: {options}")
+    response = ollama.generate(model = model,
+                            prompt = f"--- Document Contents: ---\n{doc_contents}\n\n--- My Query: ---\n{prompt}",
+                            format = details_schema,
+                            options = options)
+    if save_file_name:
+        responses_DF = pd.DataFrame(json.loads(response.response), index=[0])
+        if run_num:
+            responses_DF["Run"] = run_num
+        save_responses(responses_DF, save_file_name)
+    return response
+
+# TODO: Make this a decorator
+def timer_n_printer(func:function):
+    start_time = perf_counter()
+    response_generator = func()
+    end_time = perf_counter() - start_time
+
+    gen_times.append(end_time)
+    print(f"Gen Time = {end_time}")
+
+    judge_times.append(end_time)
+    print(f"Judge Time = {end_time}")
