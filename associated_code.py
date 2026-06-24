@@ -1,5 +1,6 @@
 # 1. All imports
 import pandas as pd
+from shutil import which
 from urllib.error import HTTPError
 from time import sleep, perf_counter
 
@@ -34,6 +35,26 @@ class ProductInfo(BaseModel):
     Manufacturer:str
 
 # 3. Function definitions
+def check_tesseract_engine():
+    """
+    Checks for the Tesseract OCR system binary
+    """
+    tesseract_path = which("tesseract")
+    possible_paths = [
+            r"C:\Program Files\Tesseract-OCR\tesseract.exe",
+            r"C:\Program Files (x86)\Tesseract-OCR\tesseract.exe",
+            os.path.expandvars(r"%USERPROFILE%\scoop\apps\tesseract\current\tesseract.exe"),
+        ]
+    if not tesseract_path:
+        for considered_path in possible_paths:
+            if os.path.exists(considered_path):
+                pytesseract.pytesseract.tesseract_cmd = considered_path
+                return True
+    else:
+        return True if tesseract_path else False
+    # Tesseract not found in the system
+    return False
+
 def check_DB_updates(fda_db_path:str = "FDA_DB.csv"):
     """
     Checks the FDA Database, compares it with the local copy for
@@ -98,12 +119,13 @@ def scrape_pdfs(required_data, file_with_URLs:str = "pdf_urls.txt", devices_alre
         for i in range(len(pdf_urls)):
             f.write(pdf_urls[i]+"\n")
 
-def get_pdf_data(file_URL:str, pytesseract_flag:bool|int = False) -> tuple[list[str], float]:
+def get_pdf_data(file_URL:str) -> tuple[list[str], float]:
     """Pass file URL to get the contents of the document"""
     try:
         response = requests.get(url=file_URL)
         filestream = io.BytesIO(response.content)
         info_doc = []
+        pytesseract_flag = check_tesseract_engine()
         if pytesseract_flag:
             # OCR and reading the file contents
             doc = fz.open(stream=filestream, filetype="pdf")
@@ -232,25 +254,27 @@ def LLM_response(model:str, details_required:list, details_schema:dict, doc_cont
     if not options:
         options = {"temperature": 0}
     print(f"options: {options}")
+    start_time = perf_counter()
     response = ollama.generate(model = model,
                             prompt = f"--- Document Contents: ---\n{doc_contents}\n\n--- My Query: ---\n{prompt}",
                             format = details_schema,
                             options = options)
+    run_time = perf_counter()- start_time
     if save_file_name:
         responses_DF = pd.DataFrame(json.loads(response.response), index=[0])
         if run_num:
             responses_DF["Run"] = run_num
         save_responses(responses_DF, save_file_name)
-    return response
+    return response, run_time
 
-# TODO: Make this a decorator
-def timer_n_printer(func:function):
-    start_time = perf_counter()
-    response_generator = func()
-    end_time = perf_counter() - start_time
-
-    gen_times.append(end_time)
-    print(f"Gen Time = {end_time}")
-
-    judge_times.append(end_time)
-    print(f"Judge Time = {end_time}")
+def fields_to_change(response_dict) -> list:
+    """
+    Print and return the fields to be changed
+    """
+    judge_response_dict = json.loads(response_dict.response)
+    fields_to_correct = []
+    for info_field, value in judge_response_dict.items():
+        if not value or value == "False":
+            fields_to_correct.append(info_field)
+    print(fields_to_correct)
+    return fields_to_correct
