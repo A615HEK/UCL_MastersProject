@@ -119,12 +119,18 @@ def scrape_pdfs(required_data, file_with_URLs:str = "pdf_urls.txt", devices_alre
         for i in range(len(pdf_urls)):
             f.write(pdf_urls[i]+"\n")
 
-def get_pdf_data(file_URL:str) -> tuple[list[str], float]:
+    with open(file_with_URLs) as f:
+        pdf_urls = f.readlines()
+        for pdf_url in pdf_urls:
+            write_pdf_to_txt(pdf_url)
+
+def get_pdf_data(file_URL:str) -> list[str]:
     """Pass file URL to get the contents of the document"""
     try:
         response = requests.get(url=file_URL)
         filestream = io.BytesIO(response.content)
         info_doc = []
+        # Check for presence of OCR engine else use default pipelines
         pytesseract_flag = check_tesseract_engine()
         if pytesseract_flag:
             # OCR and reading the file contents
@@ -155,19 +161,19 @@ def remove_letter_page(info_doc:list) -> list[str]:
     else:
         return info_doc[:letter_pages[0]] + info_doc[letter_pages[-1]+1:]
 
-def write_pdf_to_txt(file_URL:str, pytesseract_flag:bool|int = False):
+def write_pdf_to_txt(file_URL:str):
     """
     Reads & writes the PDF in the specified URL to a .txt file <br>
     pytesseract_flag:bool --> True - If Tesseract exists;
                               False (Default) - If no Tesseract
     """
-    i = 0 # TODO: Check this
     # Create a directory to hold the scraped PDF data
     if not os.path.exists("./test_pdfs"):
         print("Creating Test Directory...")
         os.mkdir("./test_pdfs")
-    pdf_text = "".join(remove_letter_page(get_pdf_data(file_URL, pytesseract_flag)))
-    with open(f"./test_pdfs/pdf_{i+1}.txt", "w") as current_file:
+    pdf_text = "".join(remove_letter_page(get_pdf_data(file_URL)))
+    file_name = file_URL.split("/")[-1][:-4] # Extracts just the file submission number for indexing and naming
+    with open(f"./test_pdfs/pdf_{file_name}.txt", "w") as current_file:
         current_file.write(pdf_text)
 
 def join_docs(article_parts, *papers_to_process) -> str:
