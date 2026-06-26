@@ -7,12 +7,10 @@ from associated_code import check_DB_updates, scrape_pdfs, write_pdf_to_txt, Pro
 # DB Check and Updation
 required_data = check_DB_updates()
 
-# Scraping PDF URLs
-scrape_pdfs(required_data)
-
+# Scraping PDF URLs &
 # Reading PDFs and Writing to text files + Preprocessing
-for i in list:
-    write_pdf_to_txt()
+# All bundled into 1 function call
+scrape_pdfs(required_data)
 
 # LLMaJ w/ RAG
 # LLM Definitions
@@ -41,7 +39,10 @@ def LLMaJ_RAG_Loop(required_devices:list[str]):
             # RAG Portion - Get only related documents for generation
             relevant_documents = RAG(doc_contents)
 
-            for run_num in range(max_runs):
+            # Initial run + extra iteration runs for correction
+            # until no mistakes are judged by LLM or
+            # max runs are reached, whichever is smaller
+            for run_num in range(max_runs+1):
                 if fields_to_correct or run_num==0:
                     if run_num == 0:
                         print("Initial run...")
@@ -54,12 +55,12 @@ def LLMaJ_RAG_Loop(required_devices:list[str]):
                         modified_details_schema["required"] = fields_to_correct
 
                     # Iteration Generator
-                    response_generator, gen_time = LLM_response(model_generator, fields_to_correct, modified_details_schema, doc_contents, save_file_name=gen_responses_file_name, run_num=run_num)
+                    response_generator, gen_time = LLM_response(model_generator, fields_to_correct, modified_details_schema, relevant_documents, save_file_name=gen_responses_file_name, run_num=run_num)
                     gen_times.append(gen_time)
                     print(f"Gen Time = {gen_time}")
 
                     # Iteration Judge
-                    response_judge, judge_time = LLM_response(model_judge, fields_to_correct, modified_details_schema, doc_contents, judge=True, gen_response=response_generator.response, save_file_name=judge_responses_file_name, run_num=run_num)
+                    response_judge, judge_time = LLM_response(model_judge, fields_to_correct, modified_details_schema, relevant_documents, judge=True, gen_response=response_generator.response, save_file_name=judge_responses_file_name, run_num=run_num)
                     judge_times.append(judge_time)
                     print(f"Judge Time = {judge_time}")
 

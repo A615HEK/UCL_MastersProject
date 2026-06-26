@@ -115,6 +115,7 @@ def scrape_pdfs(required_data, file_with_URLs:str = "pdf_urls.txt", devices_alre
                 pdf_urls = []
         except HTTPError:
             print(HTTPError)
+
     with open(file_with_URLs, "a") as f:
         for i in range(len(pdf_urls)):
             f.write(pdf_urls[i]+"\n")
@@ -229,9 +230,9 @@ def Retriever(index, query_embeddings, num_rel_docs_to_return:int = 7):
     distances, indices = index.search(query_embeddings.astype(np.float32), num_rel_docs_to_return)
     return distances, indices
 
-def RAG(doc_contents:str, num_rel_docs_to_return:int = 7, model_name:str = "all-MiniLm-L6-v2"):
+def RAG(doc_contents:str, num_rel_docs_to_return:int = 7, model_name:str = "all-MiniLM-L6-v2"):
     """
-    Consolidated function to perform RAG using all-MiniLm-L6-v2
+    Consolidated function to perform RAG using all-MiniLM-L6-v2
     """
     docs_after_split = Chunker(doc_contents)
     index, query_embeddings = Embedder(docs_after_split, model_name)
