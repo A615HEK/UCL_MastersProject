@@ -7,7 +7,7 @@ from .schema import DETAILS_REQUIRED, DETAILS_SCHEMA
 JUDGE_PROMPT_TEMPLATE = "You are part of the judging module of an automated machine interface that specialises in scanning through FDA regulatory documents to find the requested fields that are present in the document provided to you and packaging these outputs into only valid JSON outputs. Given above are the contents from an FDA regulatory document on a particular product. I require the following details from the document: {details_required}. Given below is the JSON response from the module that you need to judge: {gen_response}. For each of the fields comment only with True or False, True if the fields match with the information from the document provided and False otherwise. Give me the outputs in a JSON format only."
 GENERATOR_PROMPT_TEMPLATE = "You are part of an automated machine interface that specialises in scanning through FDA regulatory documents to find the requested fields that are present in the document provided to you and packaging these outputs into only valid JSON outputs. Given above are the contents from various regulatory documents on a particular product. I require the following details from the document: {details_required}. Return None for the CE_Classification if it is not specified. Give me these information in a JSON format only."
 
-def LLM_response(model: str, details_required: list[str], details_schema: dict, doc_contents: str, judge: bool = False, gen_response: str | None = None, options: dict | None = None):
+def llm_response(model: str, details_required: list[str], details_schema: dict, doc_contents: str, judge: bool = False, gen_response: str | None = None, options: dict | None = None):
     """
     Function to get and return the response generated from the
     specified LLM using Ollama
@@ -58,7 +58,7 @@ class IterationResult:
     fields_generated: list[str]
     fields_flagged_by_judge: list[str] = field(default_factory=list)
 
-def run_llmaj_Loop(relevant_docs: str, model_generator: str = "llama3.2:1b", model_judge: str = "llama3.1:8b", max_runs: int = 3, fields_required: list[str] | None = None, schema: dict | None = None) -> list[IterationResult]:
+def run_llmaj_loop(relevant_docs: str, model_generator: str = "llama3.2:1b", model_judge: str = "llama3.1:8b", max_runs: int = 3, fields_required: list[str] | None = None, schema: dict | None = None) -> list[IterationResult]:
     """
     Runs the LLMaJ + RAG Loop on each device in the given list<br>
     required_devices: List of devices identified by Submission numbers, eg.: K240369
@@ -85,14 +85,14 @@ def run_llmaj_Loop(relevant_docs: str, model_generator: str = "llama3.2:1b", mod
 
         # Iteration Generator
         start_time = perf_counter()
-        generator_response = LLM_response(model_generator, current_fields, current_schema, relevant_docs)
+        generator_response = llm_response(model_generator, current_fields, current_schema, relevant_docs)
         gen_time = perf_counter() - start_time
         gen_times.append(gen_time)
         print(f"Gen Time = {gen_time}")
 
         # Iteration Judge
         start_time = perf_counter()
-        judge_response = LLM_response(model_judge, current_fields, current_schema, relevant_docs, judge=True, gen_response=generator_response.response)
+        judge_response = llm_response(model_judge, current_fields, current_schema, relevant_docs, judge=True, gen_response=generator_response.response)
         judge_time = perf_counter() - start_time
         judge_times.append(judge_time)
         print(f"Judge Time = {judge_time}")
